@@ -6,6 +6,8 @@ Updates are coming soon.
 ## Learning Causal Effects
 
 ### Learning Causal Effects with Back-door Criterion
+Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn)
+CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE)
 
 ### Learning Causal Effects without Back-door Criterion
 
