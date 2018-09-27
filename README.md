@@ -33,7 +33,7 @@ Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/k
 #### Learning Causal Effects under Spillover Effect
 LCVA [Python](https://github.com/rguo12/CIKM18-LCVA)
 
-### Learning Time Varying/Dependent Causal Effects
+#### Learning Time Varying/Dependent Causal Effects
 Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshuaschwab/ltmle) </br>
 
 #### Variable Selection/Importance for Learning Causal Effects
