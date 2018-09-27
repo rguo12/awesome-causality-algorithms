@@ -10,13 +10,13 @@ Please cite our survey if this index is helpful.
   year={2018}</br>
 }
 
-
 *Updates are coming soon!*
 
 ## Learning Causal Effects
 
 ### Learning Causal Effects with Back-door Criterion
 Propensity Score Matching [Python](https://github.com/akelleh/causality/tree/master/causality/estimation) </br>
+Inverse Probability Reweighting [R](https://github.com/cran/ipw) </br>
 Nonparametric Regression Adjustment [Python](https://github.com/akelleh/causality) </br>
 
 Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn) </br>
