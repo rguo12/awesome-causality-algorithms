@@ -19,8 +19,11 @@ Propensity Score Matching [Python](https://github.com/akelleh/causality/tree/mas
 Inverse Probability Reweighting [R](https://github.com/cran/ipw) </br>
 Nonparametric Regression Adjustment [Python](https://github.com/akelleh/causality) </br>
 
-Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn) </br>
+Doubly Robust Estimation [R](https://github.com/gregridgeway/fastDR) </br>
+Doubly Robust Estimation for High Dimensional Data [R](https://github.com/jantonelli111/DoublyRobustHD) </br>
 Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshuaschwab/ltmle) </br>
+
+Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn) </br>
 Counterfactual Regression and CFRnet [Python](https://github.com/oddrose/cfrnet) </br>
 CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE) </br>
 
