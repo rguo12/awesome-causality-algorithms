@@ -31,7 +31,7 @@ LCVA [Python](https://github.com/rguo12/CIKM18-LCVA)
 
 ## Learning Causal Relationships
 ### Learning Causal Relationships with i.i.d. Data
-IC algorithm [Python](https://github.com/akelleh/causality)
+IC algorithm [Python](https://github.com/akelleh/causality) </br>
 [TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)
 
 ### Learning Causal Relationships with non-i.i.d. Data
