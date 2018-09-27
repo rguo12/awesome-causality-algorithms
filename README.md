@@ -51,4 +51,7 @@ FCI algorithm [R](https://github.com/cran/pcalg) </br>
 #### Distinguishing Cause from Effect (Bivariate)
 BMLiNGAM [Python](https://github.com/taku-y/bmlingam)
 
+#### Conditional Independence Tests (for Constraint-based Algorithms)
+RCIT [R](https://github.com/ericstrobl/RCIT)
+
 ### Learning Causal Relationships with non-i.i.d. Data
