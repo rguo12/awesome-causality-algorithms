@@ -23,9 +23,13 @@ Doubly Robust Estimation [R](https://github.com/gregridgeway/fastDR) </br>
 Doubly Robust Estimation for High Dimensional Data [R](https://github.com/jantonelli111/DoublyRobustHD) </br>
 Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshuaschwab/ltmle) </br>
 
-Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn) </br>
 Counterfactual Regression and CFRnet [Python](https://github.com/oddrose/cfrnet) </br>
 CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE) </br>
+
+### Learning Heterogeneous Causal Effects
+Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning [R](https://github.com/soerenkuenzel/hte) </br>
+Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn) </br>
+
 
 #### Learning Causal Effects under Spillover Effect
 LCVA [Python](https://github.com/rguo12/CIKM18-LCVA)
