@@ -30,6 +30,9 @@ CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE) </br>
 #### Learning Causal Effects under Spillover Effect
 LCVA [Python](https://github.com/rguo12/CIKM18-LCVA)
 
+#### Variable Selection/Importance for Learning Causal Effects
+Variable importance through targeted causal inference [R](https://github.com/ck37/varimpact)
+
 ### Learning Causal Effects without Back-door Criterion
 DeepIV [Python](https://github.com/jhartford/DeepIV)
 
