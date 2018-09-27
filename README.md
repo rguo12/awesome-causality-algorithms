@@ -55,3 +55,8 @@ BMLiNGAM [Python](https://github.com/taku-y/bmlingam)
 RCIT [R](https://github.com/ericstrobl/RCIT)
 
 ### Learning Causal Relationships with non-i.i.d. Data
+
+
+## Connections to Machine Learning
+### Invariant Prediction
+A Simple Algorithm for Invariant Prediction [Julia](https://github.com/richardkwo/InvariantCausal.jl)
