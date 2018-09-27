@@ -21,7 +21,6 @@ Nonparametric Regression Adjustment [Python](https://github.com/akelleh/causalit
 
 Doubly Robust Estimation [R](https://github.com/gregridgeway/fastDR) </br>
 Doubly Robust Estimation for High Dimensional Data [R](https://github.com/jantonelli111/DoublyRobustHD) </br>
-Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshuaschwab/ltmle) </br>
 
 Counterfactual Regression and CFRnet [Python](https://github.com/oddrose/cfrnet) </br>
 CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE) </br>
@@ -34,11 +33,16 @@ Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/k
 #### Learning Causal Effects under Spillover Effect
 LCVA [Python](https://github.com/rguo12/CIKM18-LCVA)
 
+### Learning Time Varying/Dependent Causal Effects
+Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshuaschwab/ltmle) </br>
+
 #### Variable Selection/Importance for Learning Causal Effects
-Variable importance through targeted causal inference [R](https://github.com/ck37/varimpact)
+Variable importance through targeted causal inference [R](https://github.com/ck37/varimpact) </br>
 
 ### Learning Causal Effects without Back-door Criterion
+#### Instrumental Variables
 DeepIV [Python](https://github.com/jhartford/DeepIV)
+PDSLasso [STATA](https://statalasso.github.io/)
 
 ## Learning Causal Relationships
 ### Learning Causal Relationships with i.i.d. Data
