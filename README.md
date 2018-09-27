@@ -41,7 +41,7 @@ Variable importance through targeted causal inference [R](https://github.com/ck3
 
 ### Learning Causal Effects without Back-door Criterion
 #### Instrumental Variables
-DeepIV [Python](https://github.com/jhartford/DeepIV)
+DeepIV [Python](https://github.com/jhartford/DeepIV) </br>
 PDSLasso [STATA](https://statalasso.github.io/)
 
 ## Learning Causal Relationships
