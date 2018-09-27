@@ -16,16 +16,22 @@ Please cite our survey if this index is helpful.
 ## Learning Causal Effects
 
 ### Learning Causal Effects with Back-door Criterion
+Propensity Score Matching [Python](https://github.com/akelleh/causality/tree/master/causality/estimation) </br>
+Nonparametric Regression Adjustment [Python](https://github.com/akelleh/causality) </br>
+
 Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn) </br>
 Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshuaschwab/ltmle) </br>
-Counterfactual Regression (cfrnet) [Python](https://github.com/oddrose/cfrnet) </br>
+Counterfactual Regression and CFRnet [Python](https://github.com/oddrose/cfrnet) </br>
+CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE) </br>
+
+#### Learning Causal Effects under Spillover Effect
+LCVA [Python](https://github.com/rguo12/CIKM18-LCVA)
 
 ### Learning Causal Effects without Back-door Criterion
-CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE)
 
 ## Learning Causal Relationships
-
 ### Learning Causal Relationships with i.i.d. Data
+IC algorithm [Python](https://github.com/akelleh/causality)
 [TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)
 
 ### Learning Causal Relationships with non-i.i.d. Data
