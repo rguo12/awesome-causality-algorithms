@@ -31,6 +31,7 @@ CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE) </br>
 LCVA [Python](https://github.com/rguo12/CIKM18-LCVA)
 
 ### Learning Causal Effects without Back-door Criterion
+DeepIV [Python](https://github.com/jhartford/DeepIV)
 
 ## Learning Causal Relationships
 ### Learning Causal Relationships with i.i.d. Data
