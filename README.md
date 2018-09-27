@@ -26,7 +26,7 @@ Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshu
 Counterfactual Regression and CFRnet [Python](https://github.com/oddrose/cfrnet) </br>
 CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE) </br>
 
-### Learning Heterogeneous Causal Effects
+#### Learning Heterogeneous Causal Effects
 Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning [R](https://github.com/soerenkuenzel/hte) </br>
 Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn) </br>
 
