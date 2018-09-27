@@ -45,7 +45,7 @@ DeepIV [Python](https://github.com/jhartford/DeepIV)
 [TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html) </br>
 CausalDiscoveryToolbox [Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox) </br>
 IC algorithm [Python](https://github.com/akelleh/causality) </br>
-PC algorithm [Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) </br>
+PC algorithm [Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl) </br>
 FCI algorithm [R](https://github.com/cran/pcalg) </br>
 
 ### Learning Causal Relationships with non-i.i.d. Data
