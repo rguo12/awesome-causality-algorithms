@@ -17,10 +17,11 @@ Please cite our survey if this index is helpful.
 
 ### Learning Causal Effects with Back-door Criterion
 Causal Forest [R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn) </br>
-CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE)
+Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshuaschwab/ltmle) </br>
+Counterfactual Regression (cfrnet) [Python](https://github.com/oddrose/cfrnet) </br>
 
 ### Learning Causal Effects without Back-door Criterion
-
+CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE)
 
 ## Learning Causal Relationships
 
