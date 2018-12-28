@@ -23,9 +23,9 @@ Please cite our survey if this index is helpful.
 |Nonparametric Regression Adjustment|   |[Python](https://github.com/akelleh/causality)|
 |Doubly Robust Estimation|   |[R](https://github.com/gregridgeway/fastDR)|
 |Doubly Robust Estimation for High Dimensional Data|Antonelli, Joseph, Matthew Cefalu, Nathan Palmer, and Denis Agniel. "Doubly robust matching estimators for high dimensional confounding adjustment." Biometrics (2016).|[R](https://github.com/jantonelli111/DoublyRobustHD)|
-
-Counterfactual Regression and CFRnet [Python](https://github.com/oddrose/cfrnet) </br>
-CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE) </br>
+|---|---|---|
+|Counterfactual Regression and CFRnet|Johansson, Fredrik, Uri Shalit, and David Sontag. "Learning representations for counterfactual inference." In International Conference on Machine Learning, pp. 3020-3029. 2016.|[Python](https://github.com/oddrose/cfrnet)|
+|Causal Effect VAE|Louizos, Christos, Uri Shalit, Joris M. Mooij, David Sontag, Richard Zemel, and Max Welling. "Causal effect inference with deep latent-variable models." In Advances in Neural Information Processing Systems, pp. 6446-6456. 2017.|[Python](https://github.com/AMLab-Amsterdam/CEVAE)|
 SITE [Python](https://github.com/Osier-Yi/SITE) </br>
 
 #### Learning Heterogeneous Causal Effects
