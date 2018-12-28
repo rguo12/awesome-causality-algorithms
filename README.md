@@ -21,7 +21,6 @@ Please cite our survey if this index is helpful.
 |Propensity Score Matching|   |[Python](https://github.com/akelleh/causality/tree/master/causality/estimation)|
 |Inverse Probability Reweighting|   |[R](https://github.com/cran/ipw)|
 |Nonparametric Regression Adjustment|   |[Python](https://github.com/akelleh/causality)|
-
 |Doubly Robust Estimation|   |[R](https://github.com/gregridgeway/fastDR)|
 |Doubly Robust Estimation for High Dimensional Data|   |[R](https://github.com/jantonelli111/DoublyRobustHD)|
 
