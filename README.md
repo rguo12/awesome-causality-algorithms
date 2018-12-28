@@ -18,8 +18,8 @@ Please cite our survey if this index is helpful.
 
 |Name|Paper|Code|
 |---|---|---|
-|Propensity Score Matching|   |[Python](https://github.com/akelleh/causality/tree/master/causality/estimation) </br>|
-Inverse Probability Reweighting [R](https://github.com/cran/ipw) </br>
+|Propensity Score Matching|   |[Python](https://github.com/akelleh/causality/tree/master/causality/estimation)|
+|Inverse Probability Reweighting|   |[R](https://github.com/cran/ipw)|
 Nonparametric Regression Adjustment [Python](https://github.com/akelleh/causality) </br>
 
 Doubly Robust Estimation [R](https://github.com/gregridgeway/fastDR) </br>
