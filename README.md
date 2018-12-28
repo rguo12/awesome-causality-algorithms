@@ -24,6 +24,7 @@ Doubly Robust Estimation for High Dimensional Data [R](https://github.com/janton
 
 Counterfactual Regression and CFRnet [Python](https://github.com/oddrose/cfrnet) </br>
 CEVAE [Python](https://github.com/AMLab-Amsterdam/CEVAE) </br>
+SITE [Python](https://github.com/Osier-Yi/SITE) </br>
 
 #### Learning Heterogeneous Causal Effects
 Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning [R](https://github.com/soerenkuenzel/hte) </br>
