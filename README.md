@@ -14,7 +14,7 @@ Please cite our survey if this index is helpful.
 
 ## Learning Causal Effects
 
-### Learning Causal Effects with Back-door Criterion
+### Learning Causal Effects with Unconfoundedness Assumption
 Propensity Score Matching [Python](https://github.com/akelleh/causality/tree/master/causality/estimation) </br>
 Inverse Probability Reweighting [R](https://github.com/cran/ipw) </br>
 Nonparametric Regression Adjustment [Python](https://github.com/akelleh/causality) </br>
