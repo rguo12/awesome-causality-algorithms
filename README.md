@@ -26,7 +26,7 @@ Please cite our survey if this index is helpful.
 |---|---|---|
 |Counterfactual Regression and CFRnet|Johansson, Fredrik, Uri Shalit, and David Sontag. "Learning representations for counterfactual inference." In International Conference on Machine Learning, pp. 3020-3029. 2016.|[Python](https://github.com/oddrose/cfrnet)|
 |Causal Effect VAE|Louizos, Christos, Uri Shalit, Joris M. Mooij, David Sontag, Richard Zemel, and Max Welling. "Causal effect inference with deep latent-variable models." In Advances in Neural Information Processing Systems, pp. 6446-6456. 2017.|[Python](https://github.com/AMLab-Amsterdam/CEVAE)|
-SITE [Python](https://github.com/Osier-Yi/SITE) </br>
+|SITE|Yao, Liuyi, Sheng Li, Yaliang Li, Mengdi Huai, Jing Gao, and Aidong Zhang. "Representation Learning for Treatment Effect Estimation from Observational Data." In Advances in Neural Information Processing Systems, pp. 2638-2648. 2018.|[Python](https://github.com/Osier-Yi/SITE)|
 
 #### Learning Heterogeneous Causal Effects
 Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning [R](https://github.com/soerenkuenzel/hte) </br>
