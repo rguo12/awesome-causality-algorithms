@@ -29,6 +29,7 @@ Please cite our survey if this index is helpful.
 |SITE|Yao, Liuyi, Sheng Li, Yaliang Li, Mengdi Huai, Jing Gao, and Aidong Zhang. "Representation Learning for Treatment Effect Estimation from Observational Data." In Advances in Neural Information Processing Systems, pp. 2638-2648. 2018.|[Python](https://github.com/Osier-Yi/SITE)|
 |Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning|Künzel, Sören R., Jasjeet S. Sekhon, Peter J. Bickel, and Bin Yu. "Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning." arXiv preprint arXiv:1706.03461 (2017).|[R](https://github.com/soerenkuenzel/hte)|
 |Causal Forest|Wager, Stefan, and Susan Athey. "Estimation and inference of heterogeneous treatment effects using random forests." Journal of the American Statistical Association just-accepted (2017).|[R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn)|
+|NSGP (Non-stationary Gaussian Process Prior)| Alaa, Ahmed, and Mihaela Schaar. "Limits of estimating heterogeneous treatment effects: Guidelines for practical algorithm design." In International Conference on Machine Learning, pp. 129-138. 2018. |NA|
 
 
 #### Learning Causal Effects under Spillover Effect
