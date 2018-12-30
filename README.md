@@ -68,7 +68,9 @@ Causal PSL [Java](bitbucket.org/linqs/causpsl)
 
 ## Connections to Machine Learning
 ### Recommendation as Causal Inference
+|Name|Paper|Code|
 |---|---|---|
 |IPS Estimator|Schnabel, Tobias, Adith Swaminathan, Ashudeep Singh, Navin Chandak, and Thorsten Joachims. "Recommendations as treatments: Debiasing learning and evaluation." arXiv preprint arXiv:1602.05352 (2016).|[Python](http://www.cs.cornell.edu/~schnabts/mnar/index.html)|
+
 ### Invariant Prediction
 A Simple Algorithm for Invariant Prediction [Julia](https://github.com/richardkwo/InvariantCausal.jl)
