@@ -30,7 +30,7 @@ Please cite our survey if this index is helpful.
 |Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning|Künzel, Sören R., Jasjeet S. Sekhon, Peter J. Bickel, and Bin Yu. "Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning." arXiv preprint arXiv:1706.03461 (2017).|[R](https://github.com/soerenkuenzel/hte)|
 |Causal Forest|Wager, Stefan, and Susan Athey. "Estimation and inference of heterogeneous treatment effects using random forests." Journal of the American Statistical Association just-accepted (2017).|[R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn)|
 |NSGP (Non-stationary Gaussian Process Prior)| Alaa, Ahmed, and Mihaela Schaar. "Limits of estimating heterogeneous treatment effects: Guidelines for practical algorithm design." In International Conference on Machine Learning, pp. 129-138. 2018. |NA|
-
+|Deep Counterfactual Networks (Propensity Dropout)| Alaa, Ahmed M., Michael Weisz, and Mihaela van der Schaar. "Deep counterfactual networks with propensity-dropout." arXiv preprint arXiv:1706.05966 (2017).|NA|
 
 #### Learning Causal Effects under Spillover Effect
 LCVA [Python](https://github.com/rguo12/CIKM18-LCVA)
