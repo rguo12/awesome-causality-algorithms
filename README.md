@@ -42,7 +42,9 @@ Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshu
 Variable importance through targeted causal inference [R](https://github.com/ck37/varimpact) </br>
 
 ### Learning Causal Effects without the Unconfoundedness Assumption
-|Instrumental Variables|
+#### Instrumental Variables
+|Name|Paper|Code|
+|---|---|---|
 |DeepIV|Hartford, Jason, Greg Lewis, Kevin Leyton-Brown, and Matt Taddy. "Deep iv: A flexible approach for counterfactual prediction." In International Conference on Machine Learning, pp. 1414-1423. 2017.|[Python](https://github.com/jhartford/DeepIV)|
 |PDSLasso|   |[STATA](https://statalasso.github.io/)|
 
