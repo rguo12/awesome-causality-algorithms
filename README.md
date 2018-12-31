@@ -33,7 +33,9 @@ Please cite our survey if this index is helpful.
 |Deep Counterfactual Networks (Propensity Dropout)| Alaa, Ahmed M., Michael Weisz, and Mihaela van der Schaar. "Deep counterfactual networks with propensity-dropout." arXiv preprint arXiv:1706.05966 (2017).|NA|
 
 #### Learning Causal Effects under Spillover Effect
-LCVA [Python](https://github.com/rguo12/CIKM18-LCVA)
+|Name|Paper|Code|
+|---|---|---|
+|LCVA|Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pp. 1679-1682. ACM, 2018.|[Python](https://github.com/rguo12/CIKM18-LCVA)|
 
 #### Learning Time Varying/Dependent Causal Effects
 Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshuaschwab/ltmle) </br>
