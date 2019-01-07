@@ -67,7 +67,9 @@ BMLiNGAM [Python](https://github.com/taku-y/bmlingam)
 RCIT [R](https://github.com/ericstrobl/RCIT)
 
 #### Causal Discovery Meets Probabilistic Logic Programming
-Causal PSL [Java](bitbucket.org/linqs/causpsl)
+|Name|Paper|Code|
+|---|---|---|
+|Causal PSL|   |[Java](bitbucket.org/linqs/causpsl)|
 
 ### Learning Causal Relationships with non-i.i.d. Data
 
