@@ -54,8 +54,10 @@ Variable importance through targeted causal inference [R](https://github.com/ck3
 
 ## Learning Causal Relationships
 ### Learning Causal Relationships with i.i.d. Data
-[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html) [R](https://github.com/bd2kccd/r-causal)</br>
-CausalDiscoveryToolbox [Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox) </br>
+|Name|Paper|Code|
+|---|---|---|
+|[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|   |[R](https://github.com/bd2kccd/r-causal)|
+|CausalDiscoveryToolbox| |[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)|
 IC algorithm [Python](https://github.com/akelleh/causality) </br>
 PC algorithm [Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl) </br>
 FCI algorithm [R](https://github.com/cran/pcalg) </br>
