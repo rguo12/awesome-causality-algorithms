@@ -87,5 +87,12 @@ RCIT [R](https://github.com/ericstrobl/RCIT)
 |Name|Paper|Code|
 |---|---|---|
 |Counterfactual-Guided Policy Search (CF-GPS)|Buesing, Lars, Theophane Weber, Yori Zwols, Sebastien Racaniere, Arthur Guez, Jean-Baptiste Lespiau, and Nicolas Heess. "Woulda, Coulda, Shoulda: Counterfactually-Guided Policy Search." arXiv preprint arXiv:1811.06272 (2018).|NA|
+
+### Offline Policy Evaluation
+|Name|Paper|Code|
+|---|---|---|
+|Counterfactual Risk Minimization (POEM)|Swaminathan, Adith, and Thorsten Joachims. "Counterfactual risk minimization: Learning from logged bandit feedback." In International Conference on Machine Learning, pp. 814-823. 2015.|[Python](http://www.cs.cornell.edu/~adith/POEM/index.html)|
+|Self Normalized Estimator|Swaminathan, Adith, and Thorsten Joachims. "The self-normalized estimator for counterfactual learning." In Advances in Neural Information Processing Systems, pp. 3231-3239. 2015.|[Python](http://www.cs.cornell.edu/~adith/POEM/index.html)|
+
 ### Invariant Prediction
 A Simple Algorithm for Invariant Prediction [Julia](https://github.com/richardkwo/InvariantCausal.jl)
