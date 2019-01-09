@@ -60,11 +60,11 @@ Variable importance through targeted causal inference [R](https://github.com/ck3
 |[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|   |[R](https://github.com/bd2kccd/r-causal)|
 |CausalDiscoveryToolbox| |[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)|
 |IC algorithm| |[Python](https://github.com/akelleh/causality)|
-PC algorithm [Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl) </br>
-FCI algorithm [R](https://github.com/cran/pcalg) </br>
+|PC algorithm| |[Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
+|FCI algorithm| |[R](https://github.com/cran/pcalg)|
 
 #### Distinguishing Cause from Effect (Bivariate)
-BMLiNGAM [Python](https://github.com/taku-y/bmlingam)
+|BMLiNGAM|S. Shimizu and K. Bollen. Bayesian estimation of causal direction in acyclic structural equation models with individual-specific confounder variables and non-Gaussian distributions. Journal of Machine Learning Research, 15: 2629-2652, 2014.|[Python](https://github.com/taku-y/bmlingam)|
 
 #### Conditional Independence Tests (for Constraint-based Algorithms)
 RCIT [R](https://github.com/ericstrobl/RCIT)
