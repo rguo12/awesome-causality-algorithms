@@ -64,6 +64,8 @@ Variable importance through targeted causal inference [R](https://github.com/ck3
 |FCI algorithm| |[R](https://github.com/cran/pcalg)|
 
 #### Distinguishing Cause from Effect (Bivariate)
+|Name|Paper|Code|
+|---|---|---|
 |BMLiNGAM|S. Shimizu and K. Bollen. Bayesian estimation of causal direction in acyclic structural equation models with individual-specific confounder variables and non-Gaussian distributions. Journal of Machine Learning Research, 15: 2629-2652, 2014.|[Python](https://github.com/taku-y/bmlingam)|
 
 #### Conditional Independence Tests (for Constraint-based Algorithms)
@@ -72,7 +74,7 @@ RCIT [R](https://github.com/ericstrobl/RCIT)
 #### Causal Discovery Meets Probabilistic Logic Programming
 |Name|Paper|Code|
 |---|---|---|
-|Causal PSL|   |[Java](bitbucket.org/linqs/causpsl)|
+|Causal PSL|Sridhar, Dhanya, Jay Pujara, and Lise Getoor. "Scalable Probabilistic Causal Structure Discovery." In IJCAI, pp. 5112-5118. 2018.|[Java](https://bitbucket.org/linqs/causpsl)|
 
 ### Learning Causal Relationships with non-i.i.d. Data
 
