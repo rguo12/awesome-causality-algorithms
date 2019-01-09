@@ -29,6 +29,7 @@ Please cite our survey if this index is helpful.
 |SITE|Yao, Liuyi, Sheng Li, Yaliang Li, Mengdi Huai, Jing Gao, and Aidong Zhang. "Representation Learning for Treatment Effect Estimation from Observational Data." In Advances in Neural Information Processing Systems, pp. 2638-2648. 2018.|[Python](https://github.com/Osier-Yi/SITE)|
 |Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning|Künzel, Sören R., Jasjeet S. Sekhon, Peter J. Bickel, and Bin Yu. "Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning." arXiv preprint arXiv:1706.03461 (2017).|[R](https://github.com/soerenkuenzel/hte)|
 |Causal Forest|Wager, Stefan, and Susan Athey. "Estimation and inference of heterogeneous treatment effects using random forests." Journal of the American Statistical Association just-accepted (2017).|[R](https://github.com/grf-labs/grf) [Python](https://github.com/kjung/scikit-learn)|
+|Bayesian Additive Regression Trees (BART)|Hill, Jennifer L. "Bayesian nonparametric modeling for causal inference." Journal of Computational and Graphical Statistics 20, no. 1 (2011): 217-240.||
 |NSGP (Non-stationary Gaussian Process Prior)| Alaa, Ahmed, and Mihaela Schaar. "Limits of estimating heterogeneous treatment effects: Guidelines for practical algorithm design." In International Conference on Machine Learning, pp. 129-138. 2018. |NA|
 |Deep Counterfactual Networks (Propensity Dropout)| Alaa, Ahmed M., Michael Weisz, and Mihaela van der Schaar. "Deep counterfactual networks with propensity-dropout." arXiv preprint arXiv:1706.05966 (2017).|NA|
 |CMGP (Causal Multi-task Gaussian Processes)|Alaa, Ahmed M., and Mihaela van der Schaar. "Bayesian inference of individualized treatment effects using multi-task gaussian processes." In Advances in Neural Information Processing Systems, pp. 3424-3432. 2017.|NA|
@@ -80,6 +81,7 @@ RCIT [R](https://github.com/ericstrobl/RCIT)
 ### Recommendation as Causal Inference
 |Name|Paper|Code|
 |---|---|---|
+|Causal Embedding for Recommendation|Bonner, Stephen, and Flavian Vasile. "Causal embeddings for recommendation." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 104-112. ACM, 2018.|[Python](https://github.com/criteo-research/CausE)|
 |IPS Estimator|Schnabel, Tobias, Adith Swaminathan, Ashudeep Singh, Navin Chandak, and Thorsten Joachims. "Recommendations as treatments: Debiasing learning and evaluation." arXiv preprint arXiv:1602.05352 (2016).|[Python](http://www.cs.cornell.edu/~schnabts/mnar/index.html)|
 |Deconfounded Recsys|Wang, Yixin, Dawen Liang, Laurent Charlin, and David M. Blei. "The Deconfounded Recommender: A Causal Inference Approach to Recommendation." arXiv preprint arXiv:1808.06581 (2018).|NA|
 
