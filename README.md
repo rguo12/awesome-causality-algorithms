@@ -53,32 +53,6 @@ Variable importance through targeted causal inference [R](https://github.com/ck3
 |DeepIV|Hartford, Jason, Greg Lewis, Kevin Leyton-Brown, and Matt Taddy. "Deep iv: A flexible approach for counterfactual prediction." In International Conference on Machine Learning, pp. 1414-1423. 2017.|[Python](https://github.com/jhartford/DeepIV)|
 |PDSLasso|   |[STATA](https://statalasso.github.io/)|
 
-## Learning Causal Relationships
-### Learning Causal Relationships with i.i.d. Data
-|Name|Paper|Code|
-|---|---|---|
-|[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|   |[R](https://github.com/bd2kccd/r-causal)|
-|CausalDiscoveryToolbox| |[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)|
-|IC algorithm| |[Python](https://github.com/akelleh/causality)|
-|PC algorithm| |[Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
-|FCI algorithm| |[R](https://github.com/cran/pcalg)|
-
-#### Distinguishing Cause from Effect (Bivariate)
-|Name|Paper|Code|
-|---|---|---|
-|BMLiNGAM|S. Shimizu and K. Bollen. Bayesian estimation of causal direction in acyclic structural equation models with individual-specific confounder variables and non-Gaussian distributions. Journal of Machine Learning Research, 15: 2629-2652, 2014.|[Python](https://github.com/taku-y/bmlingam)|
-
-#### Conditional Independence Tests (for Constraint-based Algorithms)
-RCIT [R](https://github.com/ericstrobl/RCIT)
-
-#### Causal Discovery Meets Probabilistic Logic Programming
-|Name|Paper|Code|
-|---|---|---|
-|Causal PSL|Sridhar, Dhanya, Jay Pujara, and Lise Getoor. "Scalable Probabilistic Causal Structure Discovery." In IJCAI, pp. 5112-5118. 2018.|[Java](https://bitbucket.org/linqs/causpsl)|
-
-### Learning Causal Relationships with non-i.i.d. Data
-
-
 ## Connections to Machine Learning
 ### Recommendation as Causal Inference
 |Name|Paper|Code|
@@ -100,3 +74,31 @@ RCIT [R](https://github.com/ericstrobl/RCIT)
 
 ### Invariant Prediction
 A Simple Algorithm for Invariant Prediction [Julia](https://github.com/richardkwo/InvariantCausal.jl)
+
+
+## Learning Causal Relationships
+### Learning Causal Relationships with i.i.d. Data
+|Name|Paper|Code|
+|---|---|---|
+|[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|   |[R](https://github.com/bd2kccd/r-causal)|
+|CausalDiscoveryToolbox| |[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)|
+|IC algorithm| |[Python](https://github.com/akelleh/causality)|
+|PC algorithm|P. Spirtes, C. Glymour, and R. Scheines. Causation, Prediction, and Search. The MIT Press, 2nd
+edition, 2000.|[Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
+|FCI algorithm| |[R](https://github.com/cran/pcalg)|
+
+#### Distinguishing Cause from Effect (Bivariate)
+|Name|Paper|Code|
+|---|---|---|
+|BMLiNGAM|S. Shimizu and K. Bollen. Bayesian estimation of causal direction in acyclic structural equation models with individual-specific confounder variables and non-Gaussian distributions. Journal of Machine Learning Research, 15: 2629-2652, 2014.|[Python](https://github.com/taku-y/bmlingam)|
+
+#### Conditional Independence Tests (for Constraint-based Algorithms)
+RCIT [R](https://github.com/ericstrobl/RCIT)
+
+#### Causal Discovery Meets Probabilistic Logic Programming
+|Name|Paper|Code|
+|---|---|---|
+|Causal PSL|Sridhar, Dhanya, Jay Pujara, and Lise Getoor. "Scalable Probabilistic Causal Structure Discovery." In IJCAI, pp. 5112-5118. 2018.|[Java](https://bitbucket.org/linqs/causpsl)|
+
+### Learning Causal Relationships with non-i.i.d. Data
+
