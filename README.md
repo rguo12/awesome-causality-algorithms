@@ -61,6 +61,11 @@ Variable importance through targeted causal inference [R](https://github.com/ck3
 |IPS Estimator|Schnabel, Tobias, Adith Swaminathan, Ashudeep Singh, Navin Chandak, and Thorsten Joachims. "Recommendations as treatments: Debiasing learning and evaluation." arXiv preprint arXiv:1602.05352 (2016).|[Python](http://www.cs.cornell.edu/~schnabts/mnar/index.html)|
 |Deconfounded Recsys|Wang, Yixin, Dawen Liang, Laurent Charlin, and David M. Blei. "The Deconfounded Recommender: A Causal Inference Approach to Recommendation." arXiv preprint arXiv:1808.06581 (2018).|NA|
 
+### Feature Selection
+|Name|Paper|Code|
+|---|---|---|
+|Causal FS for text classification|Michael J. Paul. Feature selection as causal inference: experiments with text classification. Conference on Computational Natural Language Learning (CoNLL), Vancouver, Canada. August 2017.|NA|
+
 ### Reinforcement Learning
 |Name|Paper|Code|
 |---|---|---|
