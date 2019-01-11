@@ -69,6 +69,7 @@ Variable importance through targeted causal inference [R](https://github.com/ck3
 ### Reinforcement Learning
 |Name|Paper|Code|
 |---|---|---|
+|Casual Bandit|Lee, Sanghack, and Elias Bareinboim. Structural Causal Bandits with Non-manipulable Variables. Technical Report R-40, Purdue AI Lab, Department of Computer Science, Purdue University, 2019.|NA|
 |Counterfactual-Guided Policy Search (CF-GPS)|Buesing, Lars, Theophane Weber, Yori Zwols, Sebastien Racaniere, Arthur Guez, Jean-Baptiste Lespiau, and Nicolas Heess. "Woulda, Coulda, Shoulda: Counterfactually-Guided Policy Search." arXiv preprint arXiv:1811.06272 (2018).|NA|
 
 ### Offline Policy Evaluation
