@@ -38,7 +38,7 @@ Please cite our survey if this index is helpful.
 #### Learning Causal Effects under Spillover Effect
 |Name|Paper|Code|
 |---|---|---|
-|LCVA|Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pp. 1679-1682. ACM, 2018.|[Python](https://github.com/rguo12/CIKM18-LCVA)|
+|Linked Causal Variational Autoencoder (LCVA)|Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pp. 1679-1682. ACM, 2018.|[Python](https://github.com/rguo12/CIKM18-LCVA)|
 
 #### Learning Time Varying/Dependent Causal Effects
 Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshuaschwab/ltmle) </br>
