@@ -23,6 +23,7 @@ Please cite our survey if this index is helpful.
 |Nonparametric Regression Adjustment|   |[Python](https://github.com/akelleh/causality)|
 |Doubly Robust Estimation|   |[R](https://github.com/gregridgeway/fastDR)|
 |Doubly Robust Estimation for High Dimensional Data|Antonelli, Joseph, Matthew Cefalu, Nathan Palmer, and Denis Agniel. "Doubly robust matching estimators for high dimensional confounding adjustment." Biometrics (2016).|[R](https://github.com/jantonelli111/DoublyRobustHD)|
+|TMLE|Gruber, Susan, and Mark J. van der Laan. "tmle: An R package for targeted maximum likelihood estimation." (2011).|[R](https://cran.r-project.org/web/packages/tmle/index.html)|
 |---|---|---|
 |BNN, BLR|Johansson, Fredrik, Uri Shalit, and David Sontag. "Learning representations for counterfactual inference." In International Conference on Machine Learning, pp. 3020-3029. 2016.|[Python](https://github.com/oddrose/cfrnet)|
 |Tarnet, Counterfactual Regression|Shalit, Uri, Fredrik D. Johansson, and David Sontag. "Estimating individual treatment effect: generalization bounds and algorithms." arXiv preprint arXiv:1606.03976 (2016).|[Python](https://github.com/oddrose/cfrnet)|
