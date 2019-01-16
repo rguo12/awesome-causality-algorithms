@@ -45,7 +45,7 @@ Please cite our survey if this index is helpful.
 #### Learning Time Varying/Dependent Causal Effects
 |Name|Paper|Code|
 |---|---|---|
-|Longitudinal Targeted Maximum Likelihood Estimation| |[R](https://github.com/joshuaschwab/ltmle)|
+|Longitudinal Targeted Maximum Likelihood Estimation|Petersen, Maya, Joshua Schwab, Susan Gruber, Nello Blaser, Michael Schomaker, and Mark van der Laan. "Targeted maximum likelihood estimation for dynamic and static longitudinal marginal structural working models." Journal of causal inference 2, no. 2 (2014): 147-185.|[R](https://github.com/joshuaschwab/ltmle)|
 |Recurrent Marginal Structural Networks| Lim, Bryan. "Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks." In Advances in Neural Information Processing Systems, pp. 7494-7504. 2018.  |NA|
 
 #### Variable Selection/Importance for Learning Causal Effects
