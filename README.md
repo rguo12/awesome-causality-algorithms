@@ -84,7 +84,11 @@ Variable importance through targeted causal inference [R](https://github.com/ck3
 |Self Normalized Estimator|Swaminathan, Adith, and Thorsten Joachims. "The self-normalized estimator for counterfactual learning." In Advances in Neural Information Processing Systems, pp. 3231-3239. 2015.|[Python](http://www.cs.cornell.edu/~adith/POEM/index.html)|
 
 ### Invariant Prediction
-A Simple Algorithm for Invariant Prediction [Julia](https://github.com/richardkwo/InvariantCausal.jl)
+|Name|Paper|Code|
+|---|---|---|
+|Deep Global Balancing Regression|Kuang, Kun, Peng Cui, Susan Athey, Ruoxuan Xiong, and Bo Li. "Stable Prediction across Unknown Environments." In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 1617-1626. ACM, 2018.|NA|
+|A Simple Algorithm for Invariant Prediction| |[Julia](https://github.com/richardkwo/InvariantCausal.jl)|
+
 
 
 ## Learning Causal Relationships
