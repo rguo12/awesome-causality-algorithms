@@ -43,7 +43,10 @@ Please cite our survey if this index is helpful.
 |Linked Causal Variational Autoencoder (LCVA)|Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pp. 1679-1682. ACM, 2018.|[Python](https://github.com/rguo12/CIKM18-LCVA)|
 
 #### Learning Time Varying/Dependent Causal Effects
-Longitudinal Targeted Maximum Likelihood Estimation [R](https://github.com/joshuaschwab/ltmle) </br>
+|Name|Paper|Code|
+|---|---|---|
+|Longitudinal Targeted Maximum Likelihood Estimation| |[R](https://github.com/joshuaschwab/ltmle)|
+|Recurrent Marginal Structural Networks| Lim, Bryan. "Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks." In Advances in Neural Information Processing Systems, pp. 7494-7504. 2018.  |NA|
 
 #### Variable Selection/Importance for Learning Causal Effects
 Variable importance through targeted causal inference [R](https://github.com/ck37/varimpact) </br>
