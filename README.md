@@ -92,6 +92,12 @@ Variable importance through targeted causal inference [R](https://github.com/ck3
 |Deep Global Balancing Regression|Kuang, Kun, Peng Cui, Susan Athey, Ruoxuan Xiong, and Bo Li. "Stable Prediction across Unknown Environments." In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 1617-1626. ACM, 2018.|NA|
 |A Simple Algorithm for Invariant Prediction| |[Julia](https://github.com/richardkwo/InvariantCausal.jl)|
 
+### GAN
+|Name|Paper|Code|
+|---|---|---|
+||Odena, Augustus, Jacob Buckman, Catherine Olsson, Tom B. Brown, Christopher Olah, Colin Raffel, and Ian Goodfellow. "Is Generator Conditioning Causally Related to GAN Performance?." arXiv preprint arXiv:1802.08768 (2018).|NA|
+||Kocaoglu, Murat, Christopher Snyder, Alexandros G. Dimakis, and Sriram Vishwanath. "CausalGAN: Learning Causal Implicit Generative Models with Adversarial Training." arXiv preprint arXiv:1709.02023 (2017).|[Python](https://github.com/mkocaoglu/CausalGAN)|
+
 
 
 ## Learning Causal Relationships
