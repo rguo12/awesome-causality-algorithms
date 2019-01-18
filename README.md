@@ -3,11 +3,11 @@ An index of algorithms for learning causality with data.
 
 Please cite our survey if this index is helpful.
 ```
-@article{guo2018survey,</br>
-  title={A Survey of Learning Causality with Data: Problems and Methods},</br>
-  author={Guo, Ruocheng and Cheng, Lu and Li, Jundong and Hahn, P. Richard and Liu, Huan}, </br>
-  journal={arXiv preprint arXiv:1809.09337}, </br>
-  year={2018}</br>
+@article{guo2018survey,
+  title={A Survey of Learning Causality with Data: Problems and Methods},
+  author={Guo, Ruocheng and Cheng, Lu and Li, Jundong and Hahn, P. Richard and Liu, Huan}, 
+  journal={arXiv preprint arXiv:1809.09337}, 
+  year={2018}
 }
 ```
 
