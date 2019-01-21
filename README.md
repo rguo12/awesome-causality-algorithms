@@ -39,7 +39,7 @@ Please cite our survey if this index is helpful.
 |GANITE|Yoon, Jinsung, James Jordon, and Mihaela van der Schaar. "GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets." (2018).|NA|
 |Differentiated Confounder Balancing (ATT/ATE only)|Kuang, Kun, Peng Cui, Bo Li, Meng Jiang, and Shiqiang Yang. "Estimating Treatment Effect in the Wild via Differentiated Confounder Balancing." In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 265-274. ACM, 2017.|NA|
 ||Li, Sheng, and Yun Fu. "Matching on balanced nonlinear representations for treatment effects estimation." In Advances in Neural Information Processing Systems, pp. 929-939. 2017.|NA|
-|Perfect Match|Schwab, Patrick, Lorenz Linhardt, and Walter Karlen. "Perfect match: A simple method for learning representations for counterfactual inference with neural networks." arXiv preprint arXiv:1810.00656 (2018).|[Python](https://github.com/d909b/perfect_match)|
+|Perfect Match|Schwab, Patrick, Lorenz Linhardt, and Walter Karlen. "Perfect match: A simple method for learning representations for counterfactual inference with neural networks." arXiv preprint arXiv:1810.00656 (2018).|[Python](https://github.com/d909b/perfect_match), including GANITE and NSGP.|
 
 #### Learning Causal Effects under Spillover Effect
 |Name|Paper|Code|
