@@ -53,7 +53,9 @@ Please cite our survey if this index is helpful.
 |Recurrent Marginal Structural Networks| Lim, Bryan. "Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks." In Advances in Neural Information Processing Systems, pp. 7494-7504. 2018.  |[Python](https://github.com/sjblim/rmsn_nips_2018)|
 
 #### Variable Selection/Importance for Learning Causal Effects
-Variable importance through targeted causal inference [R](https://github.com/ck37/varimpact) </br>
+|Name|Paper|Code|
+|---|---|---|
+|Variable importance through targeted causal inference|   | [R](https://github.com/ck37/varimpact)|
 
 ### Learning Causal Effects without the Unconfoundedness Assumption
 #### Instrumental Variables
@@ -117,7 +119,9 @@ Variable importance through targeted causal inference [R](https://github.com/ck3
 |BMLiNGAM|S. Shimizu and K. Bollen. Bayesian estimation of causal direction in acyclic structural equation models with individual-specific confounder variables and non-Gaussian distributions. Journal of Machine Learning Research, 15: 2629-2652, 2014.|[Python](https://github.com/taku-y/bmlingam)|
 
 #### Conditional Independence Tests (for Constraint-based Algorithms)
-RCIT [R](https://github.com/ericstrobl/RCIT)
+|Name|Paper|Code|
+|---|---|---|
+|RCIT|   |[R](https://github.com/ericstrobl/RCIT)|
 
 #### Causal Discovery Meets Probabilistic Logic Programming
 |Name|Paper|Code|
