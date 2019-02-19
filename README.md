@@ -1,7 +1,7 @@
 # awesome-causality-algorithms
 An index of algorithms for learning causality with data.
 
-Please cite our survey if this index is helpful.
+Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index is helpful.
 ```
 @article{guo2018survey,
   title={A Survey of Learning Causality with Data: Problems and Methods},
