@@ -49,6 +49,11 @@ Please cite our survey if this index is helpful.
 |---|---|---|
 |Linked Causal Variational Autoencoder (LCVA)|Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pp. 1679-1682. ACM, 2018.|[Python](https://github.com/rguo12/CIKM18-LCVA)|
 
+#### Learning Causal Effects as Response Curves
+|Name|Paper|Code|
+|---|---|---|
+|Dose response networks (DRNets)|[Schwab, Patrick, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann, and Walter Karlen. "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves." arXiv preprint arXiv:1902.00981 (2019).](https://arxiv.org/pdf/1902.00981.pdf)|(Python)[https://github.com/d909b/drnet]|
+
 #### Learning Time Varying/Dependent Causal Effects
 |Name|Paper|Code|
 |---|---|---|
