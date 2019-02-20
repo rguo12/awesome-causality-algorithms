@@ -43,6 +43,9 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |For Average Treatment Effect (ATE), ATT, ATC|||
 |Differentiated Confounder Balancing|Kuang, Kun, Peng Cui, Bo Li, Meng Jiang, and Shiqiang Yang. "Estimating Treatment Effect in the Wild via Differentiated Confounder Balancing." In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 265-274. ACM, 2017.|NA|
 |Adversarial Balancing|Ozery-Flato, Michal, Pierre Thodoroff, and Tal El-Hay. "Adversarial Balancing for Causal Inference." arXiv preprint arXiv:1810.07406 (2018).|NA|
+|---|---|---|
+|Treatment Responder Classification|||
+|RespSVM|[Kallus, Nathan. "Classifying Treatment Responders Under Causal Effect Monotonicity." arXiv preprint arXiv:1902.05482 (2019)](https://arxiv.org/pdf/1902.05482.pdf)|NA|
 
 #### Learning Causal Effects under Spillover Effect
 |Name|Paper|Code|
