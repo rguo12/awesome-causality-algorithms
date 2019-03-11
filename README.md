@@ -71,6 +71,8 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Deconfounder|[Wang, Yixin, and David M. Blei. "The blessings of multiple causes." arXiv preprint arXiv:1805.06826 (2018).](https://arxiv.org/abs/1805.06826)|[Python](https://github.com/blei-lab/deconfounder_tutorial)|
 ||[Ranganath, Rajesh, and Adler Perotte. "Multiple causal inference with latent confounding." arXiv preprint arXiv:1805.08273 (2018).](https://arxiv.org/pdf/1805.08273)|NA|
 
+#### Transfer Learning for Learning Causal Effects
+|The Y-learner|[Künzel, Sören R., Bradly C. Stadie, Nikita Vemuri, Varsha Ramakrishnan, Jasjeet S. Sekhon, and Pieter Abbeel. "Transfer Learning for Estimating Causal Effects using Neural Networks." arXiv preprint arXiv:1808.07804 (2018).](https://arxiv.org/pdf/1808.07804.pdf)|NA|
 
 #### Variable Selection/Importance for Learning Causal Effects
 |Name|Paper|Code|
