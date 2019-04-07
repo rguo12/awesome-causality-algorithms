@@ -15,16 +15,16 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 
 ## Learning Causal Effects
 
-### Learning Causal Effects with Unconfoundedness Assumption
+### With i.i.d Data
 
 |Name|Paper|Code|
 |---|---|---|
-|Propensity Score Matching|   |[Python](https://github.com/akelleh/causality/tree/master/causality/estimation)|
+|Propensity Score Matching|  |[Python](https://github.com/akelleh/causality/tree/master/causality/estimation)|
 |Inverse Probability Reweighting|   |[R](https://github.com/cran/ipw)|
 |Nonparametric Regression Adjustment|   |[Python](https://github.com/akelleh/causality)|
 |Doubly Robust Estimation|   |[R](https://github.com/gregridgeway/fastDR)|
-|Doubly Robust Estimation for High Dimensional Data|Antonelli, Joseph, Matthew Cefalu, Nathan Palmer, and Denis Agniel. "Doubly robust matching estimators for high dimensional confounding adjustment." Biometrics (2016).|[R](https://github.com/jantonelli111/DoublyRobustHD)|
-|TMLE|Gruber, Susan, and Mark J. van der Laan. "tmle: An R package for targeted maximum likelihood estimation." (2011).|[R](https://cran.r-project.org/web/packages/tmle/index.html)|
+|Doubly Robust Estimation for High Dimensional Data|[Antonelli, Joseph, Matthew Cefalu, Nathan Palmer, and Denis Agniel. "Doubly robust matching estimators for high dimensional confounding adjustment." Biometrics (2016).](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6347556/)|[R](https://github.com/jantonelli111/DoublyRobustHD)|
+|TMLE|[Gruber, Susan, and Mark J. van der Laan. "tmle: An R package for targeted maximum likelihood estimation." (2011).](https://www.jstatsoft.org/article/view/v051i13)|[R](https://cran.r-project.org/web/packages/tmle/index.html)|
 |---|---|---|
 |BNN, BLR|[Johansson, Fredrik, Uri Shalit, and David Sontag. "Learning representations for counterfactual inference." In International Conference on Machine Learning, pp. 3020-3029. 2016.](http://www.jmlr.org/proceedings/papers/v48/johansson16.pdf)|[Python](https://github.com/oddrose/cfrnet)|
 |Tarnet, Counterfactual Regression|[Shalit, Uri, Fredrik D. Johansson, and David Sontag. "Estimating individual treatment effect: generalization bounds and algorithms." arXiv preprint arXiv:1606.03976 (2016).](https://arxiv.org/pdf/1606.03976)|[Python](https://github.com/oddrose/cfrnet)|
@@ -44,26 +44,16 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Differentiated Confounder Balancing|[Kuang, Kun, Peng Cui, Bo Li, Meng Jiang, and Shiqiang Yang. "Estimating Treatment Effect in the Wild via Differentiated Confounder Balancing." In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 265-274. ACM, 2017.](http://media.cs.tsinghua.edu.cn/~multimedia/cuipeng/papers/CausalDCA.pdf)|NA|
 |Adversarial Balancing|[Ozery-Flato, Michal, Pierre Thodoroff, and Tal El-Hay. "Adversarial Balancing for Causal Inference." arXiv preprint arXiv:1810.07406 (2018).](https://arxiv.org/pdf/1810.07406)|NA|
 |DeepMatch|[Kallus, Nathan. "Deepmatch: Balancing deep covariate representations for causal inference using adversarial training." arXiv preprint arXiv:1802.05664 (2018).](https://arxiv.org/pdf/1802.05664)|NA|
-|---|---|---|
-|Treatment Responder Classification|||
-|RespSVM|[Kallus, Nathan. "Classifying Treatment Responders Under Causal Effect Monotonicity." arXiv preprint arXiv:1902.05482 (2019)](https://arxiv.org/pdf/1902.05482.pdf)|NA|
 
-#### Learning Causal Effects under Spillover Effect
+#### Treatment Responder Classification
 |Name|Paper|Code|
 |---|---|---|
-|Linked Causal Variational Autoencoder (LCVA)|[Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pp. 1679-1682. ACM, 2018.](http://www.public.asu.edu/~rguo12/CIKM18.pdf)|[Python](https://github.com/rguo12/CIKM18-LCVA)|
+|RespSVM|[Kallus, Nathan. "Classifying Treatment Responders Under Causal Effect Monotonicity." arXiv preprint arXiv:1902.05482 (2019)](https://arxiv.org/pdf/1902.05482.pdf)|NA|
 
 #### Learning Causal Effects as Response Curves
 |Name|Paper|Code|
 |---|---|---|
 |Dose response networks (DRNets)|[Schwab, Patrick, Lorenz Linhardt, Stefan Bauer, Joachim M. Buhmann, and Walter Karlen. "Learning Counterfactual Representations for Estimating Individual Dose-Response Curves." arXiv preprint arXiv:1902.00981 (2019).](https://arxiv.org/pdf/1902.00981.pdf)|[Python](https://github.com/d909b/drnet)|
-
-#### Learning Time Varying/Dependent Causal Effects
-|Name|Paper|Code|
-|---|---|---|
-|Time Series Deconfounder|[Bica, Ioana, Ahmed M. Alaa, and Mihaela van der Schaar. "Time Series Deconfounder: Estimating Treatment Effects over Time in the Presence of Hidden Confounders." arXiv preprint arXiv:1902.00450 (2019).](https://arxiv.org/pdf/1902.00450.pdf)|NA|
-|Longitudinal Targeted Maximum Likelihood Estimation|Petersen, Maya, Joshua Schwab, Susan Gruber, Nello Blaser, Michael Schomaker, and Mark van der Laan. "Targeted maximum likelihood estimation for dynamic and static longitudinal marginal structural working models." Journal of causal inference 2, no. 2 (2014): 147-185.|[R](https://github.com/joshuaschwab/ltmle)|
-|Recurrent Marginal Structural Networks| Lim, Bryan. "Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks." In Advances in Neural Information Processing Systems, pp. 7494-7504. 2018.  |[Python](https://github.com/sjblim/rmsn_nips_2018)|
 
 #### Learning Causal Effects with Multi-cause Data
 |Name|Paper|Code|
@@ -79,14 +69,28 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 #### Variable Selection/Importance for Learning Causal Effects
 |Name|Paper|Code|
 |---|---|---|
-|Variable importance through targeted causal inference|   | [R](https://github.com/ck37/varimpact)|
+|Variable importance through targeted causal inference|[The Github Repo "varimpact" by Alan E. Hubbard and Chris J. Kennedy, University of California, Berkeley](https://github.com/ck37/varimpact)|[R](https://github.com/ck37/varimpact)|
 
-### Learning Causal Effects without the Unconfoundedness Assumption
 #### Instrumental Variables
 |Name|Paper|Code|
 |---|---|---|
-|DeepIV|Hartford, Jason, Greg Lewis, Kevin Leyton-Brown, and Matt Taddy. "Deep iv: A flexible approach for counterfactual prediction." In International Conference on Machine Learning, pp. 1414-1423. 2017.|[Python](https://github.com/jhartford/DeepIV)|
-|PDSLasso|   |[STATA](https://statalasso.github.io/)|
+|DeepIV|[Hartford, Jason, Greg Lewis, Kevin Leyton-Brown, and Matt Taddy. "Deep iv: A flexible approach for counterfactual prediction." In International Conference on Machine Learning, pp. 1414-1423. 2017.](http://proceedings.mlr.press/v70/hartford17a/hartford17a.pdf)|[Python](https://github.com/jhartford/DeepIV)|
+|PDSLasso|[Achim Ahrens & Christian B. Hansen & Mark E Schaffer, 2018.
+"PDSLASSO: Stata module for post-selection and post-regularization OLS or IV estimation and inference," Statistical Software Components
+S458459, Boston College Department of Economics, revised 24 Jan 2019.] (https://ideas.repec.org/c/boc/bocode/s458459.html)   |[STATA](https://statalasso.github.io/)|
+
+### Non-i.i.d Data
+#### Learning Causal Effects under Spillover Effect
+|Name|Paper|Code|
+|---|---|---|
+|Linked Causal Variational Autoencoder (LCVA)|[Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pp. 1679-1682. ACM, 2018.](http://www.public.asu.edu/~rguo12/CIKM18.pdf)|[Python](https://github.com/rguo12/CIKM18-LCVA)|
+
+#### Learning Time Varying/Dependent Causal Effects
+|Name|Paper|Code|
+|---|---|---|
+|Time Series Deconfounder|[Bica, Ioana, Ahmed M. Alaa, and Mihaela van der Schaar. "Time Series Deconfounder: Estimating Treatment Effects over Time in the Presence of Hidden Confounders." arXiv preprint arXiv:1902.00450 (2019).](https://arxiv.org/pdf/1902.00450.pdf)|NA|
+|Recurrent Marginal Structural Networks|[Lim, Bryan. "Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks." In Advances in Neural Information Processing Systems, pp. 7494-7504. 2018.](http://medianetlab.ee.ucla.edu/papers/nips_rmsn.pdf)|[Python](https://github.com/sjblim/rmsn_nips_2018)|
+|Longitudinal Targeted Maximum Likelihood Estimation|[Petersen, Maya, Joshua Schwab, Susan Gruber, Nello Blaser, Michael Schomaker, and Mark van der Laan. "Targeted maximum likelihood estimation for dynamic and static longitudinal marginal structural working models." Journal of causal inference 2, no. 2 (2014): 147-185.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4405134/)|[R](https://github.com/joshuaschwab/ltmle)|
 
 ## Connections to Machine Learning
 ### Recommendation as Causal Inference
@@ -94,12 +98,12 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |---|---|---|
 |Causal Embedding for Recommendation|[Bonner, Stephen, and Flavian Vasile. "Causal embeddings for recommendation." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 104-112. ACM, 2018. (**BEST PAPER**)](https://arxiv.org/pdf/1706.07639)|[Python](https://github.com/criteo-research/CausE)|
 |IPS Estimator|[Schnabel, Tobias, Adith Swaminathan, Ashudeep Singh, Navin Chandak, and Thorsten Joachims. "Recommendations as treatments: Debiasing learning and evaluation." arXiv preprint arXiv:1602.05352 (2016).](http://www.jmlr.org/proceedings/papers/v48/schnabel16.pdf)|[Python](http://www.cs.cornell.edu/~schnabts/mnar/index.html)|
-|Deconfounded Recsys|Wang, Yixin, Dawen Liang, Laurent Charlin, and David M. Blei. "The Deconfounded Recommender: A Causal Inference Approach to Recommendation." arXiv preprint arXiv:1808.06581 (2018).|NA|
+|Deconfounded Recsys|[Wang, Yixin, Dawen Liang, Laurent Charlin, and David M. Blei. "The Deconfounded Recommender: A Causal Inference Approach to Recommendation." arXiv preprint arXiv:1808.06581 (2018).](https://arxiv.org/pdf/1808.06581)|NA|
 
 ### Feature Selection
 |Name|Paper|Code|
 |---|---|---|
-|Causal FS for text classification|Michael J. Paul. Feature selection as causal inference: experiments with text classification. Conference on Computational Natural Language Learning (CoNLL), Vancouver, Canada. August 2017.|NA|
+|Causal FS for text classification|[Michael J. Paul. Feature selection as causal inference: experiments with text classification. Conference on Computational Natural Language Learning (CoNLL), Vancouver, Canada. August 2017.](https://www.aclweb.org/anthology/K/K17/K17-1018.pdf)|NA|
 
 ### Reinforcement Learning
 |Name|Paper|Code|
@@ -129,7 +133,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 
 
 ## Learning Causal Relationships
-### Learning Causal Relationships with i.i.d. Data
+### With i.i.d. Data
 |Name|Paper|Code|
 |---|---|---|
 |[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|   |[R](https://github.com/bd2kccd/r-causal)|
@@ -137,6 +141,11 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |IC algorithm| |[Python](https://github.com/akelleh/causality)|
 |PC algorithm|P. Spirtes, C. Glymour, and R. Scheines. Causation, Prediction, and Search. The MIT Press, 2nd edition, 2000.|[Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
 |FCI algorithm| |[R](https://github.com/cran/pcalg)|
+
+#### Learning IV
+|Name|Paper|Code|
+|---|---|---|
+|IV Discovery Methods|[Silva, Ricardo, and Shohei Shimizu. "Learning instrumental variables with structural and non-gaussianity assumptions." The Journal of Machine Learning Research 18, no. 1 (2017): 4321-4369.](http://www.jmlr.org/papers/volume18/17-014/17-014.pdf)|NA|
 
 #### Distinguishing Cause from Effect (Bivariate)
 |Name|Paper|Code|
