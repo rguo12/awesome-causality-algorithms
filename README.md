@@ -99,7 +99,9 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Deconfounded Recsys|[Wang, Yixin, Dawen Liang, Laurent Charlin, and David M. Blei. "The Deconfounded Recommender: A Causal Inference Approach to Recommendation." arXiv preprint arXiv:1808.06581 (2018).](https://arxiv.org/pdf/1808.06581)|NA|
 
 ### Natural Language Processing
-
+|Name|Paper|Code|
+|---|---|---|
+||[Wood-Doughty, Zach, Ilya Shpitser, and Mark Dredze. "Challenges of Using Text Classifiers for Causal Inference." In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pp. 4586-4598. 2018.](https://aclweb.org/anthology/D18-1488)|[Python](https://github.com/zachwooddoughty/emnlp2018-causal)|
 
 ### Feature Selection
 |Name|Paper|Code|
