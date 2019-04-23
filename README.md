@@ -10,7 +10,8 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
   year={2018}
 }
 ```
-*A significant update of the survey will be available next week!*
+*A significant update of the survey has been submitted to arxiv and will be available very soon!*
+
 *Updates for this repo are coming soon!*
 
 ## Learning Causal Effects
