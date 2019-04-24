@@ -10,7 +10,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
   year={2018}
 }
 ```
-*A significant update of the survey has been submitted to arxiv and will be available very soon!*
+*The survey has been updated! Check it on arxiv!*
 
 *Updates for this repo are coming soon!*
 
