@@ -97,7 +97,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Longitudinal Targeted Maximum Likelihood Estimation|[Petersen, Maya, Joshua Schwab, Susan Gruber, Nello Blaser, Michael Schomaker, and Mark van der Laan. "Targeted maximum likelihood estimation for dynamic and static longitudinal marginal structural working models." Journal of causal inference 2, no. 2 (2014): 147-185.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4405134/)|[R](https://github.com/joshuaschwab/ltmle)|
 
 ## Connections to Machine Learning
-### Recommendation/Learning to Rank
+### Recommendation
 |Name|Paper|Code|
 |---|---|---|
 |Causal Embedding for Recommendation|[Bonner, Stephen, and Flavian Vasile. "Causal embeddings for recommendation." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 104-112. ACM, 2018. (**BEST PAPER**)](https://arxiv.org/pdf/1706.07639)|[Python](https://github.com/criteo-research/CausE)|
@@ -117,6 +117,10 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Counterfactual Risk Minimization (POEM)|[Swaminathan, Adith, and Thorsten Joachims. "Counterfactual risk minimization: Learning from logged bandit feedback." In International Conference on Machine Learning, pp. 814-823. 2015.](http://www.jmlr.org/proceedings/papers/v37/swaminathan15.pdf)|[Python](http://www.cs.cornell.edu/~adith/POEM/index.html)|
 |Self Normalized Estimator|[Swaminathan, Adith, and Thorsten Joachims. "The self-normalized estimator for counterfactual learning." In Advances in Neural Information Processing Systems, pp. 3231-3239. 2015.](http://papers.nips.cc/paper/5748-the-self-normalized-estimator-for-counterfactual-learning.pdf)|[Python](http://www.cs.cornell.edu/~adith/POEM/index.html)|
 |Surrogate Policy|[Xie, Yuan, Boyi Liu, Qiang Liu, Zhaoran Wang, Yuan Zhou, and Jian Peng. "Off-Policy Evaluation and Learning from Logged Bandit Feedback: Error Reduction via Surrogate Policy." arXiv preprint arXiv:1808.00232 (2018).](https://arxiv.org/abs/1808.00232)|NA|
+|Balanced Policy Evaluation and Learning|[Kallus, Nathan. "Balanced policy evaluation and learning." In Advances in Neural Information Processing Systems, pp. 8895-8906. 2018.](http://papers.nips.cc/paper/8105-balanced-policy-evaluation-and-learning.pdf)|NA|
+|Confounding-robust Policy Learning|[Kallus, Nathan, and Angela Zhou. "Confounding-robust policy improvement." In Advances in Neural Information Processing Systems, pp. 9269-9279. 2018.](http://papers.nips.cc/paper/8105-balanced-policy-evaluation-and-learning)|NA|
+|Multi-action Policy Learning|[Zhou, Zhengyuan, Susan Athey, and Stefan Wager. "Offline multi-action policy learning: Generalization and optimization." arXiv preprint arXiv:1810.04778 (2018).](https://arxiv.org/abs/1810.04778)|NA|
+|Efficient Policy Learning|[Athey, Susan, and Stefan Wager. "Efficient policy learning." arXiv preprint arXiv:1702.02896 (2017).](https://arxiv.org/abs/1702.02896)|NA|
 
 ### Natural Language Processing
 |Name|Paper|Code|
