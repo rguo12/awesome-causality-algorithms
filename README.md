@@ -107,6 +107,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ### Learning to Rank
 |Name|Paper|Code|
 |---|---|---|
+|Unbiased LambdaMart|[Hu, Ziniu, Yang Wang, Qu Peng, and Hang Li. "Unbiased LambdaMART: An Unbiased Pairwise Learning-to-Rank Algorithm." In The World Wide Web Conference, pp. 2830-2836. ACM, 2019.](https://acbull.github.io/pdf/unbias.pdf)|[C++,Python,R](https://github.com/acbull/Unbiased_LambdaMart)|
 |IPW_rank and the Dual Learning Algorithm|[Qingyao Ai, Keping Bi, Cheng Luo, Jiafeng Guo, W. Bruce Croft. 2018. Unbiased Learning to Rank with Unbiased Propensity Estimation. In Proceedings of SIGIR '18](https://arxiv.org/abs/1804.05938)|[Python](https://github.com/QingyaoAi/Unbiased-Learning-to-Rank-with-Unbiased-Propensity-Estimation)|
 |Propensity SVM-rank|[Joachims, Thorsten, Adith Swaminathan, and Tobias Schnabel. "Unbiased learning-to-rank with biased feedback." In Proceedings of the Tenth ACM International Conference on Web Search and Data Mining, pp. 781-789. ACM, 2017. (**BEST PAPER**)](https://dl.acm.org/ft_gateway.cfm?id=3018699&type=pdf)|[Python](http://www.cs.cornell.edu/people/tj/svm_light/svm_proprank.html)|
 
