@@ -89,7 +89,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 #### Learning Causal Effects from Networked Observational Data
 |Name|Paper|Code|
 |---|---|---|
-|Learning Individual Treatment Effects from Networked Observational Data|[Learning Individual Treatment Effects from Networked Observational Data](https://arxiv.org/abs/1906.03485)|[Python](https://github.com/rguo12/network-deconfounder)|
+|Network Deconfounder|[Learning Individual Treatment Effects from Networked Observational Data](https://arxiv.org/abs/1906.03485)|[Python](https://github.com/rguo12/network-deconfounder)|
 
 
 #### Learning Causal Effects under Spillover Effect
