@@ -1,4 +1,5 @@
 # awesome-causality-algorithms
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 An index of algorithms for learning causality with data.
 
 Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index is helpful.
