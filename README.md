@@ -21,6 +21,8 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Name|Paper|Code|
 |---|---|---|
 |DoWhy|[Amit Sharma and Emre Kiciman. "Tutorial on Causal Inference and Counterfactual Reasoning." In ACM SIGKDD 2018](http://causalinference.gitlab.io/kdd-tutorial/)|[Python](https://github.com/microsoft/dowhy)|
+|[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|   |[R](https://github.com/bd2kccd/r-causal)|
+|CausalDiscoveryToolbox| |[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)|
 
 ### With i.i.d Data
 
@@ -176,8 +178,6 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ### With i.i.d. Data
 |Name|Paper|Code|
 |---|---|---|
-|[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|   |[R](https://github.com/bd2kccd/r-causal)|
-|CausalDiscoveryToolbox| |[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)|
 |IC algorithm| |[Python](https://github.com/akelleh/causality)|
 |PC algorithm|P. Spirtes, C. Glymour, and R. Scheines. Causation, Prediction, and Search. The MIT Press, 2nd edition, 2000.|[Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
 |FCI algorithm| |[R](https://github.com/cran/pcalg)|
