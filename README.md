@@ -28,10 +28,10 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 
 |Name|Paper|Code|
 |---|---|---|
-|Propensity Score Matching|  |[Python](https://github.com/akelleh/causality/tree/master/causality/estimation)|
-|Inverse Probability Reweighting|   |[R](https://github.com/cran/ipw)|
+|Propensity Score Matching|[Rosenbaum, Paul R., and Donald B. Rubin. "The central role of the propensity score in observational studies for causal effects." Biometrika 70, no. 1 (1983): 41-55.](https://academic.oup.com/biomet/article-pdf/70/1/41/662954/70-1-41.pdf)|[Python](https://github.com/akelleh/causality/tree/master/causality/estimation)|
+|Inverse Probability Reweighting|[Rosenbaum, Paul R., and Donald B. Rubin. "The central role of the propensity score in observational studies for causal effects." Biometrika 70, no. 1 (1983): 41-55.](https://academic.oup.com/biomet/article-pdf/70/1/41/662954/70-1-41.pdf)|[R](https://github.com/cran/ipw)|
 |Nonparametric Regression Adjustment|   |[Python](https://github.com/akelleh/causality)|
-|Doubly Robust Estimation|   |[R](https://github.com/gregridgeway/fastDR)|
+|Doubly Robust Estimation|[Bang, Heejung, and James M. Robins. "Doubly robust estimation in missing data and causal inference models." Biometrics 61, no. 4 (2005): 962-973.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1541-0420.2005.00377.x)   |[R](https://github.com/gregridgeway/fastDR)|
 |Doubly Robust Estimation for High Dimensional Data|[Antonelli, Joseph, Matthew Cefalu, Nathan Palmer, and Denis Agniel. "Doubly robust matching estimators for high dimensional confounding adjustment." Biometrics (2016).](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6347556/)|[R](https://github.com/jantonelli111/DoublyRobustHD)|
 |TMLE|[Gruber, Susan, and Mark J. van der Laan. "tmle: An R package for targeted maximum likelihood estimation." (2011).](https://www.jstatsoft.org/article/view/v051i13)|[R](https://cran.r-project.org/web/packages/tmle/index.html)|
 |---|---|---|
