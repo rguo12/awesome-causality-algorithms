@@ -98,7 +98,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 #### Learning Causal Effects from Networked Observational Data
 |Name|Paper|Code|
 |---|---|---|
-|Network Deconfounder|[Guo, Ruocheng, Jundong Li, and Huan Liu. "Learning Individual Treatment Effects from Networked Observational Data." arXiv preprint arXiv:1906.03485 (2019).](https://arxiv.org/abs/1906.03485)|[Python](https://github.com/rguo12/network-deconfounder)|
+|Network Deconfounder|[Guo, Ruocheng, Jundong Li, and Huan Liu. "Toward Controlling Hidden Confounding for Causal Effect Estimation with Networked Observational Data" arXiv preprint arXiv:1906.03485 (2019).](https://arxiv.org/abs/1906.03485)|[Python](https://github.com/rguo12/network-deconfounder)|
 |Causal Inference with Network Embeddings|[Veitch, Victor, Yixin Wang, and David M. Blei. "Using embeddings to correct for unobserved confounding." arXiv preprint arXiv:1902.04114 (2019).](https://arxiv.org/pdf/1902.04114)|[Python](https://github.com/vveitch/causal-embeddings)|
 
 
