@@ -75,6 +75,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Name|Paper|Code|
 |---|---|---|
 |Deconfounder|[Wang, Yixin, and David M. Blei. "The blessings of multiple causes." arXiv preprint arXiv:1805.06826 (2018).](https://arxiv.org/abs/1805.06826)|[Python](https://github.com/blei-lab/deconfounder_tutorial)|
+||[D'Amour, Alexander. "On multi-cause causal inference with unobserved confounding: Counterexamples, impossibility, and alternatives." arXiv preprint arXiv:1902.10286 (2019).](https://arxiv.org/abs/1902.10286)|NA|
 ||[Ranganath, Rajesh, and Adler Perotte. "Multiple causal inference with latent confounding." arXiv preprint arXiv:1805.08273 (2018).](https://arxiv.org/pdf/1805.08273)|NA|
 
 #### Transfer Learning for Learning Causal Effects
