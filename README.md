@@ -135,6 +135,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ### Off-line Policy Evaluation/Optimization
 |Name|Paper|Code|
 |---|---|---|
+|Optimal Kernel Balancing|[Andrew Bennett, Nathan Kallus. "Policy Evaluation with Latent Confounders via Optimal Balance"](http://arxiv.org/abs/1908.01920)|[Python](https://github.com/CausalML/LatentConfounderBalancing)|
 |BanditNet|[Joachims, Thorsten, Adith Swaminathan, and Maarten de Rijke. "Deep learning with logged bandit feedback." (2018).](https://openreview.net/pdf?id=SJaP_-xAb)|[Python](https://www.cs.cornell.edu/people/tj/banditnet/index.html)|
 |Counterfactual Risk Minimization (POEM)|[Swaminathan, Adith, and Thorsten Joachims. "Counterfactual risk minimization: Learning from logged bandit feedback." In International Conference on Machine Learning, pp. 814-823. 2015.](http://www.jmlr.org/proceedings/papers/v37/swaminathan15.pdf)|[Python](http://www.cs.cornell.edu/~adith/POEM/index.html)|
 |Self Normalized Estimator|[Swaminathan, Adith, and Thorsten Joachims. "The self-normalized estimator for counterfactual learning." In Advances in Neural Information Processing Systems, pp. 3231-3239. 2015.](http://papers.nips.cc/paper/5748-the-self-normalized-estimator-for-counterfactual-learning.pdf)|[Python](http://www.cs.cornell.edu/~adith/POEM/index.html)|
