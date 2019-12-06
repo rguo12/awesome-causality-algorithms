@@ -104,7 +104,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 #### Learning Causal Effects from Networked Observational Data
 |Name|Paper|Code|
 |---|---|---|
-|Network Deconfounder|[Guo, Ruocheng, Jundong Li, and Huan Liu. "Toward Controlling Hidden Confounding for Causal Effect Estimation with Networked Observational Data" arXiv preprint arXiv:1906.03485 (2019).](https://arxiv.org/abs/1906.03485)|[Python](https://github.com/rguo12/network-deconfounder)|
+|Network Deconfounder|[Guo, Ruocheng, Jundong Li, and Huan Liu. "Learning Individual Causal Effects from Networked Observational Data." arXiv preprint arXiv:1906.03485 (2019).](https://arxiv.org/abs/1906.03485)|[Python](https://github.com/rguo12/network-deconfounder-wsdm20)|
 |Causal Inference with Network Embeddings|[Veitch, Victor, Yixin Wang, and David M. Blei. "Using embeddings to correct for unobserved confounding." arXiv preprint arXiv:1902.04114 (2019).](https://arxiv.org/pdf/1902.04114)|[Python](https://github.com/vveitch/causal-network-embeddings)|
 
 
@@ -179,7 +179,6 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |---|---|---|
 ||Odena, Augustus, Jacob Buckman, Catherine Olsson, Tom B. Brown, Christopher Olah, Colin Raffel, and Ian Goodfellow. "Is Generator Conditioning Causally Related to GAN Performance?." arXiv preprint arXiv:1802.08768 (2018).|NA|
 |Causal GAN|Kocaoglu, Murat, Christopher Snyder, Alexandros G. Dimakis, and Sriram Vishwanath. "CausalGAN: Learning Causal Implicit Generative Models with Adversarial Training." arXiv preprint arXiv:1709.02023 (2017).|[Python](https://github.com/mkocaoglu/CausalGAN)|
-
 
 
 ## Learning Causal Relations
