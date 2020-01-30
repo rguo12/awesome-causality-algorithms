@@ -162,14 +162,32 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Causal Inferences Using Texts|[Egami, Naoki, Christian J. Fong, Justin Grimmer, Margaret E. Roberts, and Brandon M. Stewart. "How to make causal inferences using texts." arXiv preprint arXiv:1802.02163 (2018).](https://arxiv.org/pdf/1802.02163.pdf)|NA|
 |Causal FS for text classification|[Michael J. Paul. Feature selection as causal inference: experiments with text classification. Conference on Computational Natural Language Learning (CoNLL), Vancouver, Canada. August 2017.](https://www.aclweb.org/anthology/K/K17/K17-1018.pdf)|NA|
 
+### Counterfactual Explanation
+|Name|Paper|Code|
+|---|---|---|
+|DICE|[Mothilal, Ramaravind Kommiya, Amit Sharma, and Chenhao Tan. "Explaining machine learning classifiers through diverse counterfactual explanations." arXiv preprint arXiv:1905.07697 (2019).](https://arxiv.org/pdf/1905.07697.pdf)|[Python](https://github.com/microsoft/DiCE)|
+||[Wachter, Sandra, Brent Mittelstadt, and Chris Russell. "Counterfactual explanations without opening the black box: Automated decisions and the GDPR." Harv. JL & Tech. 31 (2017): 841.](https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/hjlt31&section=29)||
+
+### Counterfactual Fairness
+|Name|Paper|Code|
+|---|---|---|
+||[Kusner, Matt J., Joshua Loftus, Chris Russell, and Ricardo Silva. "Counterfactual fairness." In Advances in Neural Information Processing Systems, pp. 4066-4076. 2017.](http://papers.nips.cc/paper/6995-counterfactual-fairness.pdf)|[Python](https://github.com/mkusner/counterfactual-fairness)|
+||[Chiappa, Silvia. "Path-specific counterfactual fairness." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 33, pp. 7801-7808. 2019.](https://www.aaai.org/ojs/index.php/AAAI/article/download/4777/4655)||
+||[Russell, Chris, Matt J. Kusner, Joshua Loftus, and Ricardo Silva. "When worlds collide: integrating different counterfactual assumptions in fairness." In Advances in Neural Information Processing Systems, pp. 6414-6423. 2017.](http://papers.nips.cc/paper/7220-when-worlds-collide-integrating-different-counterfactual-assumptions-in-fairness.pdf)||
+||[Garg, Sahaj, Vincent Perot, Nicole Limtiaco, Ankur Taly, Ed H. Chi, and Alex Beutel. "Counterfactual fairness in text classification through robustness." In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society, pp. 219-226. 2019.](https://dl.acm.org/doi/pdf/10.1145/3306618.3317950)||
+
 ### Reinforcement Learning
 |Name|Paper|Code|
 |---|---|---|
 ||[Vansteelandt, Stijn, and Marshall Joffe. "Structural nested models and G-estimation: the partially realized promise." Statistical Science 29, no. 4 (2014): 707-731.](https://arxiv.org/pdf/1503.01589.pdf)|NA|
-||[Sawant, Neela, Chitti Babu Namballa, Narayanan Sadagopan, and Houssam Nassif. "Contextual Multi-Armed Bandits for Causal Marketing." arXiv preprint arXiv:1810.01859 (2018).](https://arxiv.org/pdf/1810.01859)|NA|
-|Casual Bandit|Lee, Sanghack, and Elias Bareinboim. Structural Causal Bandits with Non-manipulable Variables. Technical Report R-40, Purdue AI Lab, Department of Computer Science, Purdue University, 2019.|NA|
 |Counterfactual-Guided Policy Search (CF-GPS)|Buesing, Lars, Theophane Weber, Yori Zwols, Sebastien Racaniere, Arthur Guez, Jean-Baptiste Lespiau, and Nicolas Heess. "Woulda, Coulda, Shoulda: Counterfactually-Guided Policy Search." arXiv preprint arXiv:1811.06272 (2018).|NA|
 
+### Multi-Armed Bandit
+|Name|Paper|Code|
+|---|---|---|
+|Offline+MAB|[Ye, Li, Yishi Lin, Hong Xie, and John Lui. "Combining Offline Causal Inference and Online Bandit Learning for Data Driven Decisions." arXiv preprint arXiv:2001.05699 (2020).](https://arxiv.org/pdf/2001.05699v1.pdf)|NA|
+|Incremental Model|[Sawant, Neela, Chitti Babu Namballa, Narayanan Sadagopan, and Houssam Nassif. "Contextual Multi-Armed Bandits for Causal Marketing." arXiv preprint arXiv:1810.01859 (2018).](https://arxiv.org/pdf/1810.01859)|NA|
+|Casual Bandit|Lee, Sanghack, and Elias Bareinboim. Structural Causal Bandits with Non-manipulable Variables. Technical Report R-40, Purdue AI Lab, Department of Computer Science, Purdue University, 2019.|NA|
 
 ### Invariant Prediction
 |Name|Paper|Code|
