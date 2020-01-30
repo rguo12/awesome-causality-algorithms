@@ -166,7 +166,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Paper|Code|
 |---|---|
 |[Mothilal, Ramaravind Kommiya, Amit Sharma, and Chenhao Tan. "Explaining machine learning classifiers through diverse counterfactual explanations." arXiv preprint arXiv:1905.07697 (2019).](https://arxiv.org/pdf/1905.07697.pdf)|[Python](https://github.com/microsoft/DiCE)|
-|[Russell, Chris. "Efficient search for diverse coherent explanations." In Proceedings of the Conference on Fairness, Accountability, and Transparency, pp. 20-28. 2019.](https://dl.acm.org/doi/pdf/10.1145/3287560.3287569)|[](https://bitbucket.org/ChrisRussell/diverse-coherent-explanations/)|
+|[Russell, Chris. "Efficient search for diverse coherent explanations." In Proceedings of the Conference on Fairness, Accountability, and Transparency, pp. 20-28. 2019.](https://dl.acm.org/doi/pdf/10.1145/3287560.3287569)|[Python](https://bitbucket.org/ChrisRussell/diverse-coherent-explanations/)|
 |[Wachter, Sandra, Brent Mittelstadt, and Chris Russell. "Counterfactual explanations without opening the black box: Automated decisions and the GDPR." Harv. JL & Tech. 31 (2017): 841.](https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/hjlt31&section=29)||
 
 
