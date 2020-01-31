@@ -16,7 +16,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 # Table of Contents
 
 - [Learning Causal Effects](#learning-causal-effects)
-- [Connections to ML](#connections-to-machinelearning)
+- [Connections to Machine Learning](#connections-to-machine-learning)
 
 
 ## Learning Causal Effects
