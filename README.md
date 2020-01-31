@@ -11,8 +11,13 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
   year={2018}
 }
 ```
-
 *Updates on Counterfactual Fairness/Explnantions 01/30/2020*
+
+# Table of Contents
+
+- [Learning Causal Effects](#learning-causal-effects)
+- [Connections to ML](#connections-to-machinelearning)
+
 
 ## Learning Causal Effects
 
