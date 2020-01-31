@@ -11,7 +11,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
   year={2018}
 }
 ```
-*Updates on Counterfactual Fairness/Explnantions 01/30/2020*
+*Updates on Counterfactual Fairness/Explanantions 01/30/2020, PRs are welcome!*
 
 # Table of Contents
 
