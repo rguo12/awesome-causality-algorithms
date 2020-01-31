@@ -11,9 +11,8 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
   year={2018}
 }
 ```
-*The survey has been updated! Check it on arxiv!*
 
-*Updates for this repo are coming soon!*
+*Updates on Counterfactual Fairness/Explnantions 01/30/2020*
 
 ## Learning Causal Effects
 
