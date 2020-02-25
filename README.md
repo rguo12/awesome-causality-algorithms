@@ -112,15 +112,15 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 #### Learning Causal Effects from Networked Observational Data
 |Name|Paper|Code|
 |---|---|---|
-|Network Deconfounder|[Guo, Ruocheng, Jundong Li, and Huan Liu. "Learning Individual Causal Effects from Networked Observational Data." WSDM 2020 (to appear).](https://arxiv.org/abs/1906.03485)|[Python](https://github.com/rguo12/network-deconfounder-wsdm20)|
+|Network Deconfounder|[Guo, Ruocheng, Jundong Li, and Huan Liu. "Learning Individual Causal Effects from Networked Observational Data." WSDM 2020.](https://arxiv.org/abs/1906.03485)|[Python](https://github.com/rguo12/network-deconfounder-wsdm20)|
 |Causal Inference with Network Embeddings|[Veitch, Victor, Yixin Wang, and David M. Blei. "Using embeddings to correct for unobserved confounding." arXiv preprint arXiv:1902.04114 (2019).](https://arxiv.org/pdf/1902.04114)|[Python](https://github.com/vveitch/causal-network-embeddings)|
 
 
-#### Learning Causal Effects under Spillover Effect
+#### Learning Causal Effects under Spillover Effect/Interference
 |Name|Paper|Code|
 |---|---|---|
-|Linked Causal Variational Autoencoder (LCVA)|[Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pp. 1679-1682. ACM, 2018.](http://www.public.asu.edu/~rguo12/CIKM18.pdf)|[Python](https://github.com/rguo12/CIKM18-LCVA)|
-
+|Linked Causal Variational Autoencoder (LCVA)|[Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." CIKM 2018.](http://www.public.asu.edu/~rguo12/CIKM18.pdf)|[Python](https://github.com/rguo12/CIKM18-LCVA)|
+|GNN-based Causal Effect Estimators|[Ma, Yunpu, Yuyi Wang, and Volker Tresp. "Causal Inference under Networked Interference." arXiv preprint arXiv:2002.08506 (2020).](https://arxiv.org/pdf/2002.08506.pdf)|NA|
 #### Learning Time Varying/Dependent Causal Effects
 |Name|Paper|Code|
 |---|---|---|
@@ -195,15 +195,17 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ### Reinforcement Learning
 |Name|Paper|Code|
 |---|---|---|
+|Deconfounded RL|[Lu, Chaochao, Bernhard Schölkopf, and José Miguel Hernández-Lobato. "Deconfounding reinforcement learning in observational settings." arXiv preprint arXiv:1812.10576 (2018).](https://arxiv.org/pdf/1812.10576)|[Python](https://github.com/CausalRL/DRL)|
 ||[Vansteelandt, Stijn, and Marshall Joffe. "Structural nested models and G-estimation: the partially realized promise." Statistical Science 29, no. 4 (2014): 707-731.](https://arxiv.org/pdf/1503.01589.pdf)|NA|
 |Counterfactual-Guided Policy Search (CF-GPS)|Buesing, Lars, Theophane Weber, Yori Zwols, Sebastien Racaniere, Arthur Guez, Jean-Baptiste Lespiau, and Nicolas Heess. "Woulda, Coulda, Shoulda: Counterfactually-Guided Policy Search." arXiv preprint arXiv:1811.06272 (2018).|NA|
 
-### Multi-Armed Bandit
+### Multi-Armed Bandit/Causal Bandit
 |Name|Paper|Code|
 |---|---|---|
+|Causal Bandits|[Lattimore, Finnian, Tor Lattimore, and Mark D. Reid. "Causal bandits: Learning good interventions via causal inference." In Advances in Neural Information Processing Systems, pp. 1181-1189. 2016.](https://arxiv.org/abs/1606.03203)|NA|
 |Offline+MAB|[Ye, Li, Yishi Lin, Hong Xie, and John Lui. "Combining Offline Causal Inference and Online Bandit Learning for Data Driven Decisions." arXiv preprint arXiv:2001.05699 (2020).](https://arxiv.org/pdf/2001.05699v1.pdf)|NA|
+|B-kl-UCB, B-TS|[Zhang, Junzhe, and Elias Bareinboim. "Transfer learning in multi-armed bandit: a causal approach." In Proceedings of the 16th Conference on Autonomous Agents and MultiAgent Systems, pp. 1778-1780. 2017.](http://www.ifaamas.org/Proceedings/aamas2017/pdfs/p1778.pdf)|NA|
 |Incremental Model|[Sawant, Neela, Chitti Babu Namballa, Narayanan Sadagopan, and Houssam Nassif. "Contextual Multi-Armed Bandits for Causal Marketing." arXiv preprint arXiv:1810.01859 (2018).](https://arxiv.org/pdf/1810.01859)|NA|
-|Casual Bandit|Lee, Sanghack, and Elias Bareinboim. Structural Causal Bandits with Non-manipulable Variables. Technical Report R-40, Purdue AI Lab, Department of Computer Science, Purdue University, 2019.|NA|
 
 ### Invariant Prediction
 |Name|Paper|Code|
