@@ -171,6 +171,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ### Natural Language Processing
 |Name|Paper|Code|
 |---|---|---|
+|A Review of Using Text to Remove Confounding from Causal Estimates|[Keith, Katherine A., David Jensen, and Brendan O'Connor. "Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates." ACL 2020.](https://www.aclweb.org/anthology/2020.acl-main.474.pdf)|NA|
 |Causal Analysis with Lexicons|[Pryzant, Reid, Kelly Shen, Dan Jurafsky, and Stefan Wagner. "Deconfounded lexicon induction for interpretable social science." NAACL 2018.](https://www.aclweb.org/anthology/N18-1146.pdf)|[Python](https://github.com/rpryzant/causal_attribution)|
 |Causal Text Embeddings|[Veitch, Victor, Dhanya Sridhar, and David M. Blei. "Using Text Embeddings for Causal Inference." arXiv preprint arXiv:1905.12741 (2019).](https://arxiv.org/pdf/1905.12741.pdf)|[Python](https://github.com/blei-lab/causal-text-embeddings)|
 |Handling Missing/Noisy Treatment|[Wood-Doughty, Zach, Ilya Shpitser, and Mark Dredze. "Challenges of Using Text Classifiers for Causal Inference." In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pp. 4586-4598. 2018.](https://aclweb.org/anthology/D18-1488)|[Python](https://github.com/zachwooddoughty/emnlp2018-causal)|
