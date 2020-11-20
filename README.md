@@ -229,7 +229,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |---|---|---|
 |IC algorithm| |[Python](https://github.com/akelleh/causality)|
 |PC algorithm|P. Spirtes, C. Glymour, and R. Scheines. Causation, Prediction, and Search. The MIT Press, 2nd edition, 2000.|[Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
-|FCI algorithm| |[R](https://github.com/cran/pcalg)|
+|FCI algorithm|P. Spirtes, C. Glymour, and R. Scheines. Causation, Prediction, and Search. The MIT Press, 2nd edition, 2000. |[R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
 |DAGs with NO TEARS|[Zheng, Xun, Bryon Aragam, Pradeep K. Ravikumar, and Eric P. Xing. "DAGs with NO TEARS: Continuous optimization for structure learning." NeurIPS 2018.](http://papers.nips.cc/paper/8157-dags-with-no-tears-continuous-optimization-for-structure-learning)|[Numpy, Pytorch](https://github.com/xunzheng/notears)|
 |DAG-GNN|[{Yue Yu, Jie Chen, Tian Gao, and Mo Yu. "DAG-GNN: DAG Structure Learning with Graph Neural Networks." ICML 2019.](https://arxiv.org/abs/1904.10098)|[Pytorch](https://github.com/fishmoon1234/DAG-GNN)|
 
