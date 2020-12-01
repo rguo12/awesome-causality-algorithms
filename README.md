@@ -4,11 +4,15 @@ An index of algorithms for learning causality with data.
 
 Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index is helpful.
 ```
-@article{guo2018survey,
-  title={A Survey of Learning Causality with Data: Problems and Methods},
-  author={Guo, Ruocheng and Cheng, Lu and Li, Jundong and Hahn, P. Richard and Liu, Huan}, 
-  journal={arXiv preprint arXiv:1809.09337}, 
-  year={2018}
+@article{guo2020survey,
+  title={A survey of learning causality with data: Problems and methods},
+  author={Guo, Ruocheng and Cheng, Lu and Li, Jundong and Hahn, P Richard and Liu, Huan},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={53},
+  number={4},
+  pages={1--37},
+  year={2020},
+  publisher={ACM New York, NY, USA}
 }
 ```
 
