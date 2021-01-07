@@ -262,3 +262,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |---|---|---|
 |TCDF: Temporal Causal Discovery Framework|[Nauta, Meike, Doina Bucur, and Christin Seifert. "Causal discovery with attention-based convolutional neural networks." Machine Learning and Knowledge Extraction.](https://www.mdpi.com/2504-4990/1/1/19)|[Pytorch](https://github.com/M-Nauta/TCDF)|
 
+#### Scalable Ensemble Causality Discovery 
+|Name|Paper|Code|
+|---|---|---|
+|Scalable and Hybrid Ensemble-Based Causality Discovery|[Pei Guo, Achuna Ofonedu, Jianwu Wang. "Scalable and Hybrid Ensemble-Based Causality Discovery." In Proceedings of the 2020 IEEE International Conference on Smart Data Services (SMDS), pp. 72-80.](https://ieeexplore.ieee.org/document/9288491)|[Python](https://github.com/big-data-lab-umbc/ensemble_causality_learning)|
