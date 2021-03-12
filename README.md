@@ -79,7 +79,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 #### For Continuous Treatment Effects
 |Name|Paper|Code|
 |---|---|---|
-|Causal Dose-Response Curves / Causal curves|[Kobrosly, R. W., (2020). causal-curve: A Python Causal Inference Package to Estimate Causal Dose-Response Curves. Journal of Open Source Software, 5(52), 2523, https://doi.org/10.21105/joss.02523](https://joss.theoj.org/papers/10.21105/joss.02523)|[Python](https://github.com/ronikobrosly/causal-curve)|
+|Causal Dose-Response Curves / Causal Curves|[Kobrosly, R. W., (2020). causal-curve: A Python Causal Inference Package to Estimate Causal Dose-Response Curves. Journal of Open Source Software, 5(52), 2523, https://doi.org/10.21105/joss.02523](https://joss.theoj.org/papers/10.21105/joss.02523)|[Python](https://github.com/ronikobrosly/causal-curve)|
 
 #### Treatment Responder Classification
 |Name|Paper|Code|
