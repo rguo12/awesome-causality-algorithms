@@ -76,6 +76,11 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Adversarial Balancing|[Ozery-Flato, Michal, Pierre Thodoroff, and Tal El-Hay. "Adversarial Balancing for Causal Inference." arXiv preprint arXiv:1810.07406 (2018).](https://arxiv.org/pdf/1810.07406)|NA|
 |DeepMatch|[Kallus, Nathan. "Deepmatch: Balancing deep covariate representations for causal inference using adversarial training." arXiv preprint arXiv:1802.05664 (2018).](https://arxiv.org/pdf/1802.05664)|NA|
 
+#### For Continuous Treatment Effects
+|Name|Paper|Code|
+|---|---|---|
+|Causal Dose-Response Curves / Causal curves|[Kobrosly, R. W., (2020). causal-curve: A Python Causal Inference Package to Estimate Causal Dose-Response Curves. Journal of Open Source Software, 5(52), 2523, https://doi.org/10.21105/joss.02523](https://joss.theoj.org/papers/10.21105/joss.02523)|[Python](https://github.com/ronikobrosly/causal-curve)|
+
 #### Treatment Responder Classification
 |Name|Paper|Code|
 |---|---|---|
@@ -262,7 +267,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |---|---|---|
 |TCDF: Temporal Causal Discovery Framework|[Nauta, Meike, Doina Bucur, and Christin Seifert. "Causal discovery with attention-based convolutional neural networks." Machine Learning and Knowledge Extraction.](https://www.mdpi.com/2504-4990/1/1/19)|[Pytorch](https://github.com/M-Nauta/TCDF)|
 
-#### Scalable Ensemble Causality Discovery 
+#### Scalable Ensemble Causality Discovery
 |Name|Paper|Code|
 |---|---|---|
 |Scalable and Hybrid Ensemble-Based Causality Discovery|[Pei Guo, Achuna Ofonedu, Jianwu Wang. "Scalable and Hybrid Ensemble-Based Causality Discovery." In Proceedings of the 2020 IEEE International Conference on Smart Data Services (SMDS), pp. 72-80.](https://ieeexplore.ieee.org/document/9288491)|[Python](https://github.com/big-data-lab-umbc/ensemble_causality_learning)|
