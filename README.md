@@ -150,6 +150,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Unbiased Offline Recommender Evaluation|[Yang, Longqi, Yin Cui, Yuan Xuan, Chenyang Wang, Serge Belongie, and Deborah Estrin. "Unbiased offline recommender evaluation for missing-not-at-random implicit feedback." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 279-287. ACM, 2018.](https://dl.acm.org/citation.cfm?id=3240355)|[Python](https://github.com/ylongqi/unbiased-offline-recommender-evaluation)|
 |IPS Estimator|[Schnabel, Tobias, Adith Swaminathan, Ashudeep Singh, Navin Chandak, and Thorsten Joachims. "Recommendations as treatments: Debiasing learning and evaluation." arXiv preprint arXiv:1602.05352 (2016).](http://www.jmlr.org/proceedings/papers/v48/schnabel16.pdf)|[Python](http://www.cs.cornell.edu/~schnabts/mnar/index.html)|
 |Deconfounded Recsys|[Wang, Yixin, Dawen Liang, Laurent Charlin, and David M. Blei. "The Deconfounded Recommender: A Causal Inference Approach to Recommendation." arXiv preprint arXiv:1808.06581 (2018).](https://arxiv.org/pdf/1808.06581)|NA|
+|Causal Embedding for User Interest and Conformity|[Zheng, Y., Gao, C., Li, X., He, X., Li, Y., & Jin, D. (2021, April). Disentangling User Interest and Conformity for Recommendation with Causal Embedding. In Proceedings of the Web Conference 2021 (pp. 2980-2991).](https://arxiv.org/abs/2006.11011)|[Python](https://github.com/tsinghua-fib-lab/DICE)|
 
 ### Learning to Rank
 |Name|Paper|Code|
