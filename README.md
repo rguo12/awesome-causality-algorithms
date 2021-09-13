@@ -81,6 +81,11 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |---|---|---|
 |Causal Dose-Response Curves / Causal Curves|[Kobrosly, R. W., (2020). causal-curve: A Python Causal Inference Package to Estimate Causal Dose-Response Curves. Journal of Open Source Software, 5(52), 2523, https://doi.org/10.21105/joss.02523](https://joss.theoj.org/papers/10.21105/joss.02523)|[Python](https://github.com/ronikobrosly/causal-curve)|
 
+#### Vectorized Treatments
+|Name|Paper|Code|
+|---|---|---|
+|Graph Intervention Networks for Causal Effect Estimation|[Jean Kaddour, Qi Liu, Yuchen Zhu, Matt J. Kusner, Ricardo Silva. "Graph Intervention Networks for Causal Effect Estimation", arXiv preprint arXiv:2106.01939 (2021).](https://arxiv.org/pdf/2106.01939.pdf)|[Python](https://github.com/jeankaddour/gin)|
+
 #### Treatment Responder Classification
 |Name|Paper|Code|
 |---|---|---|
