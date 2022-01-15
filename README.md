@@ -164,6 +164,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ### Learning to Rank
 |Name|Paper|Code|
 |---|---|---|
+|Policy-aware Estimator|[Oosterhuis, Harrie, and Maarten de Rijke. "Policy-aware unbiased learning to rank for top-k rankings." In Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 489-498. 2020.](https://arxiv.org/pdf/2005.09035.pdf)|[Python](https://github.com/HarrieO/2020topkunbiasedltr)|
 |Heckman^{rank}|[Ovaisi, Zohreh, Ragib Ahsan, Yifan Zhang, Kathryn Vasilaky, and Elena Zheleva. "Correcting for Selection Bias in Learning-to-rank Systems." arXiv preprint arXiv:2001.11358 (2020).](https://arxiv.org/abs/2001.11358)|NA|
 |TrustPBM| [Agarwal, Aman, Xuanhui Wang, Cheng Li, Mike Bendersky, and Marc Najork. "Addressing Trust Bias for Unbiased Learning-to-Rank." In The World Wide Web Conference, pp. 4-14. ACM, 2019.](https://research.google/pubs/pub47859/) |NA|
 |Unbiased LambdaMart|[Hu, Ziniu, Yang Wang, Qu Peng, and Hang Li. "Unbiased LambdaMART: An Unbiased Pairwise Learning-to-Rank Algorithm." In The World Wide Web Conference, pp. 2830-2836. ACM, 2019.](https://acbull.github.io/pdf/unbias.pdf)|[C++,Python,R](https://github.com/acbull/Unbiased_LambdaMart)|
