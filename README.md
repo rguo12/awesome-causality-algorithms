@@ -128,6 +128,13 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 
 ### Non-i.i.d Data
 
+#### Learning Causal Effects from Panel Data
+|Name|Paper|Code|
+|---|---|---|
+|Synthetic Control Method|[Abadie, Alberto. "Using synthetic controls: Feasibility, data requirements, and methodological aspects." Journal of Economic Literature 59.2 (2021): 391-425.](https://www.aeaweb.org/articles?id=10.1257/jel.20191450)|[R](https://cran.r-project.org/web/packages/Synth/Synth.pdf)|
+|Synthetic Difference in Differences|[Arkhangelsky, Dmitry, et al. Synthetic difference in differences. No. w25532. National Bureau of Economic Research, 2019.](https://www.nber.org/system/files/working_papers/w25532/w25532.pdf)|[R](https://github.com/synth-inference/synthdid)<br>[Python](https://github.com/MasaAsami/pysynthdid)|
+|Causal Impact|[Brodersen, K. H., Gallusser, F., Koehler, J., Remy, N., & Scott, S. L. (2015). Inferring causal impact using Bayesian structural time-series models. The Annals of Applied Statistics, 9(1), 247–274. doi: 10.1214/14-AOAS788](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)|[R](https://github.com/cran/bsts)<br>[Python](https://github.com/WillianFuks/tfcausalimpact)|
+
 #### Learning Causal Effects from Networked Observational Data
 |Name|Paper|Code|
 |---|---|---|
