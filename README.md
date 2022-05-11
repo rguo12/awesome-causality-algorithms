@@ -37,6 +37,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Tetrad|Tetrad is a modular, object-oriented program for causal inference.|[Java](https://github.com/cmu-phil/tetrad)|
 |[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|Causal Discovery for Python. A translation and extension of TETRAD.|[Python](https://github.com/cmu-phil/causal-learn)|
 |[Bench Press](https://benchpressdocs.readthedocs.io/en/latest/)|Reproducible and scalable execution and benchmarks of **29** structure learning algorithms supporting multiple language|[Code](https://github.com/felixleopoldo/benchpress)|
+|scikit-uplift|Uplift modeling in scikit-learn style in python|[Code](https://github.com/maks-sh/scikit-uplift)|
 |[Chaos Genius](https://www.chaosgenius.io/)|ML powered analytics engine for outlier/anomaly detection and root cause analysis.|[Python](https://github.com/chaos-genius/chaos_genius/)|
 
 ## Learning Causal Effects
