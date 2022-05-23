@@ -92,7 +92,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 #### Vectorized Treatments
 |Name|Paper|Code|
 |---|---|---|
-|Graph Intervention Networks for Causal Effect Estimation|[Jean Kaddour, Qi Liu, Yuchen Zhu, Matt J. Kusner, Ricardo Silva. "Graph Intervention Networks for Causal Effect Estimation", arXiv preprint arXiv:2106.01939 (2021).](https://arxiv.org/pdf/2106.01939.pdf)|[Python](https://github.com/jeankaddour/gin)|
+|Causal Effect Inference for Structured Treatments|[Jean Kaddour, Qi Liu, Yuchen Zhu, Matt J. Kusner, Ricardo Silva. "Causal Effect Inference for Structured Treatments", In NeurIPS 2021.](https://arxiv.org/pdf/2106.01939.pdf)|[Python](https://github.com/JeanKaddour/SIN)|
 
 #### Treatment Responder Classification
 |Name|Paper|Code|
