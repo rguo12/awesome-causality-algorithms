@@ -61,14 +61,14 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 <!-- |BNR-NNM(balanced and nonlinear representations-nearest neighbor matching)|[Li, Sheng, and Yun Fu. "Matching on balanced nonlinear representations for treatment effects estimation." In Advances in Neural Information Processing Systems, pp. 929-939. 2017.](http://papers.nips.cc/paper/6694-matching-on-balanced-nonlinear-representations-for-treatment-effects-estimation.pdf)|NA| -->
 <!-- |Deep Counterfactual Networks (Propensity Dropout)|[Alaa, Ahmed M., Michael Weisz, and Mihaela van der Schaar. "Deep counterfactual networks with propensity-dropout." arXiv preprint arXiv:1706.05966 (2017)](https://arxiv.org/pdf/1706.05966)|NA| -->
 
-#### Classic Methods
+##### Classic Methods
 |Name|Paper|Code|
 |---|---|---|
 |Propensity Score Matching|[Rosenbaum, Paul R., and Donald B. Rubin. "The central role of the propensity score in observational studies for causal effects." Biometrika 70, no. 1 (1983): 41-55.](https://academic.oup.com/biomet/article-pdf/70/1/41/662954/70-1-41.pdf)|[Python](https://github.com/akelleh/causality/tree/master/causality/estimation)|
 <!-- |Nonparametric Regression Adjustment|   |[Python](https://github.com/akelleh/causality)|
  -->
  
- #### Tree based Methods
+##### Tree based Methods
 |Name|Paper|Code|
 |---|---|---|
 |X-learner|[Künzel, Sören R., Jasjeet S. Sekhon, Peter J. Bickel, and Bin Yu. "Metalearners for estimating heterogeneous treatment effects using machine learning." Proceedings of the National Academy of Sciences 116, no. 10 (2019): 4156-4165.](https://www.pnas.org/content/pnas/early/2019/02/14/1804597116.full.pdf)|[code R](https://github.com/soerenkuenzel/hte), [code R](https://github.com/xnie/rlearner/blob/master/R/xlearner.R)|
