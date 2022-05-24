@@ -1,6 +1,6 @@
 # awesome-causality-algorithms [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-An index of algorithms for learning causality with data.
+An index of algorithms for causal machine learning.
 
 **Reproducibility is important!** We will remove those methods without open-source code unless it is a survey/review paper.
 
