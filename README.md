@@ -155,7 +155,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Synthetic Control Method|[Abadie, Alberto. "Using synthetic controls: Feasibility, data requirements, and methodological aspects." Journal of Economic Literature 59.2 (2021): 391-425.](https://www.aeaweb.org/articles?id=10.1257/jel.20191450)|[R](https://cran.r-project.org/web/packages/Synth/Synth.pdf)|
 |Synthetic Difference in Differences|[Arkhangelsky, Dmitry, et al. Synthetic difference in differences. No. w25532. National Bureau of Economic Research, 2019.](https://www.nber.org/system/files/working_papers/w25532/w25532.pdf)|[R](https://github.com/synth-inference/synthdid)<br>[Python](https://github.com/MasaAsami/pysynthdid)|
 |Causal Impact|[Brodersen, K. H., Gallusser, F., Koehler, J., Remy, N., & Scott, S. L. (2015). Inferring causal impact using Bayesian structural time-series models. The Annals of Applied Statistics, 9(1), 247–274. doi: 10.1214/14-AOAS788](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)|[R](https://github.com/cran/bsts)<br>[Python](https://github.com/WillianFuks/tfcausalimpact)|
-|Time Series Deconfounder|[Bica, Ioana, Ahmed M. Alaa, and Mihaela van der Schaar. "Time Series Deconfounder: Estimating Treatment Effects over Time in the Presence of Hidden Confounders." arXiv preprint arXiv:1902.00450 (2019).](https://arxiv.org/pdf/1902.00450.pdf)|NA|
+|Time Series Deconfounder|[Bica, Ioana, Ahmed M. Alaa, and Mihaela van der Schaar. "Time Series Deconfounder: Estimating Treatment Effects over Time in the Presence of Hidden Confounders." In ICML 2020.](https://arxiv.org/pdf/1902.00450.pdf)|[code](https://github.com/ioanabica/Time-Series-Deconfounder)|
 |Recurrent Marginal Structural Networks|[Lim, Bryan. "Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks." In Advances in Neural Information Processing Systems, pp. 7494-7504. 2018.](http://medianetlab.ee.ucla.edu/papers/nips_rmsn.pdf)|[Python](https://github.com/sjblim/rmsn_nips_2018)|
 |Longitudinal Targeted Maximum Likelihood Estimation|[Petersen, Maya, Joshua Schwab, Susan Gruber, Nello Blaser, Michael Schomaker, and Mark van der Laan. "Targeted maximum likelihood estimation for dynamic and static longitudinal marginal structural working models." Journal of causal inference 2, no. 2 (2014): 147-185.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4405134/)|[R](https://github.com/joshuaschwab/ltmle)|
 |Causal Transformer|[Melnychuk, Valentyn, Dennis Frauen, and Stefan Feuerriegel. "Causal Transformer for Estimating Counterfactual Outcomes." arXiv preprint arXiv:2204.07258 (2022).](https://arxiv.org/abs/2204.07258)|[Python](https://github.com/Valentyn1997/CausalTransformer)|
@@ -166,6 +166,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Network Deconfounder|[Guo, Ruocheng, Jundong Li, and Huan Liu. "Learning Individual Causal Effects from Networked Observational Data." WSDM 2020.](https://arxiv.org/abs/1906.03485)|[Python](https://github.com/rguo12/network-deconfounder-wsdm20)|
 |Causal Inference with Network Embeddings|[Veitch, Victor, Yixin Wang, and David M. Blei. "Using embeddings to correct for unobserved confounding." arXiv preprint arXiv:1902.04114 (2019).](https://arxiv.org/pdf/1902.04114)|[Python](https://github.com/vveitch/causal-network-embeddings)|
 |Linked Causal Variational Autoencoder (LCVA)|[Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." CIKM 2018.](http://www.public.asu.edu/~rguo12/CIKM18.pdf)|[Python](https://github.com/rguo12/CIKM18-LCVA)|
+|Method-of-moments Estimators|[Li, Wenrui, Daniel L. Sussman, and Eric D. Kolaczyk. "Causal Inference under Network Interference with Noise." arXiv preprint arXiv:2105.04518 (2021).](https://arxiv.org/abs/2105.04518)|[code](https://github.com/KolaczykResearch/CausInfNoisyNet)|
 <!-- |GNN-based Causal Effect Estimators|[Ma, Yunpu, Yuyi Wang, and Volker Tresp. "Causal Inference under Networked Interference." arXiv preprint arXiv:2002.08506 (2020).](https://arxiv.org/pdf/2002.08506.pdf)|NA| -->
 
 
@@ -174,23 +175,40 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ### OoD Generalization
 |Name|Paper|Code|
 |---|---|---|
-|DomainBed|Gulrajani, Ishaan, and David Lopez-Paz. "In search of lost domain generalization." arXiv preprint arXiv:2007.01434 (2020).|[code](https://github.com/facebookresearch/DomainBed)|
+|DomainBed|Gulrajani, Ishaan, and David Lopez-Paz. "In Search of Lost Domain Generalization." In International Conference on Learning Representations. 2020.|[code](https://github.com/facebookresearch/DomainBed)|
 |WILDS|Koh, Pang Wei, Shiori Sagawa, Henrik Marklund, Sang Michael Xie, Marvin Zhang, Akshay Balsubramani, Weihua Hu et al. "Wilds: A benchmark of in-the-wild distribution shifts." In International Conference on Machine Learning, pp. 5637-5664. PMLR, 2021.|[code](https://github.com/p-lambda/wilds)|
 |IBM OoD|Repository for theory and methods for Out-of-Distribution (OoD) generalization by IBM Research|[code](https://github.com/IBM/OoD)|
 |Survey from THU|Shen, Zheyan, Jiashuo Liu, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, and Peng Cui. "Towards out-of-distribution generalization: A survey." arXiv preprint arXiv:2108.13624 (2021).|NA|
 
 ### Recommendation Systems
+
+#### Inverse Propensity Scoring / Doubly Robust
 |Name|Paper|Code|
 |---|---|---|
-|Unbiased Offline Recommender Learning|[Saito, Yuta, Suguru Yaginuma, Yuta Nishino, Hayato Sakata, and Kazuhide Nakata. "Unbiased Recommender Learning from Missing-Not-At-Random Implicit Feedback." In Proceedings of the 13th International Conference on Web Search and Data Mining, pp. 501-509. ACM, 2020.](https://dl.acm.org/doi/abs/10.1145/3336191.3371783)|[Python](https://github.com/usaito/unbiased-implicit-rec-real)|
-|Domain Adversarial Matrix Factorization|[Saito, Yuta, and Masahiro Nomura. "Towards Resolving Propensity Contradiction in Offline Recommender Learning." In IJCAI 2022](https://usaito.github.io/files/IJCAI2022_DAMF.pdf)|[code](https://github.com/usaito/ijcai2022-adversarial-mf)|
 |Top-K Off-policy Correction|[Chen, Minmin, Alex Beutel, Paul Covington, Sagar Jain, Francois Belletti, and Ed H. Chi. "Top-k off-policy correction for a REINFORCE recommender system." In Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining, pp. 456-464. ACM, 2019.](https://arxiv.org/abs/1812.02353)|[Python](https://github.com/awarebayes/RecNN)|
-|Causal Embedding for Recommendation|[Bonner, Stephen, and Flavian Vasile. "Causal embeddings for recommendation." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 104-112. ACM, 2018. (**BEST PAPER**)](https://arxiv.org/pdf/1706.07639)|[Python](https://github.com/criteo-research/CausE)|
+|Unbiased Offline Recommender Learning|[Saito, Yuta, Suguru Yaginuma, Yuta Nishino, Hayato Sakata, and Kazuhide Nakata. "Unbiased Recommender Learning from Missing-Not-At-Random Implicit Feedback." In Proceedings of the 13th International Conference on Web Search and Data Mining, pp. 501-509. ACM, 2020.](https://dl.acm.org/doi/abs/10.1145/3336191.3371783)|[Python](https://github.com/usaito/unbiased-implicit-rec-real)|
 |Unbiased Offline Recommender Evaluation|[Yang, Longqi, Yin Cui, Yuan Xuan, Chenyang Wang, Serge Belongie, and Deborah Estrin. "Unbiased offline recommender evaluation for missing-not-at-random implicit feedback." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 279-287. ACM, 2018.](https://dl.acm.org/citation.cfm?id=3240355)|[Python](https://github.com/ylongqi/unbiased-offline-recommender-evaluation)|
 |IPS Estimator|[Schnabel, Tobias, Adith Swaminathan, Ashudeep Singh, Navin Chandak, and Thorsten Joachims. "Recommendations as treatments: Debiasing learning and evaluation." arXiv preprint arXiv:1602.05352 (2016).](http://www.jmlr.org/proceedings/papers/v48/schnabel16.pdf)|[Python](http://www.cs.cornell.edu/~schnabts/mnar/index.html)|
-|Deconfounded Recsys|[Wang, Yixin, Dawen Liang, Laurent Charlin, and David M. Blei. "Causal Inference for Recommender Systems." In Proceedings of the Fourteenth ACM Conference on Recommender Systems (2020).](https://dl.acm.org/doi/10.1145/3383313.3412225)|[Python](https://github.com/yixinwang/causal-recsys-public)|
-|Causal Embedding for User Interest and Conformity|[Zheng, Y., Gao, C., Li, X., He, X., Li, Y., & Jin, D. (2021, April). Disentangling User Interest and Conformity for Recommendation with Causal Embedding. In Proceedings of the Web Conference 2021 (pp. 2980-2991).](https://arxiv.org/abs/2006.11011)|[Python](https://github.com/tsinghua-fib-lab/DICE)|
 <!-- |Doubly Robust Joint Learning|[Wang, Xiaojie, Rui Zhang, Yu Sun, and Jianzhong Qi. "Doubly Robust Joint Learning for Recommendation on Data Missing Not at Random." In International Conference on Machine Learning, pp. 6638-6647. 2019.](http://proceedings.mlr.press/v97/wang19n.html)|NA| -->
+
+#### Hidden Confounding
+|Name|Paper|Code|
+|---|---|---|
+|Deconfounded Recsys|[Wang, Yixin, Dawen Liang, Laurent Charlin, and David M. Blei. "Causal Inference for Recommender Systems." In Proceedings of the Fourteenth ACM Conference on Recommender Systems (2020).](https://dl.acm.org/doi/10.1145/3383313.3412225)|[Python](https://github.com/yixinwang/causal-recsys-public)|
+
+
+#### Domain Adaptation
+|Name|Paper|Code|
+|---|---|---|
+|Causal Embedding for Recommendation|[Bonner, Stephen, and Flavian Vasile. "Causal embeddings for recommendation." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 104-112. ACM, 2018. (**BEST PAPER**)](https://arxiv.org/pdf/1706.07639)|[Python](https://github.com/criteo-research/CausE)|
+|Domain Adversarial Matrix Factorization|[Saito, Yuta, and Masahiro Nomura. "Towards Resolving Propensity Contradiction in Offline Recommender Learning." In IJCAI 2022](https://usaito.github.io/files/IJCAI2022_DAMF.pdf)|[code](https://github.com/usaito/ijcai2022-adversarial-mf)|
+
+
+#### Disentanglement
+|Name|Paper|Code|
+|---|---|---|
+|Causal Embedding for User Interest and Conformity|[Zheng, Y., Gao, C., Li, X., He, X., Li, Y., & Jin, D. (2021, April). Disentangling User Interest and Conformity for Recommendation with Causal Embedding. In Proceedings of the Web Conference 2021 (pp. 2980-2991).](https://arxiv.org/abs/2006.11011)|[Python](https://github.com/tsinghua-fib-lab/DICE)|
+
 
 
 ### Learning to Rank
@@ -272,7 +290,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ||Odena, Augustus, Jacob Buckman, Catherine Olsson, Tom B. Brown, Christopher Olah, Colin Raffel, and Ian Goodfellow. "Is Generator Conditioning Causally Related to GAN Performance?." arXiv preprint arXiv:1802.08768 (2018).|NA|
 |Causal GAN|Kocaoglu, Murat, Christopher Snyder, Alexandros G. Dimakis, and Sriram Vishwanath. "CausalGAN: Learning Causal Implicit Generative Models with Adversarial Training." arXiv preprint arXiv:1709.02023 (2017).|[Python](https://github.com/mkocaoglu/CausalGAN)| -->
 
-## Learning Causal Relations
+## Causal Discovery
 ### With i.i.d. Data
 |Name|Paper|Code|
 |---|---|---|
