@@ -71,7 +71,6 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ##### Tree based Methods
 |Name|Paper|Code|
 |---|---|---|
-|X-learner|[Künzel, Sören R., Jasjeet S. Sekhon, Peter J. Bickel, and Bin Yu. "Metalearners for estimating heterogeneous treatment effects using machine learning." Proceedings of the National Academy of Sciences 116, no. 10 (2019): 4156-4165.](https://www.pnas.org/content/pnas/early/2019/02/14/1804597116.full.pdf)|[code R](https://github.com/soerenkuenzel/hte), [code R](https://github.com/xnie/rlearner/blob/master/R/xlearner.R)|
 |Causal Forest|[Wager, Stefan, and Susan Athey. "Estimation and inference of heterogeneous treatment effects using random forests." JASA (2017).](https://www.tandfonline.com/doi/pdf/10.1080/01621459.2017.1319839)|[code R](https://github.com/grf-labs/grf), [code Python](https://github.com/kjung/scikit-learn)|
 |Causal MARS, Causal Boosting, Pollinated Transformed Outcome Forests|[S. Powers et al., “Some methods for heterogeneous treatment effect estimation in high-dimensions,” 2017.](https://arxiv.org/pdf/1707.00102.pdf)|[code R](https://github.com/grf-labs/grf), [code R](https://github.com/saberpowers/causalLearning)|
 |Bayesian Additive Regression Trees (BART)|[Hill, Jennifer L. "Bayesian nonparametric modeling for causal inference." Journal of Computational and Graphical Statistics 20, no. 1 (2011): 217-240.](https://www.tandfonline.com/doi/pdf/10.1198/jcgs.2010.08162)|[Python](https://github.com/JakeColtman/bartpy)|
@@ -80,6 +79,12 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 <!-- |NSGP (Non-stationary Gaussian Process Prior)|[Alaa, Ahmed, and Mihaela Schaar. "Limits of estimating heterogeneous treatment effects: Guidelines for practical algorithm design." In International Conference on Machine Learning, pp. 129-138. 2018.](http://proceedings.mlr.press/v80/alaa18a/alaa18a.pdf)|NA| -->
 <!-- |CMGP (Causal Multi-task Gaussian Processes)|[Alaa, Ahmed M., and Mihaela van der Schaar. "Bayesian inference of individualized treatment effects using multi-task gaussian processes." In Advances in Neural Information Processing Systems, pp. 3424-3432. 2017.](https://papers.nips.cc/paper/6934-bayesian-inference-of-individualized-treatment-effects-using-multi-task-gaussian-processes.pdf)|NA| -->
 <!-- |Functional Interval Estimator|[Kallus, Nathan, Xiaojie Mao, and Angela Zhou. "Interval Estimation of Individual-Level Causal Effects Under Unobserved Confounding." In The 22nd International Conference on Artificial Intelligence and Statistics, pp. 2281-2290. 2019.](https://arxiv.org/abs/1810.02894)|NA| -->
+
+##### Meta Learner
+|Name|Paper|Code|
+|---|---|---|
+|X-learner|[Künzel, Sören R., Jasjeet S. Sekhon, Peter J. Bickel, and Bin Yu. "Metalearners for estimating heterogeneous treatment effects using machine learning." Proceedings of the National Academy of Sciences 116, no. 10 (2019): 4156-4165.](https://www.pnas.org/content/pnas/early/2019/02/14/1804597116.full.pdf)|[code R](https://github.com/soerenkuenzel/hte), [code R](https://github.com/xnie/rlearner/blob/master/R/xlearner.R)|
+
 
 #### For Average Treatment Effect (including ATT and ATC)
 |Name|Paper|Code|
