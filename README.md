@@ -293,19 +293,24 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Causal GAN|Kocaoglu, Murat, Christopher Snyder, Alexandros G. Dimakis, and Sriram Vishwanath. "CausalGAN: Learning Causal Implicit Generative Models with Adversarial Training." arXiv preprint arXiv:1709.02023 (2017).|[Python](https://github.com/mkocaoglu/CausalGAN)| -->
 
 ## Causal Discovery
-### With i.i.d. Data
+### for i.i.d. Data
+#### Classic Methods
 |Name|Paper|Code|
 |---|---|---|
 |IC algorithm| |[Python](https://github.com/akelleh/causality)|
 |PC algorithm|P. Spirtes, C. Glymour, and R. Scheines. Causation, Prediction, and Search. The MIT Press, 2nd edition, 2000.|[Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
 |FCI algorithm|P. Spirtes, C. Glymour, and R. Scheines. Causation, Prediction, and Search. The MIT Press, 2nd edition, 2000. |[R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
+
+#### Continuous Optimization
+|Name|Paper|Code|
+|---|---|---|
 |DAGs with NO TEARS|[Zheng, Xun, Bryon Aragam, Pradeep K. Ravikumar, and Eric P. Xing. "DAGs with NO TEARS: Continuous optimization for structure learning." NeurIPS 2018.](http://papers.nips.cc/paper/8157-dags-with-no-tears-continuous-optimization-for-structure-learning)|[Numpy, Pytorch](https://github.com/xunzheng/notears)|
 |DAG-GNN|[{Yue Yu, Jie Chen, Tian Gao, and Mo Yu. "DAG-GNN: DAG Structure Learning with Graph Neural Networks." ICML 2019.](https://arxiv.org/abs/1904.10098)|[Pytorch](https://github.com/fishmoon1234/DAG-GNN)|
 
 #### Learning IV
 |Name|Paper|Code|
 |---|---|---|
-|IV Discovery Methods|[Silva, Ricardo, and Shohei Shimizu. "Learning instrumental variables with structural and non-gaussianity assumptions." The Journal of Machine Learning Research 18, no. 1 (2017): 4321-4369.](http://www.jmlr.org/papers/volume18/17-014/17-014.pdf)|NA|
+|IV Discovery Methods|[Silva, Ricardo, and Shohei Shimizu. "Learning instrumental variables with structural and non-gaussianity assumptions." The Journal of Machine Learning Research 18, no. 1 (2017): 4321-4369.](http://www.jmlr.org/papers/volume18/17-014/17-014.pdf)|[code](http://www.homepages.ucl.ac.uk/~ucgtrbd/code/iv_discovery/)|
 
 #### Distinguishing Cause from Effect (Bivariate)
 |Name|Paper|Code|
@@ -317,17 +322,17 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |---|---|---|
 |RCIT|   |[R](https://github.com/ericstrobl/RCIT)|
 
-#### Causal Discovery Meets Probabilistic Logic Programming
+#### Causal Discovery with Probabilistic Logic Programming
 |Name|Paper|Code|
 |---|---|---|
 |Causal PSL|Sridhar, Dhanya, Jay Pujara, and Lise Getoor. "Scalable Probabilistic Causal Structure Discovery." In IJCAI, pp. 5112-5118. 2018.|[Java](https://bitbucket.org/linqs/causpsl)|
 
-### Learning Causal Relationships with non-i.i.d. Data
-|Name|Paper|Code|
-|---|---|---|
-|TCDF: Temporal Causal Discovery Framework|[Nauta, Meike, Doina Bucur, and Christin Seifert. "Causal discovery with attention-based convolutional neural networks." Machine Learning and Knowledge Extraction.](https://www.mdpi.com/2504-4990/1/1/19)|[Pytorch](https://github.com/M-Nauta/TCDF)|
-
-#### Scalable Ensemble Causality Discovery
+#### Scalable Ensemble Causal Discovery
 |Name|Paper|Code|
 |---|---|---|
 |Scalable and Hybrid Ensemble-Based Causality Discovery|[Pei Guo, Achuna Ofonedu, Jianwu Wang. "Scalable and Hybrid Ensemble-Based Causality Discovery." In Proceedings of the 2020 IEEE International Conference on Smart Data Services (SMDS), pp. 72-80.](https://ieeexplore.ieee.org/document/9288491)|[Python](https://github.com/big-data-lab-umbc/ensemble_causality_learning)|
+
+### with Temporal Data
+|Name|Paper|Code|
+|---|---|---|
+|TCDF: Temporal Causal Discovery Framework|[Nauta, Meike, Doina Bucur, and Christin Seifert. "Causal discovery with attention-based convolutional neural networks." Machine Learning and Knowledge Extraction.](https://www.mdpi.com/2504-4990/1/1/19)|[Pytorch](https://github.com/M-Nauta/TCDF)|
