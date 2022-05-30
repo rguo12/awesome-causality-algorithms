@@ -345,6 +345,10 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Name|Paper|Code|
 |---|---|---|
 |BMLiNGAM|S. Shimizu and K. Bollen. Bayesian estimation of causal direction in acyclic structural equation models with individual-specific confounder variables and non-Gaussian distributions. Journal of Machine Learning Research, 15: 2629-2652, 2014.|[Python](https://github.com/taku-y/bmlingam)|
+|Sloppy|Marx, A & Vreeken, J Identifiability of Cause and Effect using Regularized Regression. In: Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), ACM, 2019.|[R](https://eda.mmci.uni-saarland.de/prj/sloppy/)|
+|RECI|Blöbaum, Patrick, Dominik Janzing, Takashi Washio, Shohei Shimizu, and Bernhard Schölkopf. "Cause-effect inference by comparing regression errors." In International Conference on Artificial Intelligence and Statistics, pp. 900-909. PMLR, 2018.|in [CausalDiscoveryToolbox](https://github.com/FenTechSolutions/CausalDiscoveryToolbox)|
+|bQCD|Tagasovska, Natasa, Valérie Chavez-Demoulin, and Thibault Vatter. "Distinguishing cause from effect using quantiles: Bivariate quantile causal discovery." In International Conference on Machine Learning, pp. 9311-9323. PMLR, 2020.|[code]https://github.com/tagas/bQCD|
+|CGNN|Goudet, Olivier, Diviyan Kalainathan, Philippe Caillou, Isabelle Guyon, David Lopez-Paz, and Michele Sebag. "Learning functional causal models with generative neural networks." In Explainable and interpretable models in computer vision and machine learning, pp. 39-80. Springer, Cham, 2018.|[code](https://github.com/GoudetOlivier/CGNN)|
 
 #### Conditional Independence Tests (for Constraint-based Algorithms)
 |Name|Paper|Code|
