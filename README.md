@@ -27,22 +27,40 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 - [Causal Machine Learning](#causal-machine-learning)
 
 ## Toolboxes
+
+### Comprehensive
+|Name|Paper|Code|
+|---|---|---|
+|Trustworthy AI|This repository aims to include trustworthy AI related projects from Huawei Noah's Ark Lab. Current projects include:Causal Structure Learning, Causal Disentangled Representation Learning, gCastle (or pyCastle, pCastle).|[Python](https://github.com/huawei-noah/trustworthyAI)|
+
+### Treatment Effect Estimation / Uplift Modeling
 |Name|Paper|Code|
 |---|---|---|
 |DoWhy|[Amit Sharma and Emre Kiciman. "Tutorial on Causal Inference and Counterfactual Reasoning." In ACM SIGKDD 2018](http://causalinference.gitlab.io/kdd-tutorial/)|[Python](https://github.com/microsoft/dowhy)|
-|[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|[Ramsey, Joseph D., Kun Zhang, Madelyn Glymour, Ruben Sanchez Romero, Biwei Huang, Imme Ebert-Uphoff, Savini Samarasinghe, Elizabeth A. Barnes, and Clark Glymour. "TETRAD-AToolbox FOR CAUSAL DISCOVERY."](https://www.atmos.colostate.edu/~iebert/PAPERS/CI2018_paper_35.pdf)|[R](https://github.com/bd2kccd/r-causal)|
-|CausalDiscoveryToolbox|[Kalainathan, Diviyan, and Olivier Goudet. "Causal Discovery Toolbox: Uncover causal relationships in Python." arXiv preprint arXiv:1903.02278 (2019).](https://arxiv.org/pdf/1903.02278)|[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)|
 |EconML|["Causal Inference and Machine Learning in Practice with EconML and CausalML" In EconML/CausalML KDD 2021 Tutorial](https://causal-machine-learning.github.io/kdd2021-tutorial/)|[Python](https://econml.azurewebsites.net/spec/spec.html)|
 |Uber CausalML|[Chen, Huigang, et al. "Causalml: Python package for causal machine learning." arXiv preprint arXiv:2002.11631 (2020).](https://arxiv.org/pdf/2002.11631.pdf)|[Python](https://github.com/uber/causalml)|
 |JustCause|For evaluation of heterogeneous treatment effect estimators on common reference as well as synthetic data. [Underlying thesis](https://justcause.readthedocs.io/en/latest/_downloads/e054f7a0fc9cf9e680173600cb4b4350/thesis-mfranz.pdf)|[Python](https://github.com/inovex/justcause)|
 |WhyNot|An experimental sandbox for causal inference and decision making in dynamics. [Documentation](https://whynot.readthedocs.io/en/latest/)|[Python](https://github.com/zykls/whynot)|
-|CausalNex|A toolkit for causal reasoning with Bayesian Networks.|[Python](https://github.com/quantumblacklabs/causalnex)|
-|Trustworthy AI|This repository aims to include trustworthy AI related projects from Huawei Noah's Ark Lab. Current projects include:Causal Structure Learning, Causal Disentangled Representation Learning, gCastle (or pyCastle, pCastle).|[Python](https://github.com/huawei-noah/trustworthyAI)|
-|Tetrad|Tetrad is a modular, object-oriented program for causal inference.|[Java](https://github.com/cmu-phil/tetrad)|
-|[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|Causal Discovery for Python. A translation and extension of TETRAD.|[Python](https://github.com/cmu-phil/causal-learn)|
-|[Bench Press](https://benchpressdocs.readthedocs.io/en/latest/)|Reproducible and scalable execution and benchmarks of **29** structure learning algorithms supporting multiple language|[Code](https://github.com/felixleopoldo/benchpress)|
 |scikit-uplift|Uplift modeling in scikit-learn style in python|[Code](https://github.com/maks-sh/scikit-uplift)|
+
+### Causal Discovery
+|Name|Paper|Code|
+|---|---|---|
+|[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|[Ramsey, Joseph D., Kun Zhang, Madelyn Glymour, Ruben Sanchez Romero, Biwei Huang, Imme Ebert-Uphoff, Savini Samarasinghe, Elizabeth A. Barnes, and Clark Glymour. "TETRAD-AToolbox FOR CAUSAL DISCOVERY."](https://www.atmos.colostate.edu/~iebert/PAPERS/CI2018_paper_35.pdf)|[R](https://github.com/bd2kccd/r-causal)|
+|Causaldag|Python package for the creation, manipulation, and learning of Causal DAGs|[code](https://github.com/uhlerlab/causaldag)|
+|CausalNex|A toolkit for causal reasoning with Bayesian Networks.|[Python](https://github.com/quantumblacklabs/causalnex)|
+|[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|Causal Discovery for Python. A translation and extension of TETRAD.|[Python](https://github.com/cmu-phil/causal-learn)|
+|Tetrad|Tetrad is a modular, object-oriented program for causal inference.|[Java](https://github.com/cmu-phil/tetrad)|
+|[Bench Press](https://benchpressdocs.readthedocs.io/en/latest/)|Reproducible and scalable execution and benchmarks of **29** structure learning algorithms supporting multiple language|[Code](https://github.com/felixleopoldo/benchpress)|
+|CausalDiscoveryToolbox|[Kalainathan, Diviyan, and Olivier Goudet. "Causal Discovery Toolbox: Uncover causal relationships in Python." arXiv preprint arXiv:1903.02278 (2019).](https://arxiv.org/pdf/1903.02278)|[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)|
+
+
+### Other Applications
+|Name|Paper|Code|
+|---|---|---|
 |[Chaos Genius](https://www.chaosgenius.io/)|ML powered analytics engine for outlier/anomaly detection and root cause analysis.|[Python](https://github.com/chaos-genius/chaos_genius/)|
+
+
 
 ## Causal Effect Estimation
 
@@ -180,7 +198,14 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |DomainBed|Gulrajani, Ishaan, and David Lopez-Paz. "In Search of Lost Domain Generalization." In International Conference on Learning Representations. 2020.|[code](https://github.com/facebookresearch/DomainBed)|
 |WILDS|Koh, Pang Wei, Shiori Sagawa, Henrik Marklund, Sang Michael Xie, Marvin Zhang, Akshay Balsubramani, Weihua Hu et al. "Wilds: A benchmark of in-the-wild distribution shifts." In International Conference on Machine Learning, pp. 5637-5664. PMLR, 2021.|[code](https://github.com/p-lambda/wilds)|
 |IBM OoD|Repository for theory and methods for Out-of-Distribution (OoD) generalization by IBM Research|[code](https://github.com/IBM/OoD)|
-|Survey from THU|Shen, Zheyan, Jiashuo Liu, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, and Peng Cui. "Towards out-of-distribution generalization: A survey." arXiv preprint arXiv:2108.13624 (2021).|NA|
+|OoD Bench|Ye, Nanyang, Kaican Li, Lanqing Hong, Haoyue Bai, Yiting Chen, Fengwei Zhou, and Zhenguo Li. "Ood-bench: Benchmarking and understanding out-of-distribution generalization datasets and algorithms." arXiv preprint arXiv:2106.03721 (2021).|[code](https://github.com/m-Just/OoD-Bench)|
+|BEDS-Bench|Avati, Anand, Martin Seneviratne, Emily Xue, Zhen Xu, Balaji Lakshminarayanan, and Andrew M. Dai. "BEDS-Bench: Behavior of EHR-models under Distributional Shift--A Benchmark." arXiv preprint arXiv:2107.08189 (2021).|[code](https://github.com/Google-Health/records-research/tree/master/beds-bench)|
+|Survey THU|Shen, Zheyan, Jiashuo Liu, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, and Peng Cui. "Towards out-of-distribution generalization: A survey." arXiv preprint arXiv:2108.13624 (2021).|NA|
+
+#### Graph OoD Generalization
+|Name|Paper|Code|
+|---|---|---|
+|Survey THU|Li, Haoyang, Xin Wang, Ziwei Zhang, and Wenwu Zhu. "Out-of-distribution generalization on graphs: A survey." arXiv preprint arXiv:2202.07987 (2022).|NA|
 
 ### Recommendation Systems
 
@@ -306,6 +331,10 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |---|---|---|
 |DAGs with NO TEARS|[Zheng, Xun, Bryon Aragam, Pradeep K. Ravikumar, and Eric P. Xing. "DAGs with NO TEARS: Continuous optimization for structure learning." NeurIPS 2018.](http://papers.nips.cc/paper/8157-dags-with-no-tears-continuous-optimization-for-structure-learning)|[Numpy, Pytorch](https://github.com/xunzheng/notears)|
 |DAG-GNN|[{Yue Yu, Jie Chen, Tian Gao, and Mo Yu. "DAG-GNN: DAG Structure Learning with Graph Neural Networks." ICML 2019.](https://arxiv.org/abs/1904.10098)|[Pytorch](https://github.com/fishmoon1234/DAG-GNN)|
+
+#### Amortized Causal Discovery
+|Name|Paper|Code|
+|---|---|---|
 
 #### Learning IV
 |Name|Paper|Code|
