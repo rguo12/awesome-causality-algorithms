@@ -195,6 +195,11 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 
 ## Causal Machine Learning
 
+### Surveys
+|Name|Paper|Code|
+|---|---|---|
+|CausalML|[Jean Kaddour, Aengus Lynch, Qi Liu, Matt J. Kusner, Ricardo Silva. "Causal Machine Learning: A Survey and Open Problems" arXiv preprint arXiv:2206.15475 (2022)](https://arxiv.org/abs/2206.15475).|NA|
+
 ### OoD Generalization
 |Name|Paper|Code|
 |---|---|---|
