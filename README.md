@@ -64,6 +64,9 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 
 
 ## Causal Effect Estimation
+|Name|Paper|Code|
+|---|---|---|
+|Survey Paper|[Yao, Liuyi, Zhixuan Chu, Sheng Li, Yaliang Li, Jing Gao, and Aidong Zhang. "A survey on causal inference." ACM Transactions on Knowledge Discovery from Data (TKDD) 15, no. 5 (2021): 1-46.](https://arxiv.org/abs/2002.02770)|NA|
 
 ### With i.i.d Data
 
