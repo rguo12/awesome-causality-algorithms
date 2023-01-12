@@ -217,6 +217,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 #### Graph OoD Generalization
 |Name|Paper|Code|
 |---|---|---|
+|CIGA|Chen, Yongqiang, Yonggang Zhang, Yatao Bian, Han Yang, Kaili Ma, Binghui Xie, Tongliang Liu, Bo Han, and James Cheng. "Learning Causally Invariant Representations for Out-of-Distribution Generalization on Graphs." In Advances in Neural Information Processing Systems (2022).|[code](https://github.com/LFhase/CIGA)|
 |Survey THU|Li, Haoyang, Xin Wang, Ziwei Zhang, and Wenwu Zhu. "Out-of-distribution generalization on graphs: A survey." arXiv preprint arXiv:2202.07987 (2022).|NA|
 
 ### Recommendation Systems
