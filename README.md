@@ -29,7 +29,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ## Toolboxes
 
 ### Comprehensive
-|Name|Code|Comment|Institute|
+|Name|Code|Comment|
 |---|---|---|
 |Trustworthy AI|[Python](https://github.com/huawei-noah/trustworthyAI)|Causal Structure Learning, Causal Disentangled Representation Learning, gCastle (or pyCastle, pCastle).|
 |[YLearn](https://ylearn.readthedocs.io/en/latest/)|[Python](https://github.com/DataCanvasIO/YLearn)|Python package for causal discovery，causal effect identification/estimation, counterfactual inference，policy learning，etc.|
