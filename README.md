@@ -29,44 +29,44 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ## Toolboxes
 
 ### Comprehensive
-|Name|Paper|Code|
+|Name|Code|Comment|Institute|
 |---|---|---|
-|Trustworthy AI|This repository aims to include trustworthy AI related projects from Huawei Noah's Ark Lab. Current projects include:Causal Structure Learning, Causal Disentangled Representation Learning, gCastle (or pyCastle, pCastle).|[Python](https://github.com/huawei-noah/trustworthyAI)|
-|[YLearn](https://ylearn.readthedocs.io/en/latest/)|YLearn, a pun of “learn why”, is a python package for causal learning which supports various aspects of causal inference ranging from causal discovery，causal effect identification, causal effect estimation, counterfactual inference，policy learning，etc.|[Python](https://github.com/DataCanvasIO/YLearn)|
+|Trustworthy AI|[Python](https://github.com/huawei-noah/trustworthyAI)|Causal Structure Learning, Causal Disentangled Representation Learning, gCastle (or pyCastle, pCastle).|
+|[YLearn](https://ylearn.readthedocs.io/en/latest/)|[Python](https://github.com/DataCanvasIO/YLearn)|Python package for causal discovery，causal effect identification/estimation, counterfactual inference，policy learning，etc.|
 
 ### Treatment Effect Estimation / Uplift Modeling
-|Name|Paper|Code|
-|---|---|---|
-|DoWhy|[Amit Sharma and Emre Kiciman. "Tutorial on Causal Inference and Counterfactual Reasoning." In ACM SIGKDD 2018](http://causalinference.gitlab.io/kdd-tutorial/)|[Python](https://github.com/microsoft/dowhy)|
-|EconML|["Causal Inference and Machine Learning in Practice with EconML and CausalML" In EconML/CausalML KDD 2021 Tutorial](https://causal-machine-learning.github.io/kdd2021-tutorial/)|[Python](https://econml.azurewebsites.net/spec/spec.html)|
-|Uber CausalML|[Chen, Huigang, et al. "Causalml: Python package for causal machine learning." arXiv preprint arXiv:2002.11631 (2020).](https://arxiv.org/pdf/2002.11631.pdf)|[Python](https://github.com/uber/causalml)|
-|JustCause|For evaluation of heterogeneous treatment effect estimators on common reference as well as synthetic data. [Underlying thesis](https://justcause.readthedocs.io/en/latest/_downloads/e054f7a0fc9cf9e680173600cb4b4350/thesis-mfranz.pdf)|[Python](https://github.com/inovex/justcause)|
-|WhyNot|An experimental sandbox for causal inference and decision making in dynamics. [Documentation](https://whynot.readthedocs.io/en/latest/)|[Python](https://github.com/zykls/whynot)|
-|scikit-uplift|Uplift modeling in scikit-learn style in python. [Documentation](https://www.uplift-modeling.com/en/latest/index.html) and [User guide for uplift modeling](https://www.uplift-modeling.com/en/latest/user_guide/index.html)|[Python](https://github.com/maks-sh/scikit-uplift)|
+|Name|Paper/Documentation|Venue|Code|Comment|
+|---|---|---|---|---|
+|DoWhy|[Tutorial on Causal Inference and Counterfactual Reasoning](http://causalinference.gitlab.io/kdd-tutorial/)|KDD 2018|[Python](https://github.com/microsoft/dowhy)|Python library for causal inference that supports explicit modeling and testing of causal assumptions.|
+|EconML|[Causal Inference and Machine Learning in Practice with EconML and CausalML](https://causal-machine-learning.github.io/kdd2021-tutorial/)|KDD 2021|[Python](https://econml.azurewebsites.net/spec/spec.html)|Python package that applies the power of machine learning techniques to estimate individualized causal responses from observational or experimental data.|
+|CausalML|[Causalml: Python package for causal machine learning](https://arxiv.org/pdf/2002.11631.pdf)|arxiv|[Python](https://github.com/uber/causalml)|Uplift modeling and causal inference with machine learning algorithms|
+|JustCause|[Underlying thesis](https://justcause.readthedocs.io/en/latest/_downloads/e054f7a0fc9cf9e680173600cb4b4350/thesis-mfranz.pdf)|NA|[Python](https://github.com/inovex/justcause)|For evaluation of heterogeneous treatment effect estimators on common reference as well as synthetic data.|
+|WhyNot|[Documentation](https://whynot.readthedocs.io/en/latest/)|NA|[Python](https://github.com/zykls/whynot)|An experimental sandbox for causal inference and decision making in dynamics.|
+|scikit-uplift|[Documentation](https://www.uplift-modeling.com/en/latest/index.html) and [User guide for uplift modeling](https://www.uplift-modeling.com/en/latest/user_guide/index.html)|NA|[Python](https://github.com/maks-sh/scikit-uplift)|Uplift modeling in scikit-learn style in python. |
 
 ### Causal Discovery
-|Name|Paper|Code|
-|---|---|---|
-|[Bench Press](https://benchpressdocs.readthedocs.io/en/latest/)|Reproducible and scalable execution and benchmarks of **41** structure learning algorithms supporting multiple language|[Code](https://github.com/felixleopoldo/benchpress)|
-|[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|Causal Discovery for Python. A translation and extension of TETRAD.|[Python](https://github.com/cmu-phil/causal-learn)|
-|[TETRAD toolbox](http://www.phil.cmu.edu/tetrad/about.html)|[Ramsey, Joseph D., Kun Zhang, Madelyn Glymour, Ruben Sanchez Romero, Biwei Huang, Imme Ebert-Uphoff, Savini Samarasinghe, Elizabeth A. Barnes, and Clark Glymour. "TETRAD-AToolbox FOR CAUSAL DISCOVERY."](https://www.atmos.colostate.edu/~iebert/PAPERS/CI2018_paper_35.pdf)|[R](https://github.com/bd2kccd/r-causal)|
-|Causaldag|Python package for the creation, manipulation, and learning of Causal DAGs|[code](https://github.com/uhlerlab/causaldag)|
-|CausalNex|A toolkit for causal reasoning with Bayesian Networks.|[Python](https://github.com/quantumblacklabs/causalnex)|
-|Tetrad|Tetrad is a modular, object-oriented program for causal inference.|[Java](https://github.com/cmu-phil/tetrad)|
-|CausalDiscoveryToolbox|[Kalainathan, Diviyan, and Olivier Goudet. "Causal Discovery Toolbox: Uncover causal relationships in Python." arXiv preprint arXiv:1903.02278 (2019).](https://arxiv.org/pdf/1903.02278)|[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)|
+|Name|Paper|Code|Comment|
+|---|---|---|---|
+|[Bench Press](https://benchpressdocs.readthedocs.io/en/latest/)|[Benchpress: a scalable and versatile workflow for benchmarking structure learning algorithms for graphical models](https://arxiv.org/abs/2107.03863)|[Code](https://github.com/felixleopoldo/benchpress)|Reproducible and scalable execution and benchmarks of **41** structure learning algorithms supporting multiple language|
+|[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|NA|[Python](https://github.com/cmu-phil/causal-learn)|Causal Discovery for Python. A translation and extension of TETRAD.|
+|[TETRAD R/Java](http://www.phil.cmu.edu/tetrad/about.html)|[TETRAD-AToolbox FOR CAUSAL DISCOVERY](https://www.atmos.colostate.edu/~iebert/PAPERS/CI2018_paper_35.pdf)|[R](https://github.com/bd2kccd/r-causal)/[Java](https://github.com/cmu-phil/tetrad)|Causal Discovery Toolbox from CMU|
+|Causaldag|NA|[code](https://github.com/uhlerlab/causaldag)|Python package for the creation, manipulation, and learning of Causal DAGs|
+|CausalNex|NA|[Python](https://github.com/quantumblacklabs/causalnex)|A toolkit for causal reasoning with Bayesian Networks.|
+|CausalDiscoveryToolbox|[Causal Discovery Toolbox: Uncover causal relationships in Python](https://arxiv.org/pdf/1903.02278)|[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)||
 
 
-### Other Applications
-|Name|Paper|Code|
-|---|---|---|
-|[Chaos Genius](https://www.chaosgenius.io/)|ML powered analytics engine for outlier/anomaly detection and root cause analysis.|[Python](https://github.com/chaos-genius/chaos_genius/)|
-
+### Rootcause Analysis
+|Name|Paper|Code|Comments|
+|---|---|---|---|
+|[Chaos Genius](https://www.chaosgenius.io/)|NA|[Python](https://github.com/chaos-genius/chaos_genius/)|ML powered analytics engine for outlier/anomaly detection and root cause analysis.|
 
 
 ## Causal Effect Estimation
-|Name|Paper|Code|
+
+#### Survey Papers
+|Name|Paper|Venue|
 |---|---|---|
-|Survey Paper|[Yao, Liuyi, Zhixuan Chu, Sheng Li, Yaliang Li, Jing Gao, and Aidong Zhang. "A survey on causal inference." ACM Transactions on Knowledge Discovery from Data (TKDD) 15, no. 5 (2021): 1-46.](https://arxiv.org/abs/2002.02770)|NA|
+||[A survey on causal inference](https://arxiv.org/abs/2002.02770)|TKDD|
 
 ### With i.i.d Data
 
@@ -340,19 +340,18 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |FCI algorithm|P. Spirtes, C. Glymour, and R. Scheines. Causation, Prediction, and Search. The MIT Press, 2nd edition, 2000. |[R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
 
 #### Continuous Optimization
-|Name|Paper|Code|
+|Paper|Venue|Code|
 |---|---|---|
-|DAGs with NO TEARS|[Zheng, Xun, Bryon Aragam, Pradeep K. Ravikumar, and Eric P. Xing. "DAGs with NO TEARS: Continuous optimization for structure learning." NeurIPS 2018.](http://papers.nips.cc/paper/8157-dags-with-no-tears-continuous-optimization-for-structure-learning)|[Numpy, Pytorch](https://github.com/xunzheng/notears)|
-|DAG-GNN|[{Yue Yu, Jie Chen, Tian Gao, and Mo Yu. "DAG-GNN: DAG Structure Learning with Graph Neural Networks." ICML 2019.](https://arxiv.org/abs/1904.10098)|[Pytorch](https://github.com/fishmoon1234/DAG-GNN)|
-
-#### Amortized Causal Discovery
-|Name|Paper|Code|
-|---|---|---|
+|[DAGs with NO TEARS: Continuous optimization for structure learning](http://papers.nips.cc/paper/8157-dags-with-no-tears-continuous-optimization-for-structure-learning)|NeurIPS 2018|[code](https://github.com/xunzheng/notears)|
+|[DAG-GNN: DAG Structure Learning with Graph Neural Networks](https://arxiv.org/abs/1904.10098)|ICML 2019|[code](https://github.com/fishmoon1234/DAG-GNN)|
+|[Learning Sparse Nonparametric DAGs](http://proceedings.mlr.press/v108/zheng20a/zheng20a.pdf)|AISTATS 2020|[code](https://github.com/xunzheng/notears)|
+|[Amortized Inference for Causal Structure Learning](https://proceedings.neurips.cc/paper_files/paper/2022/file/54f7125dee9b8b3dc798bb9a082b09e2-Paper-Conference.pdf)|Neurips 2022|[code](https://github.com/larslorch/avici)|
 
 #### Learning IV
 |Name|Paper|Code|
 |---|---|---|
-|IV Discovery Methods|[Silva, Ricardo, and Shohei Shimizu. "Learning instrumental variables with structural and non-gaussianity assumptions." The Journal of Machine Learning Research 18, no. 1 (2017): 4321-4369.](http://www.jmlr.org/papers/volume18/17-014/17-014.pdf)|[code](http://www.homepages.ucl.ac.uk/~ucgtrbd/code/iv_discovery/)|
+|[Learning instrumental variables with structural and non-gaussianity assumptions](http://www.jmlr.org/papers/volume18/17-014/17-014.pdf)|JMLR|[code](http://www.homepages.ucl.ac.uk/~ucgtrbd/code/iv_discovery/)|
+
 
 #### Distinguishing Cause from Effect (Bivariate)
 |Name|Paper|Code|
