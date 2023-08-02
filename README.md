@@ -49,7 +49,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |---|---|---|---|
 |[Bench Press](https://benchpressdocs.readthedocs.io/en/latest/)|[Benchpress: a scalable and versatile workflow for benchmarking structure learning algorithms for graphical models](https://arxiv.org/abs/2107.03863)|[Code](https://github.com/felixleopoldo/benchpress)|Reproducible and scalable execution and benchmarks of **41** structure learning algorithms supporting multiple language|
 |[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|NA|[Python](https://github.com/cmu-phil/causal-learn)|Causal Discovery for Python. A translation and extension of TETRAD.|
-|[TETRAD R/Java](http://www.phil.cmu.edu/tetrad/about.html)|[TETRAD-AToolbox FOR CAUSAL DISCOVERY](https://www.atmos.colostate.edu/~iebert/PAPERS/CI2018_paper_35.pdf)|[R](https://github.com/bd2kccd/r-causal)/[Java](https://github.com/cmu-phil/tetrad)|Causal Discovery Toolbox from CMU|
+|[TETRAD R/Java](http://www.phil.cmu.edu/tetrad/about.html)|[TETRAD-A Toolbox FOR CAUSAL DISCOVERY](https://www.atmos.colostate.edu/~iebert/PAPERS/CI2018_paper_35.pdf)|[R](https://github.com/bd2kccd/r-causal)/[Java](https://github.com/cmu-phil/tetrad)|Causal Discovery Toolbox from CMU|
 |Causaldag|NA|[code](https://github.com/uhlerlab/causaldag)|Python package for the creation, manipulation, and learning of Causal DAGs|
 |CausalNex|NA|[Python](https://github.com/quantumblacklabs/causalnex)|A toolkit for causal reasoning with Bayesian Networks.|
 |CausalDiscoveryToolbox|[Causal Discovery Toolbox: Uncover causal relationships in Python](https://arxiv.org/pdf/1903.02278)|[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)||
@@ -73,17 +73,17 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 #### Individual Treatment Effect (ITE) / Conditional Average Treatment Effect (CATE)
 
 ##### Deep Learning based methods
-|Name|Paper|Code|
-|---|---|---|
-|TARNet, Counterfactual Regression|[Shalit, Uri, Fredrik D. Johansson, and David Sontag. "Estimating individual treatment effect: generalization bounds and algorithms." In ICML 2017](https://arxiv.org/pdf/1606.03976)|[Python](https://github.com/oddrose/cfrnet)|
-|BNN, BLR|[Johansson, Fredrik, Uri Shalit, and David Sontag. "Learning representations for counterfactual inference." In International Conference on Machine Learning, pp. 3020-3029. 2016.](http://www.jmlr.org/proceedings/papers/v48/johansson16.pdf)|[Python](https://github.com/oddrose/cfrnet)|
-|Causal Effect VAE|[Louizos, Christos, Uri Shalit, Joris M. Mooij, David Sontag, Richard Zemel, and Max Welling. "Causal effect inference with deep latent-variable models." In Advances in Neural Information Processing Systems, pp. 6446-6456. 2017.](http://papers.nips.cc/paper/7223-causal-effect-inference-with-deep-latent-variable-models.pdf)|[Python](https://github.com/AMLab-Amsterdam/CEVAE)|
-|Dragonnet|[Shi, Claudia, David Blei, and Victor Veitch. "Adapting neural networks for the estimation of treatment effects." Advances in neural information processing systems 32 (2019).](https://arxiv.org/abs/1906.02120)|[Python](https://github.com/claudiashi57/dragonnet)|
-|SITE|[Yao, Liuyi, Sheng Li, Yaliang Li, Mengdi Huai, Jing Gao, and Aidong Zhang. "Representation Learning for Treatment Effect Estimation from Observational Data." In Advances in Neural Information Processing Systems, pp. 2638-2648. 2018.](https://papers.nips.cc/paper/7529-representation-learning-for-treatment-effect-estimation-from-observational-data.pdf)|[Python](https://github.com/Osier-Yi/SITE)|
-|GANITE|[Yoon, Jinsung, James Jordon, and Mihaela van der Schaar. "GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets." (2018).](https://openreview.net/forum?id=ByKWUeWA-)|[Python](https://github.com/jsyoon0823/GANITE)|
-|Perfect Match|[Schwab, Patrick, Lorenz Linhardt, and Walter Karlen. "Perfect match: A simple method for learning representations for counterfactual inference with neural networks." arXiv preprint arXiv:1810.00656 (2018)](https://arxiv.org/pdf/1810.00656)|[Python](https://github.com/d909b/perfect_match)|
-|Intact-VAE|Wu, Pengzhou, and Kenji Fukumizu. "Intact-VAE: Estimating treatment effects under unobserved confounding." ICLR 2022.|code in [Openreview](https://openreview.net/forum?id=q7n2RngwOM)|
-|CausalEGM|[Qiao Liu, Zhongren Chen, and Wing Hung Wong. "CausalEGM: a general causal inference framework by encoding generative modeling.". arXiv preprint arXiv:2212.05925 (2022)](https://arxiv.org/abs/2212.05925)|[Python](https://github.com/SUwonglab/CausalEGM)|
+|Name|Paper|Venue|Code|
+|---|---|---|---|
+|TARNet, Counterfactual Regression|[Estimating individual treatment effect: generalization bounds and algorithms](https://arxiv.org/pdf/1606.03976)|ICML 2017|[Python](https://github.com/oddrose/cfrnet)|
+|BNN, BLR|[Learning representations for counterfactual inference](http://www.jmlr.org/proceedings/papers/v48/johansson16.pdf)|ICML 2016|[Python](https://github.com/oddrose/cfrnet)|
+|Causal Effect VAE|[Causal effect inference with deep latent-variable models](http://papers.nips.cc/paper/7223-causal-effect-inference-with-deep-latent-variable-models.pdf)|Neurips 2017|[Python](https://github.com/AMLab-Amsterdam/CEVAE)|
+|Dragonnet|[Adapting neural networks for the estimation of treatment effects.](https://arxiv.org/abs/1906.02120)|Neurips 2019|[Python](https://github.com/claudiashi57/dragonnet)|
+|SITE|[Representation Learning for Treatment Effect Estimation from Observational Data](https://papers.nips.cc/paper/7529-representation-learning-for-treatment-effect-estimation-from-observational-data.pdf)|Neurips 2018|[Python](https://github.com/Osier-Yi/SITE)|
+|GANITE|[GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets](https://openreview.net/forum?id=ByKWUeWA-)|ICLR 2018|[Python](https://github.com/jsyoon0823/GANITE)|
+|Perfect Match|[Perfect match: A simple method for learning representations for counterfactual inference with neural networks](https://arxiv.org/pdf/1810.00656)|arxiv|[Python](https://github.com/d909b/perfect_match)|
+|Intact-VAE|Intact-VAE: Estimating treatment effects under unobserved confounding|ICLR 2022|[code](https://openreview.net/forum?id=q7n2RngwOM)|
+|CausalEGM|[CausalEGM: a general causal inference framework by encoding generative modeling](https://arxiv.org/abs/2212.05925)|arxiv|[Python](https://github.com/SUwonglab/CausalEGM)|
 <!-- |BNR-NNM(balanced and nonlinear representations-nearest neighbor matching)|[Li, Sheng, and Yun Fu. "Matching on balanced nonlinear representations for treatment effects estimation." In Advances in Neural Information Processing Systems, pp. 929-939. 2017.](http://papers.nips.cc/paper/6694-matching-on-balanced-nonlinear-representations-for-treatment-effects-estimation.pdf)|NA| -->
 <!-- |Deep Counterfactual Networks (Propensity Dropout)|[Alaa, Ahmed M., Michael Weisz, and Mihaela van der Schaar. "Deep counterfactual networks with propensity-dropout." arXiv preprint arXiv:1706.05966 (2017)](https://arxiv.org/pdf/1706.05966)|NA| -->
 
