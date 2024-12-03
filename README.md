@@ -31,6 +31,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ### Comprehensive
 |Name|Code|Comment|
 |---|---|---|
+|[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|[Python](https://github.com/cmu-phil/causal-learn)|Causal Discovery, Causal Representation Learning, Statistical Tests.|
 |Trustworthy AI|[Python](https://github.com/huawei-noah/trustworthyAI)|Causal Structure Learning, Causal Disentangled Representation Learning, gCastle (or pyCastle, pCastle).|
 |[YLearn](https://ylearn.readthedocs.io/en/latest/)|[Python](https://github.com/DataCanvasIO/YLearn)|Python package for causal discovery，causal effect identification/estimation, counterfactual inference，policy learning，etc.|
 
@@ -48,7 +49,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Name|Paper|Code|Comment|
 |---|---|---|---|
 |[Bench Press](https://benchpressdocs.readthedocs.io/en/latest/)|[Benchpress: a scalable and versatile workflow for benchmarking structure learning algorithms for graphical models](https://arxiv.org/abs/2107.03863)|[Code](https://github.com/felixleopoldo/benchpress)|Reproducible and scalable execution and benchmarks of **41** structure learning algorithms supporting multiple language|
-|[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|NA|[Python](https://github.com/cmu-phil/causal-learn)|Causal Discovery for Python. A translation and extension of TETRAD.|
+|[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|[Causal-learn: Causal Discovery in Python](https://jmlr.org/papers/volume25/23-0970/23-0970.pdf)|[Python](https://github.com/cmu-phil/causal-learn)|Causal Discovery, Causal Representation Learning, Statistical Tests.|
 |[TETRAD R/Java](http://www.phil.cmu.edu/tetrad/about.html)|[TETRAD-A Toolbox FOR CAUSAL DISCOVERY](https://www.atmos.colostate.edu/~iebert/PAPERS/CI2018_paper_35.pdf)|[R](https://github.com/bd2kccd/r-causal)/[Java](https://github.com/cmu-phil/tetrad)|Causal Discovery Toolbox from CMU|
 |Causaldag|NA|[code](https://github.com/uhlerlab/causaldag)|Python package for the creation, manipulation, and learning of Causal DAGs|
 |CausalNex|NA|[Python](https://github.com/quantumblacklabs/causalnex)|A toolkit for causal reasoning with Bayesian Networks.|
