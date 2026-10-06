@@ -54,6 +54,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Causaldag|NA|[code](https://github.com/uhlerlab/causaldag)|Python package for the creation, manipulation, and learning of Causal DAGs|
 |CausalNex|NA|[Python](https://github.com/quantumblacklabs/causalnex)|A toolkit for causal reasoning with Bayesian Networks.|
 |CausalDiscoveryToolbox|[Causal Discovery Toolbox: Uncover causal relationships in Python](https://arxiv.org/pdf/1903.02278)|[Python](https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox)||
+|[Causal Chambers](https://github.com/juangamella/causal-chamber)|[Causal chambers as a real-world physical testbed for AI methodology](https://doi.org/10.1038/s42256-024-00964-x)|[Python](https://github.com/juangamella/causal-chamber-package)|Real-world datasets with interventions and validated ground-truth graphs from two physical devices; the Python package loads the data and graphs and includes simulators.|
 
 
 ### Rootcause Analysis
