@@ -65,6 +65,7 @@ Contributions are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 |Causica|NA|NA|[Python](https://github.com/microsoft/causica)|Deep end-to-end causal inference (DECI) and related models from Microsoft.|
 |LiNGAM|NA|NA|[Python](https://github.com/cdt15/lingam)|Implementations of the LiNGAM family of non-Gaussian causal discovery methods.|
 |[Causal Chambers](https://github.com/juangamella/causal-chamber)|[Causal chambers as a real-world physical testbed for AI methodology](https://doi.org/10.1038/s42256-024-00964-x) — Gamella et al.|Nature Machine Intelligence 2025|[Python](https://github.com/juangamella/causal-chamber-package)|Real-world datasets with interventions and validated ground-truth graphs from two physical devices; the Python package loads the data and graphs and includes simulators.|
+|[causal-automata](https://causal-automata.readthedocs.io/en/latest/)|NA|NA|[Python](https://github.com/kazuyamagiwa/causal-automata)|A relatively fast, GPU-native causal discovery and DAG structure learning package in JAX/NumPy via synchronous cellular automata and a 1D topological elevation field.|
 
 ### Root Cause Analysis
 |Name|Paper|Venue|Code|Comments|
