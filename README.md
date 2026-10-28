@@ -27,6 +27,8 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 - [Causal Machine Learning](#causal-machine-learning)
 - [Causal Discovery](#causal-discovery-1)
 
+Contributions are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Toolboxes
 
 ### Comprehensive
@@ -45,6 +47,8 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |JustCause|[Underlying thesis](https://justcause.readthedocs.io/en/latest/_downloads/e054f7a0fc9cf9e680173600cb4b4350/thesis-mfranz.pdf)|NA|[Python](https://github.com/inovex/justcause)|For evaluation of heterogeneous treatment effect estimators on common reference as well as synthetic data.|
 |WhyNot|[Documentation](https://whynot.readthedocs.io/en/latest/)|NA|[Python](https://github.com/socialfoundations/whynot)|An experimental sandbox for causal inference and decision making in dynamics.|
 |scikit-uplift|[Documentation](https://www.uplift-modeling.com/en/latest/index.html) and [User guide for uplift modeling](https://www.uplift-modeling.com/en/latest/user_guide/index.html)|NA|[Python](https://github.com/maks-sh/scikit-uplift)|Uplift modeling in scikit-learn style in python. |
+|DoubleML|[Double/debiased machine learning for treatment and structural parameters](https://doi.org/10.1111/ectj.12097)|Econometrics Journal 2018|[Python](https://github.com/DoubleML/doubleml-for-py)|Double machine learning framework for causal parameters; also available in R.|
+|CausalPy|NA|NA|[Python](https://github.com/pymc-labs/CausalPy)|Bayesian and quasi-experimental causal inference (synthetic control, DiD, RDD, IV) built on PyMC.|
 
 ### Causal Discovery
 |Name|Paper|Code|Comment|
@@ -52,9 +56,14 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |[Bench Press](https://benchpressdocs.readthedocs.io/en/latest/)|[Benchpress: a scalable and versatile workflow for benchmarking structure learning algorithms for graphical models](https://arxiv.org/abs/2107.03863)|[Code](https://github.com/felixleopoldo/benchpress)|Reproducible and scalable execution and benchmarks of **41** structure learning algorithms supporting multiple language|
 |[causal-learn](https://causal-learn.readthedocs.io/en/latest/)|[Causal-learn: Causal Discovery in Python](https://jmlr.org/papers/volume25/23-0970/23-0970.pdf)|[Python](https://github.com/py-why/causal-learn)|Causal Discovery, Causal Representation Learning, Statistical Tests.|
 |[TETRAD R/Java](https://github.com/cmu-phil/tetrad)|[TETRAD-A Toolbox FOR CAUSAL DISCOVERY](https://www.atmos.colostate.edu/~iebert/PAPERS/CI2018_paper_35.pdf)|[R](https://github.com/bd2kccd/r-causal)/[Java](https://github.com/cmu-phil/tetrad)|Causal Discovery Toolbox from CMU|
-|Causaldag|NA|[code](https://github.com/uhlerlab/causaldag)|Python package for the creation, manipulation, and learning of Causal DAGs|
+|Causaldag|NA|[Code](https://github.com/uhlerlab/causaldag)|Python package for the creation, manipulation, and learning of Causal DAGs|
 |CausalNex|NA|[Python](https://github.com/mckinsey/causalnex)|A toolkit for causal reasoning with Bayesian Networks.|
 |CausalDiscoveryToolbox|[Causal Discovery Toolbox: Uncover causal relationships in Python](https://arxiv.org/pdf/1903.02278)|[Python](https://github.com/diviyank/CausalDiscoveryToolbox)||
+|pgmpy|NA|[Python](https://github.com/pgmpy/pgmpy)|Probabilistic graphical models, structure learning and causal inference.|
+|Tigramite|NA|[Python](https://github.com/jakobrunge/tigramite)|Causal discovery and inference for time series (PCMCI and variants).|
+|DoDiscover|NA|[Python](https://github.com/py-why/dodiscover)|PyWhy library for causal discovery, including with latent confounders.|
+|Causica|NA|[Python](https://github.com/microsoft/causica)|Deep end-to-end causal inference (DECI) and related models from Microsoft.|
+|LiNGAM|NA|[Python](https://github.com/cdt15/lingam)|Implementations of the LiNGAM family of non-Gaussian causal discovery methods.|
 |[Causal Chambers](https://github.com/juangamella/causal-chamber)|[Causal chambers as a real-world physical testbed for AI methodology](https://doi.org/10.1038/s42256-024-00964-x)|[Python](https://github.com/juangamella/causal-chamber-package)|Real-world datasets with interventions and validated ground-truth graphs from two physical devices; the Python package loads the data and graphs and includes simulators.|
 
 ### Root Cause Analysis
@@ -67,7 +76,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 ### Survey Papers
 |Name|Paper|Venue|
 |---|---|---|
-||[A survey on causal inference](https://arxiv.org/abs/2002.02770)|TKDD|
+|Yao et al.|[A survey on causal inference](https://arxiv.org/abs/2002.02770)|TKDD|
 
 ### With i.i.d Data
 
@@ -83,29 +92,30 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |SITE|[Representation Learning for Treatment Effect Estimation from Observational Data](https://papers.nips.cc/paper/7529-representation-learning-for-treatment-effect-estimation-from-observational-data.pdf)|NeurIPS 2018|[Python](https://github.com/Osier-Yi/SITE)|
 |GANITE|[GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets](https://openreview.net/forum?id=ByKWUeWA-)|ICLR 2018|[Python](https://github.com/jsyoon0823/GANITE)|
 |Perfect Match|[Perfect match: A simple method for learning representations for counterfactual inference with neural networks](https://arxiv.org/pdf/1810.00656)|arXiv|[Python](https://github.com/d909b/perfect_match)|
-|Intact-VAE|Intact-VAE: Estimating treatment effects under unobserved confounding|ICLR 2022|[code](https://openreview.net/forum?id=q7n2RngwOM)|
+|Intact-VAE|[Intact-VAE: Estimating treatment effects under unobserved confounding](https://openreview.net/forum?id=q7n2RngwOM)|ICLR 2022|NA|
 |CausalEGM|[CausalEGM: a general causal inference framework by encoding generative modeling](https://arxiv.org/abs/2212.05925)|arXiv|[Python](https://github.com/SUwonglab/CausalEGM)|
 
 ##### Classic Methods
 |Name|Paper|Code|
 |---|---|---|
-|Propensity Score Matching|[Rosenbaum, Paul R., and Donald B. Rubin. "The central role of the propensity score in observational studies for causal effects." Biometrika 70, no. 1 (1983): 41-55.](https://academic.oup.com/biomet/article-pdf/70/1/41/662954/70-1-41.pdf)|[Python](https://github.com/akelleh/causality/tree/master/causality/estimation)|
  
 ##### Tree based Methods
 |Name|Paper|Code|
 |---|---|---|
-|Causal Forest|[Wager, Stefan, and Susan Athey. "Estimation and inference of heterogeneous treatment effects using random forests." JASA (2017).](https://www.tandfonline.com/doi/pdf/10.1080/01621459.2017.1319839)|[code R](https://github.com/grf-labs/grf), [code Python](https://github.com/kjung/scikit-learn)|
-|Causal MARS, Causal Boosting, Pollinated Transformed Outcome Forests|[S. Powers et al., “Some methods for heterogeneous treatment effect estimation in high-dimensions,” 2017.](https://arxiv.org/pdf/1707.00102.pdf)|[code R](https://github.com/grf-labs/grf), [code R](https://github.com/saberpowers/causalLearning)|
+|Causal Forest|[Wager, Stefan, and Susan Athey. "Estimation and inference of heterogeneous treatment effects using random forests." JASA (2017).](https://www.tandfonline.com/doi/pdf/10.1080/01621459.2017.1319839)|[R](https://github.com/grf-labs/grf), [Python](https://github.com/kjung/scikit-learn)|
+|Causal MARS, Causal Boosting, Pollinated Transformed Outcome Forests|[S. Powers et al., “Some methods for heterogeneous treatment effect estimation in high-dimensions,” 2017.](https://arxiv.org/pdf/1707.00102.pdf)|[R](https://github.com/grf-labs/grf), [R](https://github.com/saberpowers/causalLearning)|
 |Bayesian Additive Regression Trees (BART)|[Hill, Jennifer L. "Bayesian nonparametric modeling for causal inference." Journal of Computational and Graphical Statistics 20, no. 1 (2011): 217-240.](https://www.tandfonline.com/doi/pdf/10.1198/jcgs.2010.08162)|[Python](https://github.com/JakeColtman/bartpy)|
 
 ##### Meta Learner
 |Name|Paper|Code|
 |---|---|---|
-|X-learner|[Künzel, Sören R., Jasjeet S. Sekhon, Peter J. Bickel, and Bin Yu. "Metalearners for estimating heterogeneous treatment effects using machine learning." Proceedings of the National Academy of Sciences 116, no. 10 (2019): 4156-4165.](https://www.pnas.org/content/pnas/early/2019/02/14/1804597116.full.pdf)|[code R](https://github.com/soerenkuenzel/hte), [code R](https://github.com/xnie/rlearner)|
+|X-learner|[Künzel, Sören R., Jasjeet S. Sekhon, Peter J. Bickel, and Bin Yu. "Metalearners for estimating heterogeneous treatment effects using machine learning." Proceedings of the National Academy of Sciences 116, no. 10 (2019): 4156-4165.](https://www.pnas.org/content/pnas/early/2019/02/14/1804597116.full.pdf)|[R](https://github.com/soerenkuenzel/hte), [R](https://github.com/xnie/rlearner)|
+|R-learner|[Nie, Xinkun, and Stefan Wager. "Quasi-oracle estimation of heterogeneous treatment effects." Biometrika (2021).](https://arxiv.org/abs/1712.04912)|[R](https://github.com/xnie/rlearner)|
 
 #### Average Treatment Effect (including ATT and ATC)
 |Name|Paper|Code|
 |---|---|---|
+|Propensity Score Matching|[Rosenbaum, Paul R., and Donald B. Rubin. "The central role of the propensity score in observational studies for causal effects." Biometrika 70, no. 1 (1983): 41-55.](https://academic.oup.com/biomet/article-pdf/70/1/41/662954/70-1-41.pdf)|[Python](https://github.com/akelleh/causality/tree/master/causality/estimation)|
 |Inverse Probability Reweighting|[Rosenbaum, Paul R., and Donald B. Rubin. "The central role of the propensity score in observational studies for causal effects." Biometrika 70, no. 1 (1983): 41-55.](https://academic.oup.com/biomet/article-pdf/70/1/41/662954/70-1-41.pdf)|[R](https://github.com/cran/ipw)|
 |Doubly Robust Estimation|[Bang, Heejung, and James M. Robins. "Doubly robust estimation in missing data and causal inference models." Biometrics 61, no. 4 (2005): 962-973.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1541-0420.2005.00377.x)|[R](https://github.com/gregridgeway/fastDR)|
 |Doubly Robust Estimation for High Dimensional Data|[Antonelli, Joseph, Matthew Cefalu, Nathan Palmer, and Denis Agniel. "Doubly robust matching estimators for high dimensional confounding adjustment." Biometrics (2016).](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6347556/)|[R](https://github.com/jantonelli111/DoublyRobustHD)|
@@ -142,6 +152,22 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |---|---|---|
 |Multiple Responses in Uplift Models|[Weiss, Sam. Estimating and Visualizing Business Tradeoffs in Uplift Models](https://medium.com/building-ibotta/estimating-and-visualizing-business-tradeoffs-in-uplift-models-80ff845a5698) |[Python](https://github.com/Ibotta/mr_uplift)|
 
+#### Difference-in-Differences / Regression Discontinuity
+|Name|Paper|Code|
+|---|---|---|
+|Staggered Difference-in-Differences|[Callaway, Brantly, and Pedro H. C. Sant'Anna. "Difference-in-differences with multiple time periods." Journal of Econometrics (2021).](https://doi.org/10.1016/j.jeconom.2020.12.001)|[R](https://github.com/bcallaway11/did)|
+|Regression Discontinuity (rdrobust)|[Calonico, Sebastian, Matias D. Cattaneo, and Rocio Titiunik. "Robust nonparametric confidence intervals for regression-discontinuity designs." Econometrica (2014).](https://doi.org/10.3982/ECTA11757)|[R/Python/Stata](https://github.com/rdpackages/rdrobust)|
+
+#### Mediation Analysis
+|Name|Paper|Code|
+|---|---|---|
+|mediation|[Imai, Kosuke, Luke Keele, and Dustin Tingley. "A general approach to causal mediation analysis." Psychological Methods (2010).](https://doi.org/10.1037/a0020761)|[R](https://github.com/kosukeimai/mediation)|
+
+#### Sensitivity Analysis
+|Name|Paper|Code|
+|---|---|---|
+|sensemakr|[Cinelli, Carlos, and Chad Hazlett. "Making sense of sensitivity: extending omitted variable bias." JRSS-B (2020).](https://doi.org/10.1111/rssb.12348)|[R](https://github.com/carloscinelli/sensemakr)|
+
 ### Non-i.i.d Data
 
 #### Panel Data / Time Series
@@ -150,7 +176,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Synthetic Control Method|[Abadie, Alberto. "Using synthetic controls: Feasibility, data requirements, and methodological aspects." Journal of Economic Literature 59.2 (2021): 391-425.](https://www.aeaweb.org/articles?id=10.1257/jel.20191450)|[R](https://cran.r-project.org/web/packages/Synth/Synth.pdf)|
 |Synthetic Difference in Differences|[Arkhangelsky, Dmitry, et al. Synthetic difference in differences. No. w25532. National Bureau of Economic Research, 2019.](https://www.nber.org/system/files/working_papers/w25532/w25532.pdf)|[R](https://github.com/synth-inference/synthdid)<br>[Python](https://github.com/MasaAsami/pysynthdid)|
 |Causal Impact|[Brodersen, K. H., Gallusser, F., Koehler, J., Remy, N., & Scott, S. L. (2015). Inferring causal impact using Bayesian structural time-series models. The Annals of Applied Statistics, 9(1), 247–274. doi: 10.1214/14-AOAS788](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)|[R](https://github.com/cran/bsts)<br>[Python](https://github.com/WillianFuks/tfcausalimpact)|
-|Time Series Deconfounder|[Bica, Ioana, Ahmed M. Alaa, and Mihaela van der Schaar. "Time Series Deconfounder: Estimating Treatment Effects over Time in the Presence of Hidden Confounders." In ICML 2020.](https://arxiv.org/pdf/1902.00450.pdf)|[code](https://github.com/ioanabica/Time-Series-Deconfounder)|
+|Time Series Deconfounder|[Bica, Ioana, Ahmed M. Alaa, and Mihaela van der Schaar. "Time Series Deconfounder: Estimating Treatment Effects over Time in the Presence of Hidden Confounders." In ICML 2020.](https://arxiv.org/pdf/1902.00450.pdf)|[Code](https://github.com/ioanabica/Time-Series-Deconfounder)|
 |Recurrent Marginal Structural Networks|[Lim, Bryan. "Forecasting Treatment Responses Over Time Using Recurrent Marginal Structural Networks." In Advances in Neural Information Processing Systems, pp. 7494-7504. 2018.](https://github.com/sjblim/rmsn_nips_2018)|[Python](https://github.com/sjblim/rmsn_nips_2018)|
 |Longitudinal Targeted Maximum Likelihood Estimation|[Petersen, Maya, Joshua Schwab, Susan Gruber, Nello Blaser, Michael Schomaker, and Mark van der Laan. "Targeted maximum likelihood estimation for dynamic and static longitudinal marginal structural working models." Journal of causal inference 2, no. 2 (2014): 147-185.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4405134/)|[R](https://github.com/joshuaschwab/ltmle)|
 |Causal Transformer|[Melnychuk, Valentyn, Dennis Frauen, and Stefan Feuerriegel. "Causal Transformer for Estimating Counterfactual Outcomes." arXiv preprint arXiv:2204.07258 (2022).](https://arxiv.org/abs/2204.07258)|[Python](https://github.com/Valentyn1997/CausalTransformer)|
@@ -161,29 +187,29 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Network Deconfounder|[Guo, Ruocheng, Jundong Li, and Huan Liu. "Learning Individual Causal Effects from Networked Observational Data." WSDM 2020.](https://arxiv.org/abs/1906.03485)|[Python](https://github.com/rguo12/network-deconfounder-wsdm20)|
 |Causal Inference with Network Embeddings|[Veitch, Victor, Yixin Wang, and David M. Blei. "Using embeddings to correct for unobserved confounding." arXiv preprint arXiv:1902.04114 (2019).](https://arxiv.org/pdf/1902.04114)|[Python](https://github.com/vveitch/causal-network-embeddings)|
 |Linked Causal Variational Autoencoder (LCVA)|[Rakesh, Vineeth, Ruocheng Guo, Raha Moraffah, Nitin Agarwal, and Huan Liu. "Linked Causal Variational Autoencoder for Inferring Paired Spillover Effects." CIKM 2018.](https://www.public.asu.edu/~rguo12/CIKM18.pdf)|[Python](https://github.com/rguo12/CIKM18-LCVA)|
-|Method-of-moments Estimators|[Li, Wenrui, Daniel L. Sussman, and Eric D. Kolaczyk. "Causal Inference under Network Interference with Noise." arXiv preprint arXiv:2105.04518 (2021).](https://arxiv.org/abs/2105.04518)|[code](https://github.com/KolaczykResearch/CausInfNoisyNet)|
+|Method-of-moments Estimators|[Li, Wenrui, Daniel L. Sussman, and Eric D. Kolaczyk. "Causal Inference under Network Interference with Noise." arXiv preprint arXiv:2105.04518 (2021).](https://arxiv.org/abs/2105.04518)|[Code](https://github.com/KolaczykResearch/CausInfNoisyNet)|
 
 ## Causal Machine Learning
 
 ### Surveys
 |Name|Paper|Code|
 |---|---|---|
-|CausalML|[Jean Kaddour, Aengus Lynch, Qi Liu, Matt J. Kusner, Ricardo Silva. "Causal Machine Learning: A Survey and Open Problems" arXiv preprint arXiv:2206.15475 (2022)](https://arxiv.org/abs/2206.15475).|NA|
+|Causal ML Survey|[Jean Kaddour, Aengus Lynch, Qi Liu, Matt J. Kusner, Ricardo Silva. "Causal Machine Learning: A Survey and Open Problems" arXiv preprint arXiv:2206.15475 (2022)](https://arxiv.org/abs/2206.15475).|NA|
 
 ### OoD Generalization
 |Name|Paper|Code|
 |---|---|---|
-|DomainBed|Gulrajani, Ishaan, and David Lopez-Paz. "In Search of Lost Domain Generalization." In International Conference on Learning Representations. 2020.|[code](https://github.com/facebookresearch/DomainBed)|
-|WILDS|Koh, Pang Wei, Shiori Sagawa, Henrik Marklund, Sang Michael Xie, Marvin Zhang, Akshay Balsubramani, Weihua Hu et al. "Wilds: A benchmark of in-the-wild distribution shifts." In International Conference on Machine Learning, pp. 5637-5664. PMLR, 2021.|[code](https://github.com/p-lambda/wilds)|
-|IBM OoD|Repository for theory and methods for Out-of-Distribution (OoD) generalization by IBM Research|[code](https://github.com/IBM/OoD)|
-|OoD Bench|Ye, Nanyang, Kaican Li, Lanqing Hong, Haoyue Bai, Yiting Chen, Fengwei Zhou, and Zhenguo Li. "Ood-bench: Benchmarking and understanding out-of-distribution generalization datasets and algorithms." arXiv preprint arXiv:2106.03721 (2021).|[code](https://github.com/m-Just/OoD-Bench)|
-|BEDS-Bench|Avati, Anand, Martin Seneviratne, Emily Xue, Zhen Xu, Balaji Lakshminarayanan, and Andrew M. Dai. "BEDS-Bench: Behavior of EHR-models under Distributional Shift--A Benchmark." arXiv preprint arXiv:2107.08189 (2021).|[code](https://github.com/Google-Health/records-research/tree/master/beds-bench)|
+|DomainBed|Gulrajani, Ishaan, and David Lopez-Paz. "In Search of Lost Domain Generalization." In International Conference on Learning Representations. 2020.|[Code](https://github.com/facebookresearch/DomainBed)|
+|WILDS|Koh, Pang Wei, Shiori Sagawa, Henrik Marklund, Sang Michael Xie, Marvin Zhang, Akshay Balsubramani, Weihua Hu et al. "Wilds: A benchmark of in-the-wild distribution shifts." In International Conference on Machine Learning, pp. 5637-5664. PMLR, 2021.|[Code](https://github.com/p-lambda/wilds)|
+|IBM OoD|Repository for theory and methods for Out-of-Distribution (OoD) generalization by IBM Research|[Code](https://github.com/IBM/OoD)|
+|OoD Bench|Ye, Nanyang, Kaican Li, Lanqing Hong, Haoyue Bai, Yiting Chen, Fengwei Zhou, and Zhenguo Li. "Ood-bench: Benchmarking and understanding out-of-distribution generalization datasets and algorithms." arXiv preprint arXiv:2106.03721 (2021).|[Code](https://github.com/m-Just/OoD-Bench)|
+|BEDS-Bench|Avati, Anand, Martin Seneviratne, Emily Xue, Zhen Xu, Balaji Lakshminarayanan, and Andrew M. Dai. "BEDS-Bench: Behavior of EHR-models under Distributional Shift--A Benchmark." arXiv preprint arXiv:2107.08189 (2021).|[Code](https://github.com/Google-Health/records-research/tree/master/beds-bench)|
 |Survey THU|Shen, Zheyan, Jiashuo Liu, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, and Peng Cui. "Towards out-of-distribution generalization: A survey." arXiv preprint arXiv:2108.13624 (2021).|NA|
 
 #### Graph OoD Generalization
 |Name|Paper|Code|
 |---|---|---|
-|CIGA|Chen, Yongqiang, Yonggang Zhang, Yatao Bian, Han Yang, Kaili Ma, Binghui Xie, Tongliang Liu, Bo Han, and James Cheng. "Learning Causally Invariant Representations for Out-of-Distribution Generalization on Graphs." In Advances in Neural Information Processing Systems (2022).|[code](https://github.com/LFhase/CIGA)|
+|CIGA|Chen, Yongqiang, Yonggang Zhang, Yatao Bian, Han Yang, Kaili Ma, Binghui Xie, Tongliang Liu, Bo Han, and James Cheng. "Learning Causally Invariant Representations for Out-of-Distribution Generalization on Graphs." In Advances in Neural Information Processing Systems (2022).|[Code](https://github.com/LFhase/CIGA)|
 |Survey THU|Li, Haoyang, Xin Wang, Ziwei Zhang, and Wenwu Zhu. "Out-of-distribution generalization on graphs: A survey." arXiv preprint arXiv:2202.07987 (2022).|NA|
 
 ### Recommendation Systems
@@ -205,7 +231,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Name|Paper|Code|
 |---|---|---|
 |Causal Embedding for Recommendation|[Bonner, Stephen, and Flavian Vasile. "Causal embeddings for recommendation." In Proceedings of the 12th ACM Conference on Recommender Systems, pp. 104-112. ACM, 2018. (**BEST PAPER**)](https://arxiv.org/pdf/1706.07639)|[Python](https://github.com/criteo-research/CausE)|
-|Domain Adversarial Matrix Factorization|[Saito, Yuta, and Masahiro Nomura. "Towards Resolving Propensity Contradiction in Offline Recommender Learning." In IJCAI 2022](https://github.com/usaito/ijcai2022-adversarial-mf)|[code](https://github.com/usaito/ijcai2022-adversarial-mf)|
+|Domain Adversarial Matrix Factorization|[Saito, Yuta, and Masahiro Nomura. "Towards Resolving Propensity Contradiction in Offline Recommender Learning." In IJCAI 2022](https://github.com/usaito/ijcai2022-adversarial-mf)|[Code](https://github.com/usaito/ijcai2022-adversarial-mf)|
 
 #### Disentanglement
 |Name|Paper|Code|
@@ -216,8 +242,8 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Name|Paper|Code|
 |---|---|---|
 |Policy-aware Estimator|[Oosterhuis, Harrie, and Maarten de Rijke. "Policy-aware unbiased learning to rank for top-k rankings." In Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 489-498. 2020.](https://arxiv.org/pdf/2005.09035.pdf)|[Python](https://github.com/HarrieO/2020topkunbiasedltr)|
-|Heckman^{rank}|[Ovaisi, Zohreh, Ragib Ahsan, Yifan Zhang, Kathryn Vasilaky, and Elena Zheleva. "Correcting for Selection Bias in Learning-to-rank Systems." arXiv preprint arXiv:2001.11358 (2020).](https://arxiv.org/abs/2001.11358)|[code](https://github.com/edgeslab/heckman_rank)|
-|Unbiased LambdaMart|[Hu, Ziniu, Yang Wang, Qu Peng, and Hang Li. "Unbiased LambdaMART: An Unbiased Pairwise Learning-to-Rank Algorithm." In The World Wide Web Conference, pp. 2830-2836. ACM, 2019.](https://acbull.github.io/pdf/unbias.pdf)|[code](https://github.com/acbull/Unbiased_LambdaMart)|
+|Heckman^{rank}|[Ovaisi, Zohreh, Ragib Ahsan, Yifan Zhang, Kathryn Vasilaky, and Elena Zheleva. "Correcting for Selection Bias in Learning-to-rank Systems." arXiv preprint arXiv:2001.11358 (2020).](https://arxiv.org/abs/2001.11358)|[Code](https://github.com/edgeslab/heckman_rank)|
+|Unbiased LambdaMart|[Hu, Ziniu, Yang Wang, Qu Peng, and Hang Li. "Unbiased LambdaMART: An Unbiased Pairwise Learning-to-Rank Algorithm." In The World Wide Web Conference, pp. 2830-2836. ACM, 2019.](https://acbull.github.io/pdf/unbias.pdf)|[Code](https://github.com/acbull/Unbiased_LambdaMart)|
 |IPW_rank and the Dual Learning Algorithm|[Qingyao Ai, Keping Bi, Cheng Luo, Jiafeng Guo, W. Bruce Croft. 2018. Unbiased Learning to Rank with Unbiased Propensity Estimation. In Proceedings of SIGIR '18](https://arxiv.org/abs/1804.05938)|[Python](https://github.com/QingyaoAi/Unbiased-Learning-to-Rank-with-Unbiased-Propensity-Estimation)|
 |Propensity SVM-rank|[Joachims, Thorsten, Adith Swaminathan, and Tobias Schnabel. "Unbiased learning-to-rank with biased feedback." In Proceedings of the Tenth ACM International Conference on Web Search and Data Mining, pp. 781-789. ACM, 2017. (**BEST PAPER**)](https://dl.acm.org/ft_gateway.cfm?id=3018699&type=pdf)|[Python](https://www.cs.cornell.edu/people/tj/svm_light/svm_proprank.html)|
 
@@ -228,6 +254,7 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |BanditNet|[Joachims, Thorsten, Adith Swaminathan, and Maarten de Rijke. "Deep learning with logged bandit feedback." (2018).](https://openreview.net/pdf?id=SJaP_-xAb)|[Python](https://www.cs.cornell.edu/people/tj/banditnet/index.html)|
 |Counterfactual Risk Minimization (POEM)|[Swaminathan, Adith, and Thorsten Joachims. "Counterfactual risk minimization: Learning from logged bandit feedback." In International Conference on Machine Learning, pp. 814-823. 2015.](https://proceedings.mlr.press/v37/swaminathan15.pdf)|[Python](https://www.cs.cornell.edu/~adith/POEM/index.html)|
 |Self Normalized Estimator|[Swaminathan, Adith, and Thorsten Joachims. "The self-normalized estimator for counterfactual learning." In Advances in Neural Information Processing Systems, pp. 3231-3239. 2015.](https://papers.nips.cc/paper/5748-the-self-normalized-estimator-for-counterfactual-learning.pdf)|[Python](https://www.cs.cornell.edu/~adith/POEM/index.html)|
+|Open Bandit Pipeline|[Saito, Yuta, et al. "Open Bandit Dataset and Pipeline: Towards Realistic and Reproducible Off-Policy Evaluation." NeurIPS Datasets and Benchmarks (2021).](https://arxiv.org/abs/2008.07146)|[Python](https://github.com/st-tech/zr-obp)|
 
 ### Natural Language Processing
 |Name|Paper|Code|
@@ -249,15 +276,15 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Paper|Code|
 |---|---|
 |[Kusner, Matt J., Joshua Loftus, Chris Russell, and Ricardo Silva. "Counterfactual fairness." In Advances in Neural Information Processing Systems, pp. 4066-4076. 2017.](https://papers.nips.cc/paper/6995-counterfactual-fairness.pdf)|[Python](https://github.com/mkusner/counterfactual-fairness)|
-|[Wu, Yongkai, Lu Zhang, Xintao Wu, and Hanghang Tong. "Pc-fairness: A unified framework for measuring causality-based fairness." Advances in Neural Information Processing Systems 32 (2019).](https://proceedings.neurips.cc/paper/2019/file/44a2e0804995faf8d2e3b084a1e2db1d-Paper.pdf)|[code](https://github.com/yongkaiwu/Path-specific-Counterfactual-Fairness)|
-|[Chiappa, Silvia. "Path-specific counterfactual fairness." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 33, pp. 7801-7808. 2019.](https://www.aaai.org/ojs/index.php/AAAI/article/download/4777/4655)|[code](https://github.com/google-deepmind/deepmind-research/tree/master/counterfactual_fairness)|
-|[Garg, Sahaj, Vincent Perot, Nicole Limtiaco, Ankur Taly, Ed H. Chi, and Alex Beutel. "Counterfactual fairness in text classification through robustness." In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society, pp. 219-226. 2019.](https://dl.acm.org/doi/pdf/10.1145/3306618.3317950)|[code](https://github.com/SaiSakethAluru/Counterfactual-fairness)|
+|[Wu, Yongkai, Lu Zhang, Xintao Wu, and Hanghang Tong. "Pc-fairness: A unified framework for measuring causality-based fairness." Advances in Neural Information Processing Systems 32 (2019).](https://proceedings.neurips.cc/paper/2019/file/44a2e0804995faf8d2e3b084a1e2db1d-Paper.pdf)|[Code](https://github.com/yongkaiwu/Path-specific-Counterfactual-Fairness)|
+|[Chiappa, Silvia. "Path-specific counterfactual fairness." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 33, pp. 7801-7808. 2019.](https://www.aaai.org/ojs/index.php/AAAI/article/download/4777/4655)|[Code](https://github.com/google-deepmind/deepmind-research/tree/master/counterfactual_fairness)|
+|[Garg, Sahaj, Vincent Perot, Nicole Limtiaco, Ankur Taly, Ed H. Chi, and Alex Beutel. "Counterfactual fairness in text classification through robustness." In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society, pp. 219-226. 2019.](https://dl.acm.org/doi/pdf/10.1145/3306618.3317950)|[Code](https://github.com/SaiSakethAluru/Counterfactual-fairness)|
 
 ### Reinforcement Learning
 |Name|Paper|Code|
 |---|---|---|
 |Deconfounded RL|[Lu, Chaochao, Bernhard Schölkopf, and José Miguel Hernández-Lobato. "Deconfounding reinforcement learning in observational settings." arXiv preprint arXiv:1812.10576 (2018).](https://arxiv.org/pdf/1812.10576)|[Python](https://github.com/CausalRL/DRL)|
-||[Vansteelandt, Stijn, and Marshall Joffe. "Structural nested models and G-estimation: the partially realized promise." Statistical Science 29, no. 4 (2014): 707-731.](https://arxiv.org/pdf/1503.01589.pdf)|NA|
+|Structural Nested Models / G-estimation|[Vansteelandt, Stijn, and Marshall Joffe. "Structural nested models and G-estimation: the partially realized promise." Statistical Science 29, no. 4 (2014): 707-731.](https://arxiv.org/pdf/1503.01589.pdf)|NA|
 |Counterfactual-Guided Policy Search (CF-GPS)|Buesing, Lars, Theophane Weber, Yori Zwols, Sebastien Racaniere, Arthur Guez, Jean-Baptiste Lespiau, and Nicolas Heess. "Woulda, Coulda, Shoulda: Counterfactually-Guided Policy Search." arXiv preprint arXiv:1811.06272 (2018).|NA|
 
 ### Multi-Armed Bandit/Causal Bandit
@@ -268,27 +295,34 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |B-kl-UCB, B-TS|[Zhang, Junzhe, and Elias Bareinboim. "Transfer learning in multi-armed bandit: a causal approach." In Proceedings of the 16th Conference on Autonomous Agents and MultiAgent Systems, pp. 1778-1780. 2017.](https://www.ifaamas.org/Proceedings/aamas2017/pdfs/p1778.pdf)|NA|
 |Incremental Model|[Sawant, Neela, Chitti Babu Namballa, Narayanan Sadagopan, and Houssam Nassif. "Contextual Multi-Armed Bandits for Causal Marketing." arXiv preprint arXiv:1810.01859 (2018).](https://arxiv.org/pdf/1810.01859)|NA|
 
+### Large Language Models
+|Name|Paper|Code|
+|---|---|---|
+|PyWhy-LLM|[Kıcıman, Emre, et al. "Causal reasoning and large language models: Opening a new frontier for causality." arXiv preprint arXiv:2305.00050 (2023).](https://arxiv.org/abs/2305.00050)|[Python](https://github.com/py-why/pywhy-llm)|
+
 ## Causal Discovery
 ### for i.i.d. Data
 #### Classic Methods
 |Name|Paper|Code|
 |---|---|---|
-|IC algorithm| |[Python](https://github.com/akelleh/causality)|
+|IC algorithm|Pearl, Judea, and Thomas Verma. "A theory of inferred causation." KR 1991.|[Python](https://github.com/akelleh/causality)|
 |PC algorithm|P. Spirtes, C. Glymour, and R. Scheines. Causation, Prediction, and Search. The MIT Press, 2nd edition, 2000.|[Python](https://github.com/keiichishima/pcalg) [R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
 |FCI algorithm|P. Spirtes, C. Glymour, and R. Scheines. Causation, Prediction, and Search. The MIT Press, 2nd edition, 2000. |[R](https://github.com/cran/pcalg) [Julia](https://github.com/mschauer/CausalInference.jl)|
 
 #### Continuous Optimization
 |Paper|Venue|Code|
 |---|---|---|
-|[DAGs with NO TEARS: Continuous optimization for structure learning](https://papers.nips.cc/paper/8157-dags-with-no-tears-continuous-optimization-for-structure-learning)|NeurIPS 2018|[code](https://github.com/xunzheng/notears)|
-|[DAG-GNN: DAG Structure Learning with Graph Neural Networks](https://arxiv.org/abs/1904.10098)|ICML 2019|[code](https://github.com/fishmoon1234/DAG-GNN)|
-|[Learning Sparse Nonparametric DAGs](https://proceedings.mlr.press/v108/zheng20a/zheng20a.pdf)|AISTATS 2020|[code](https://github.com/xunzheng/notears)|
-|[Amortized Inference for Causal Structure Learning](https://proceedings.neurips.cc/paper_files/paper/2022/file/54f7125dee9b8b3dc798bb9a082b09e2-Paper-Conference.pdf)|NeurIPS 2022|[code](https://github.com/larslorch/avici)|
+|[DAGs with NO TEARS: Continuous optimization for structure learning](https://papers.nips.cc/paper/8157-dags-with-no-tears-continuous-optimization-for-structure-learning)|NeurIPS 2018|[Code](https://github.com/xunzheng/notears)|
+|[DAG-GNN: DAG Structure Learning with Graph Neural Networks](https://arxiv.org/abs/1904.10098)|ICML 2019|[Code](https://github.com/fishmoon1234/DAG-GNN)|
+|[Learning Sparse Nonparametric DAGs](https://proceedings.mlr.press/v108/zheng20a/zheng20a.pdf)|AISTATS 2020|[Code](https://github.com/xunzheng/notears)|
+|[Amortized Inference for Causal Structure Learning](https://proceedings.neurips.cc/paper_files/paper/2022/file/54f7125dee9b8b3dc798bb9a082b09e2-Paper-Conference.pdf)|NeurIPS 2022|[Code](https://github.com/larslorch/avici)|
+|[DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization](https://arxiv.org/abs/2209.08037)|NeurIPS 2022|[Code](https://github.com/kevinsbello/dagma)|
+|[Deep End-to-end Causal Inference (DECI)](https://arxiv.org/abs/2202.02195)|arXiv 2022|[Code](https://github.com/microsoft/causica)|
 
 #### Learning IV
 |Name|Paper|Code|
 |---|---|---|
-|[Learning instrumental variables with structural and non-gaussianity assumptions](https://www.jmlr.org/papers/volume18/17-014/17-014.pdf)|JMLR|[code](https://www.homepages.ucl.ac.uk/~ucgtrbd/code/iv_discovery/)|
+|[Learning instrumental variables with structural and non-gaussianity assumptions](https://www.jmlr.org/papers/volume18/17-014/17-014.pdf)|JMLR|[Code](https://www.homepages.ucl.ac.uk/~ucgtrbd/code/iv_discovery/)|
 
 #### Distinguishing Cause from Effect (Bivariate)
 |Name|Paper|Code|
@@ -296,13 +330,13 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |BMLiNGAM|S. Shimizu and K. Bollen. Bayesian estimation of causal direction in acyclic structural equation models with individual-specific confounder variables and non-Gaussian distributions. Journal of Machine Learning Research, 15: 2629-2652, 2014.|[Python](https://github.com/taku-y/bmlingam)|
 |Sloppy|Marx, A & Vreeken, J Identifiability of Cause and Effect using Regularized Regression. In: Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), ACM, 2019.|[R](https://eda.rg.cispa.io/)|
 |RECI|Blöbaum, Patrick, Dominik Janzing, Takashi Washio, Shohei Shimizu, and Bernhard Schölkopf. "Cause-effect inference by comparing regression errors." In International Conference on Artificial Intelligence and Statistics, pp. 900-909. PMLR, 2018.|in [CausalDiscoveryToolbox](https://github.com/diviyank/CausalDiscoveryToolbox)|
-|bQCD|Tagasovska, Natasa, Valérie Chavez-Demoulin, and Thibault Vatter. "Distinguishing cause from effect using quantiles: Bivariate quantile causal discovery." In International Conference on Machine Learning, pp. 9311-9323. PMLR, 2020.|[code](https://github.com/tagas/bQCD)|
-|CGNN|Goudet, Olivier, Diviyan Kalainathan, Philippe Caillou, Isabelle Guyon, David Lopez-Paz, and Michele Sebag. "Learning functional causal models with generative neural networks." In Explainable and interpretable models in computer vision and machine learning, pp. 39-80. Springer, Cham, 2018.|[code](https://github.com/GoudetOlivier/CGNN)|
+|bQCD|Tagasovska, Natasa, Valérie Chavez-Demoulin, and Thibault Vatter. "Distinguishing cause from effect using quantiles: Bivariate quantile causal discovery." In International Conference on Machine Learning, pp. 9311-9323. PMLR, 2020.|[Code](https://github.com/tagas/bQCD)|
+|CGNN|Goudet, Olivier, Diviyan Kalainathan, Philippe Caillou, Isabelle Guyon, David Lopez-Paz, and Michele Sebag. "Learning functional causal models with generative neural networks." In Explainable and interpretable models in computer vision and machine learning, pp. 39-80. Springer, Cham, 2018.|[Code](https://github.com/GoudetOlivier/CGNN)|
 
 #### Conditional Independence Tests (for Constraint-based Algorithms)
 |Name|Paper|Code|
 |---|---|---|
-|RCIT|   |[R](https://github.com/ericstrobl/RCIT)|
+|RCIT|[Strobl, Eric V., Kun Zhang, and Shyam Visweswaran. "Approximate kernel-based conditional independence tests for fast non-parametric causal discovery." Journal of Causal Inference (2019).](https://arxiv.org/abs/1702.03877)|[R](https://github.com/ericstrobl/RCIT)|
 
 #### Causal Discovery with Probabilistic Logic Programming
 |Name|Paper|Code|
@@ -318,3 +352,4 @@ Please cite [our survey paper](https://arxiv.org/pdf/1809.09337) if this index i
 |Name|Paper|Code|
 |---|---|---|
 |TCDF: Temporal Causal Discovery Framework|[Nauta, Meike, Doina Bucur, and Christin Seifert. "Causal discovery with attention-based convolutional neural networks." Machine Learning and Knowledge Extraction.](https://www.mdpi.com/2504-4990/1/1/19)|[Pytorch](https://github.com/M-Nauta/TCDF)|
+|PCMCI|[Runge, Jakob, et al. "Detecting and quantifying causal associations in large nonlinear time series datasets." Science Advances (2019).](https://doi.org/10.1126/sciadv.aau4996)|[Python](https://github.com/jakobrunge/tigramite)|

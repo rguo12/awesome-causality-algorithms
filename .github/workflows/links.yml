@@ -1,0 +1,20 @@
+name: Links
+
+on:
+  pull_request:
+    paths: ['README.md']
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links in README
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 403/429 come from publishers that block bots (ACM, Wiley, T&F, ...)
+          args: --no-progress --max-retries 2 --accept 200,202,403,429 README.md
+          fail: true
