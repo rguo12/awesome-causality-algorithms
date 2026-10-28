@@ -135,7 +135,7 @@ Contributions are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 #### Dose-Response Curve (Continuous Treatment)
 |Name|Paper|Venue|Code|
 |---|---|---|---|
-|Causal Dose-Response Curves / Causal Curves|[causal-curve: A Python Causal Inference Package to Estimate Causal Dose-Response Curves](https://joss.theoj.org/papers/10.21105/joss.02523) — Kobrosly|JOSS 2020|[Python](https://github.com/ronikobrosly/causal-curve)|
+|Causal Dose-Response Curves / Causal Curves|[causal-curve: A Python Causal Inference Package to Estimate Causal Dose-Response Curves](https://doi.org/10.21105/joss.02523) — Kobrosly|JOSS 2020|[Python](https://github.com/ronikobrosly/causal-curve)|
 |Dose response networks (DRNets)|[Learning Counterfactual Representations for Estimating Individual Dose-Response Curves](https://arxiv.org/pdf/1902.00981.pdf) — Schwab et al.|arXiv 2019|[Python](https://github.com/d909b/drnet)|
 
 #### Vectorized Treatments

@@ -16,5 +16,6 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           # 403/429 come from publishers that block bots (ACM, Wiley, T&F, ...)
-          args: --no-progress --max-retries 2 --accept 200,202,403,429 README.md
+          # joss.theoj.org is frequently unreachable from CI (DOI links resolve there)
+          args: --no-progress --max-retries 2 --accept 200,202,403,429 --exclude 'joss\.theoj\.org' README.md
           fail: true
