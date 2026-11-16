@@ -49,6 +49,7 @@ Contributions are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 |scikit-uplift|[Documentation](https://www.uplift-modeling.com/en/latest/index.html) and [User guide for uplift modeling](https://www.uplift-modeling.com/en/latest/user_guide/index.html)|NA|[Python](https://github.com/maks-sh/scikit-uplift)|Uplift modeling in scikit-learn style in python. |
 |DoubleML|[Double/debiased machine learning for treatment and structural parameters](https://doi.org/10.1111/ectj.12097)|Econometrics Journal 2018|[Python](https://github.com/DoubleML/doubleml-for-py)|Double machine learning framework for causal parameters; also available in R.|
 |CausalPy|NA|NA|[Python](https://github.com/pymc-labs/CausalPy)|Bayesian and quasi-experimental causal inference (synthetic control, DiD, RDD, IV) built on PyMC.|
+|StatsPAI|[StatsPAI: A Unified, Agent-Native Python Toolkit for Causal Inference and Applied Econometrics](https://doi.org/10.21105/joss.10604)|JOSS 2026|[Python](https://github.com/brycewang-stanford/StatsPAI)|Econometrics and causal inference under one API (staggered DiD, IV, RDD, synthetic control, matching, DML); reports which estimators have been checked against R or Stata on identical data.|
 
 ### Causal Discovery
 |Name|Paper|Venue|Code|Comment|
